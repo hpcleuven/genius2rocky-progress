@@ -28,6 +28,7 @@ table, th, td {
 table.bdrless, th.bdrless, td.bdrless {
   border: 0px;
 }
+table tr#deprecated  {background-color: #a6a6a6;}
 
 ul {
   list-style-type: none;
