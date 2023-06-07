@@ -11,43 +11,367 @@ Comparing modules installed in /apps/leuven/skylake/2019b/modules/all with modul
 Modules are considered to be <i>active</i> if they have been loaded since March 2023, and <i>inactive</i> otherwise.
 The counts for how many times a module has been loaded not necessarily a good indication of how much it is really needed, since for instance worker jobs can distort this metric considerably.
 <h2>Overview</h2>
-<b>Last updated: </b> 2023-06-07 12:01:55.100359
+<b>Last updated: </b> 2023-06-07 12:03:11.146563
 <table class="bdrless">
-<tr><td class="bdrless"><label for "All modules">All modules</td><td class="bdrless">0/0</label></td>
-<td class="bdrless"><meter id="All modules" min=0 max=0 value=0></meter><br></td></tr>
-<tr><td class="bdrless"><label for "Active modules installed with EasyBuild">Active modules installed with EasyBuild</td><td class="bdrless">0/0</label></td>
-<td class="bdrless"><meter id="Active modules installed with EasyBuild" min=0 max=0 value=0></meter><br></td></tr>
-<tr><td class="bdrless"><label for "Active modules manually installed">Active modules manually installed</td><td class="bdrless">0/0</label></td>
-<td class="bdrless"><meter id="Active modules manually installed" min=0 max=0 value=0></meter><br></td></tr>
-<tr><td class="bdrless"><label for "Inactive modules">Inactive modules</td><td class="bdrless">0/0</label></td>
-<td class="bdrless"><meter id="Inactive modules" min=0 max=0 value=0></meter><br></td></tr>
+<tr><td class="bdrless"><label for "All modules">All modules</td><td class="bdrless">166/324</label></td>
+<td class="bdrless"><meter id="All modules" min=0 max=324 value=166></meter><br></td></tr>
+<tr><td class="bdrless"><label for "Active modules installed with EasyBuild">Active modules installed with EasyBuild</td><td class="bdrless">130/133</label></td>
+<td class="bdrless"><meter id="Active modules installed with EasyBuild" min=0 max=133 value=130></meter><br></td></tr>
+<tr><td class="bdrless"><label for "Active modules manually installed">Active modules manually installed</td><td class="bdrless">4/9</label></td>
+<td class="bdrless"><meter id="Active modules manually installed" min=0 max=9 value=4></meter><br></td></tr>
+<tr><td class="bdrless"><label for "Inactive modules">Inactive modules</td><td class="bdrless">32/182</label></td>
+<td class="bdrless"><meter id="Inactive modules" min=0 max=182 value=32></meter><br></td></tr>
 </table>
 <h2>Active modules installed with EasyBuild</h2>
 <button type="button" class="collapsible">Missing</button>
 <div class="content"><table>
 <tr><th>Module name</th><th>Times loaded</th><th>Remarks</th><th>Owner</th></tr>
+<tr><td>ELPA/2019.11.001-intel-2019b</td><td>20</td><td></td><td>Maxime</td></tr>
+<tr><td>texinfo/6.7-GCCcore-8.3.0</td><td>9</td><td></td><td>Alexander</td></tr>
+<tr><td>OpenMPI/3.1.4-GCC-8.3.0-torque</td><td>2</td><td></td><td>Alexander</td></tr>
 </table>
 </div><button type="button" class="collapsible">Installed</button>
 <div class="content"><table>
 <tr><th>Module name</th><th>Times loaded</th></tr>
+<tr><td>numactl/2.0.12-GCCcore-8.3.0</td><td>97</td></tr>
+<tr><td>gompi/2019b</td><td>97</td></tr>
+<tr><td>OpenMPI/3.1.4-GCC-8.3.0.lua</td><td>97</td></tr>
+<tr><td>hwloc/1.11.12-GCCcore-8.3.0</td><td>97</td></tr>
+<tr><td>libpciaccess/0.14-GCCcore-8.3.0</td><td>97</td></tr>
+<tr><td>OpenMPI/3.1.4-GCC-8.3.0.lua</td><td>91</td></tr>
+<tr><td>GCCcore/8.3.0</td><td>54</td></tr>
+<tr><td>zlib/1.2.11-GCCcore-8.3.0</td><td>54</td></tr>
+<tr><td>binutils/2.32-GCCcore-8.3.0</td><td>54</td></tr>
+<tr><td>bzip2/1.0.8-GCCcore-8.3.0</td><td>53</td></tr>
+<tr><td>XZ/5.2.4-GCCcore-8.3.0</td><td>52</td></tr>
+<tr><td>ncurses/6.1-GCCcore-8.3.0</td><td>48</td></tr>
+<tr><td>libreadline/8.0-GCCcore-8.3.0</td><td>48</td></tr>
+<tr><td>libffi/3.2.1-GCCcore-8.3.0</td><td>48</td></tr>
+<tr><td>SQLite/3.29.0-GCCcore-8.3.0</td><td>44</td></tr>
+<tr><td>Tcl/8.6.9-GCCcore-8.3.0</td><td>44</td></tr>
+<tr><td>GMP/6.1.2-GCCcore-8.3.0</td><td>44</td></tr>
+<tr><td>libxc/4.3.4-GCC-8.3.0</td><td>42</td></tr>
+<tr><td>CP2K/7.1-foss-2019b</td><td>42</td></tr>
+<tr><td>ELPA/2019.11.001-foss-2019b</td><td>42</td></tr>
+<tr><td>PLUMED/2.5.3-foss-2019b-Python-3.7.4</td><td>42</td></tr>
+<tr><td>Libint/2.6.0-foss-2019b-lmax-6-cp2k</td><td>42</td></tr>
+<tr><td>libxsmm/1.15-foss-2019b</td><td>42</td></tr>
+<tr><td>iccifort/2019.5.281</td><td>41</td></tr>
+<tr><td>iimpi/2019b</td><td>41</td></tr>
+<tr><td>impi/2018.5.288-iccifort-2019.5.281</td><td>41</td></tr>
+<tr><td>Szip/2.1.1-GCCcore-8.3.0</td><td>41</td></tr>
+<tr><td>libmatheval/1.1.11-GCCcore-8.3.0</td><td>40</td></tr>
+<tr><td>imkl/2019.5.281-iimpi-2019b</td><td>36</td></tr>
+<tr><td>intel/2019b</td><td>36</td></tr>
+<tr><td>Python/3.7.4-GCCcore-8.3.0</td><td>34</td></tr>
+<tr><td>Boost/1.71.0-iimpi-2019b</td><td>30</td></tr>
+<tr><td>HDF5/1.10.5-iimpi-2019b</td><td>30</td></tr>
+<tr><td>FFTW/3.3.8-gompi-2019b</td><td>27</td></tr>
+<tr><td>SciPy-bundle/2019.10-intel-2019b-Python-3.7.4</td><td>25</td></tr>
+<tr><td>OpenBLAS/0.3.7-GCC-8.3.0</td><td>21</td></tr>
+<tr><td>GCC/8.3.0</td><td>21</td></tr>
+<tr><td>libxml2/2.9.9-GCCcore-8.3.0</td><td>21</td></tr>
+<tr><td>foss/2019b</td><td>21</td></tr>
+<tr><td>ScaLAPACK/2.0.2-gompi-2019b</td><td>21</td></tr>
+<tr><td>GSL/2.6-iccifort-2019.5.281</td><td>20</td></tr>
+<tr><td>libxc/4.3.4-intel-2019b</td><td>20</td></tr>
+<tr><td>PLUMED/2.5.3-intel-2019b-Python-3.7.4</td><td>20</td></tr>
+<tr><td>libxsmm/1.10-intel-2019b</td><td>20</td></tr>
+<tr><td>M4/1.4.18-GCCcore-8.3.0</td><td>17</td></tr>
+<tr><td>expat/2.2.7-GCCcore-8.3.0</td><td>15</td></tr>
+<tr><td>PCRE/8.43-GCCcore-8.3.0</td><td>15</td></tr>
+<tr><td>cURL/7.66.0-GCCcore-8.3.0</td><td>15</td></tr>
+<tr><td>util-linux/2.34-GCCcore-8.3.0</td><td>15</td></tr>
+<tr><td>X11/20190717-GCCcore-8.3.0</td><td>12</td></tr>
+<tr><td>xorg-macros/1.19.2-GCCcore-8.3.0</td><td>12</td></tr>
+<tr><td>fontconfig/2.13.1-GCCcore-8.3.0</td><td>12</td></tr>
+<tr><td>GLib/2.62.0-GCCcore-8.3.0</td><td>12</td></tr>
+<tr><td>libjpeg-turbo/2.0.3-GCCcore-8.3.0</td><td>12</td></tr>
+<tr><td>libpng/1.6.37-GCCcore-8.3.0</td><td>12</td></tr>
+<tr><td>NASM/2.14.02-GCCcore-8.3.0</td><td>12</td></tr>
+<tr><td>freetype/2.10.1-GCCcore-8.3.0</td><td>12</td></tr>
+<tr><td>gettext/0.20.1-GCCcore-8.3.0</td><td>12</td></tr>
+<tr><td>netCDF/4.7.1-gompi-2019b</td><td>11</td></tr>
+<tr><td>HDF5/1.10.5-gompi-2019b</td><td>11</td></tr>
+<tr><td>Python/2.7.16-GCCcore-8.3.0</td><td>10</td></tr>
+<tr><td>flex/2.6.4</td><td>9</td></tr>
+<tr><td>libtool/2.4.6-GCCcore-8.3.0</td><td>9</td></tr>
+<tr><td>M4/1.4.18</td><td>9</td></tr>
+<tr><td>imkl/2019.5.281-gompi-2019b</td><td>9</td></tr>
+<tr><td>CMake/3.18.4</td><td>9</td></tr>
+<tr><td>Autotools/20180311-GCCcore-8.3.0</td><td>9</td></tr>
+<tr><td>PETSc/3.9.3-foss-2019b.lua</td><td>9</td></tr>
+<tr><td>SLEPc/3.9.2-foss-2019b.lua</td><td>9</td></tr>
+<tr><td>Automake/1.16.1-GCCcore-8.3.0</td><td>9</td></tr>
+<tr><td>Autoconf/2.69-GCCcore-8.3.0</td><td>9</td></tr>
+<tr><td>Bison/3.5.3</td><td>9</td></tr>
+<tr><td>gomkl/2019b</td><td>9</td></tr>
+<tr><td>libunwind/1.3.1-GCCcore-8.3.0</td><td>8</td></tr>
+<tr><td>LLVM/9.0.0-GCCcore-8.3.0</td><td>8</td></tr>
+<tr><td>ParMETIS/4.0.3-gompi-2019b</td><td>8</td></tr>
+<tr><td>Mesa/19.1.7-GCCcore-8.3.0</td><td>8</td></tr>
+<tr><td>meshio/4.1.0-foss-2019b-Python-3.7.4.lua</td><td>8</td></tr>
+<tr><td>METIS/5.1.0-GCCcore-8.3.0</td><td>8</td></tr>
+<tr><td>MPFR/4.0.2-GCCcore-8.3.0</td><td>8</td></tr>
+<tr><td>nettle/3.5.1-GCCcore-8.3.0</td><td>8</td></tr>
+<tr><td>ParaView/5.6.2-foss-2019b-Python-3.7.4-mpi</td><td>8</td></tr>
+<tr><td>NSPR/4.21-GCCcore-8.3.0</td><td>8</td></tr>
+<tr><td>NSS/3.45-GCCcore-8.3.0</td><td>8</td></tr>
+<tr><td>flex/2.6.4-GCCcore-8.3.0</td><td>8</td></tr>
+<tr><td>libGLU/9.0.1-GCCcore-8.3.0</td><td>8</td></tr>
+<tr><td>Bison/3.3.2-GCCcore-8.3.0</td><td>8</td></tr>
+<tr><td>Boost/1.71.0-gompi-2019b</td><td>8</td></tr>
+<tr><td>CMake/3.15.3-GCCcore-8.3.0</td><td>8</td></tr>
+<tr><td>DBus/1.13.12-GCCcore-8.3.0</td><td>8</td></tr>
+<tr><td>double-conversion/3.1.4-GCCcore-8.3.0</td><td>8</td></tr>
+<tr><td>FFmpeg/4.2.1-GCCcore-8.3.0</td><td>8</td></tr>
+<tr><td>FriBidi/1.0.5-GCCcore-8.3.0</td><td>8</td></tr>
+<tr><td>gmsh/3.0.6-foss-2019b-Python-3.7.4.lua</td><td>8</td></tr>
+<tr><td>Hypre/2.18.2-foss-2019b.lua</td><td>8</td></tr>
+<tr><td>JasPer/2.0.14-GCCcore-8.3.0</td><td>8</td></tr>
+<tr><td>LAME/3.100-GCCcore-8.3.0</td><td>8</td></tr>
+<tr><td>libdrm/2.4.99-GCCcore-8.3.0</td><td>8</td></tr>
+<tr><td>libevent/2.1.11-GCCcore-8.3.0</td><td>8</td></tr>
+<tr><td>PCRE2/10.33-GCCcore-8.3.0</td><td>8</td></tr>
+<tr><td>petsc4py/3.9.1-foss-2019b-Python-3.7.4.lua</td><td>8</td></tr>
+<tr><td>pkg-config/0.29.2-GCCcore-8.3.0</td><td>8</td></tr>
+<tr><td>Qt5/5.13.1-GCCcore-8.3.0</td><td>8</td></tr>
+<tr><td>SciPy-bundle/2019.10-foss-2019b-Python-3.7.4</td><td>8</td></tr>
+<tr><td>SCOTCH/6.0.9-gompi-2019b.lua</td><td>8</td></tr>
+<tr><td>slepc4py/3.9.0-foss-2019b-Python-3.7.4.lua</td><td>8</td></tr>
+<tr><td>snappy/1.1.7-GCCcore-8.3.0</td><td>8</td></tr>
+<tr><td>SuiteSparse/5.6.0-foss-2019b-METIS-5.1.0.lua</td><td>8</td></tr>
+<tr><td>VTK/8.2.0-foss-2019b-Python-3.7.4</td><td>8</td></tr>
+<tr><td>pygmsh/6.0.9-foss-2019b-Python-3.7.4.lua</td><td>8</td></tr>
+<tr><td>x265/3.2-GCCcore-8.3.0</td><td>8</td></tr>
+<tr><td>x264/20190925-GCCcore-8.3.0</td><td>8</td></tr>
+<tr><td>FFTW/3.3.8-intel-2019b</td><td>6</td></tr>
+<tr><td>OpenMPI/3.1.4-GCC-8.3.0-slurm.lua</td><td>6</td></tr>
+<tr><td>cairo/1.16.0-GCCcore-8.3.0</td><td>4</td></tr>
+<tr><td>LibTIFF/4.0.10-GCCcore-8.3.0</td><td>4</td></tr>
+<tr><td>pixman/0.38.4-GCCcore-8.3.0</td><td>4</td></tr>
+<tr><td>R/3.6.3-foss-2019b-bare-X11-20190717-IRkernel-1.2</td><td>4</td></tr>
+<tr><td>libdap/3.20.6-GCCcore-8.3.0</td><td>3</td></tr>
+<tr><td>Java/11.0.2</td><td>3</td></tr>
+<tr><td>NCO/4.9.3-foss-2019b</td><td>3</td></tr>
+<tr><td>libtirpc/1.2.6-GCCcore-8.3.0</td><td>3</td></tr>
+<tr><td>ANTLR/2.7.7-GCCcore-8.3.0-Java-11</td><td>3</td></tr>
+<tr><td>UDUNITS/2.2.26-GCCcore-8.3.0</td><td>3</td></tr>
+<tr><td>EasyBuild/4.5.5.lua</td><td>3</td></tr>
+<tr><td>Wannier90/2.1.0-intel-2019b</td><td>1</td></tr>
+<tr><td>SLEPc/3.12.2-foss-2019b-Python-3.7.4.lua</td><td>1</td></tr>
+<tr><td>gmsh/4.5.6-foss-2019b-Python-3.7.4.lua</td><td>1</td></tr>
+<tr><td>MUMPS/5.2.1-foss-2019b-metis.lua</td><td>1</td></tr>
+<tr><td>CUDA/10.2.89-GCC-8.3.0</td><td>1</td></tr>
 </table>
 </div><h2>Active modules manually installed</h2>
 <button type="button" class="collapsible">Missing</button>
 <div class="content"><table>
 <tr><th>Module name</th><th>Times loaded</th><th>Owner</th></tr>
+<tr><td>CP2K/7.1-intel-2019b</td><td>20</td><td>Maxime</td></tr>
+<tr><td>DOLFIN/2019.1.0.post0-foss-2019b-Python-3.7.4</td><td>8</td><td>Maxime</td></tr>
+<tr><td>GROMACS/2020.1-intel-2019b-CUDA-10.1.105</td><td>6</td><td>Ingrid</td></tr>
+<tr><td>VASP/5.4.4-intel-2019b</td><td>1</td><td>Maxime</td></tr>
+<tr><td>libbeef/0.1.1-intel-2019b</td><td>1</td><td>Maxime</td></tr>
 </table>
 </div><button type="button" class="collapsible">Installed</button>
 <div class="content"><table>
 <tr><th>Module name</th><th>Times loaded</th><th>Owner</th></tr>
+<tr><td>h5py/2.10.0-foss-2019b-Python-3.7.4</td><td>8</td><td>Ehsan</td></tr>
+<tr><td>GSL/2.6-GCC-8.3.0</td><td>3</td><td>Steven</td></tr>
+<tr><td>CUDA/11.6.0</td><td>3</td><td>Ehsan</td></tr>
+<tr><td>PETSc/3.12.4-foss-2019b-Python-3.7.4.lua</td><td>1</td><td>Steven</td></tr>
 </table>
 </div><h2>Inactive modules</h2>
 <button type="button" class="collapsible">Missing</button>
 <div class="content"><table>
 <tr><th>Module name</th></tr>
+<tr><td>MariaDB/10.3.14-foss-2019b</td></tr>
+<tr><td>MRtrix/3.0.1-foss-2019b-Python-3.7.4</td></tr>
+<tr><td>M4/1.4.17</td></tr>
+<tr><td>LZO/2.10-GCCcore-8.3.0</td></tr>
+<tr><td>LAPACK/3.8.0-GCC-8.3.0</td></tr>
+<tr><td>Judy/1.0.5-GCCcore-8.3.0</td></tr>
+<tr><td>HTSlib/1.9-intel-2019b</td></tr>
+<tr><td>HTSlib/1.9-GCCcore-8.3.0</td></tr>
+<tr><td>HTSlib/1.10.2-GCC-8.3.0.lua</td></tr>
+<tr><td>HPL/2.3-gomkl-2019b</td></tr>
+<tr><td>HPL/2.3-foss-2019b</td></tr>
+<tr><td>HMMER/3.3.2-gompi-2021a</td></tr>
+<tr><td>HDF5/1.10.1-intel-2019b</td></tr>
+<tr><td>GlobalArrays/5.7.2-intel-2019b-peigs</td></tr>
+<tr><td>Mercurial/5.7.1-GCCcore-8.3.0.lua</td></tr>
+<tr><td>GlobalArrays/5.7-intel-2019b</td></tr>
+<tr><td>Mesa/19.2.1-GCCcore-8.3.0</td></tr>
+<tr><td>ParMETIS/4.0.3-iimpi-2019b</td></tr>
+<tr><td>PROJ/6.2.1-GCCcore-8.3.0</td></tr>
+<tr><td>PLY/3.11-foss-2019b-Python-3.7.4</td></tr>
+<tr><td>PETSc/3.14.4-foss-2019b</td></tr>
+<tr><td>PAPI/5.7.0-GCCcore-8.3.0</td></tr>
+<tr><td>OpenMolcas/19.11-intel-2019b-Python-3.7.4</td></tr>
+<tr><td>OpenJPEG/2.3.1-GCCcore-8.3.0</td></tr>
+<tr><td>OpenFOAM-Extend/4.1-intel-2019b-AtlasCopco-Python-2.7.16.lua</td></tr>
+<tr><td>OpenFOAM-Extend/4.1-20200408-foss-2019b-Python-2.7.16.lua</td></tr>
+<tr><td>OpenFOAM-Extend/4.1-20191120-intel-2019b-Python-2.7.16</td></tr>
+<tr><td>OpenFOAM-Extend/4.1-20191014-foss-2019b-Python-2.7.16.lua</td></tr>
+<tr><td>OpenCASCADE/7.7.0-foss-2019b-Python-3.7.4</td></tr>
+<tr><td>OSPRay/1.8.5-intel-2019b</td></tr>
+<tr><td>NWChem/7.0.2-intel-2019b-Python-3.7.4</td></tr>
+<tr><td>NLopt/2.6.1-GCCcore-8.3.0</td></tr>
+<tr><td>NAMD/2.14-foss-2019b-mpi.lua</td></tr>
+<tr><td>Mesquite/2.3.0-GCCcore-8.3.0</td></tr>
+<tr><td>Meson/0.51.2-GCCcore-8.3.0-Python-3.7.4</td></tr>
+<tr><td>ParMGridGen/1.0-gompi-2019b.lua</td></tr>
+<tr><td>GitPython/3.1.0-GCCcore-8.3.0-Python-3.7.4.lua</td></tr>
+<tr><td>GTK+/3.24.13-GCCcore-8.3.0</td></tr>
+<tr><td>Canu/2.0-GCCcore-8.3.0</td></tr>
+<tr><td>CUDAcore/11.2.2</td></tr>
+<tr><td>CUDAcore/11.0.2</td></tr>
+<tr><td>CUDA/11.0.2-GCC-8.3.0</td></tr>
+<tr><td>CUDA/10.1.105</td></tr>
+<tr><td>CGAL/4.14.1-intel-2019b-Python-3.7.4</td></tr>
+<tr><td>CCL/1.12-GCCcore-8.3.0</td></tr>
+<tr><td>Boost/1.68.0-foss-2019b-Python-3.7.4</td></tr>
+<tr><td>Bison/3.0.5-GCCcore-6.4.0</td></tr>
+<tr><td>Bison/3.0.4</td></tr>
+<tr><td>Biopython/1.79-foss-2021a</td></tr>
+<tr><td>BioPerl/1.7.2-foss-2019b-Perl-5.30.0</td></tr>
+<tr><td>Bio-DB-HTS/3.01-foss-2019b-Perl-5.30.0</td></tr>
+<tr><td>Bazel/3.7.2-GCCcore-10.3.0</td></tr>
+<tr><td>BLAT/3.5-GCC-8.3.0</td></tr>
+<tr><td>ATK/2.34.1-GCCcore-8.3.0</td></tr>
+<tr><td>Gdk-Pixbuf/2.38.2-GCCcore-8.3.0</td></tr>
+<tr><td>DBD-mysql/4.050-foss-2019b-Perl-5.30.0</td></tr>
+<tr><td>EasyBuild/4.4.2.lua</td></tr>
+<tr><td>GStreamer/1.16.2-GCC-8.3.0</td></tr>
+<tr><td>GST-plugins-base/1.16.2-GCC-8.3.0</td></tr>
+<tr><td>GROMACS/2021.1-foss-2019b-CUDA-10.1.105</td></tr>
+<tr><td>GLibmm/2.49.7-GCCcore-8.3.0</td></tr>
+<tr><td>GLFW/3.3.2-intel-2019b</td></tr>
+<tr><td>GLFW/3.3.2-foss-2019b</td></tr>
+<tr><td>GEOS/3.8.0-iccifort-2019.5.281-Python-3.7.4</td></tr>
+<tr><td>GDAL/3.0.2-intel-2019b-Python-3.7.4</td></tr>
+<tr><td>FreeSurfer/7.1.0-centos7_x86_64</td></tr>
+<tr><td>FreeImage/3.18.0-GCCcore-8.3.0</td></tr>
+<tr><td>FSL/6.0.5.1-foss-2019b</td></tr>
+<tr><td>Extrae/3.8.2-intel-2019b</td></tr>
+<tr><td>Extrae/3.8.2-foss-2019b</td></tr>
+<tr><td>EnsEMBLCoreAPI/101.0-r20201126-foss-2019b-Perl-5.30.0</td></tr>
+<tr><td>Embree/3.9.0-intel-2019b</td></tr>
+<tr><td>Embree/3.8.0-intel-2019b</td></tr>
+<tr><td>Embree/3.3.0-intel-2019b</td></tr>
+<tr><td>EasyBuild/4.5.4.lua</td></tr>
+<tr><td>ParMGridGen/1.0-iimpi-2019b</td></tr>
+<tr><td>libsigc++/2.10.2-GCCcore-8.3.0</td></tr>
+<tr><td>libpthread-stubs/0.4-GCCcore-8.3.0</td></tr>
+<tr><td>libglvnd/1.2.0-GCCcore-8.3.0</td></tr>
+<tr><td>libgeotiff/1.5.1-GCCcore-8.3.0</td></tr>
+<tr><td>libepoxy/1.5.4-GCCcore-8.3.0</td></tr>
+<tr><td>libelf/0.8.13-GCCcore-8.3.0</td></tr>
+<tr><td>libdwarf/20190529-GCCcore-8.3.0</td></tr>
+<tr><td>libaio/0.3.111-GCCcore-8.3.0</td></tr>
+<tr><td>jemalloc/5.2.1-GCCcore-8.3.0</td></tr>
+<tr><td>jbigkit/2.1-GCCcore-8.3.0</td></tr>
+<tr><td>ispc/1.9.2</td></tr>
+<tr><td>ispc/1.12.0</td></tr>
+<tr><td>help2man/1.47.4</td></tr>
+<tr><td>h5py/3.2.1-foss-2021a</td></tr>
+<tr><td>graphite2/1.3.14-GCCcore-8.3.0</td></tr>
+<tr><td>libxc/4.3.4-iccifort-2019.5.281.lua</td></tr>
+<tr><td>libyaml/0.2.5-GCCcore-10.3.0</td></tr>
+<tr><td>wxWidgets/3.1.3-GCC-8.3.0</td></tr>
+<tr><td>Paraver/4.8.2-foss-2019b</td></tr>
+<tr><td>texlive/20210325-GCCcore-8.3.0</td></tr>
+<tr><td>tbb/2019_U9-GCCcore-8.3.0</td></tr>
+<tr><td>pytest-xdist/2.3.0-GCCcore-10.3.0</td></tr>
+<tr><td>protobuf/3.17.3-GCCcore-10.3.0</td></tr>
+<tr><td>popscle/0.1-beta-foss-2019b.lua</td></tr>
+<tr><td>poppler/0.90.1-GCCcore-8.3.0</td></tr>
+<tr><td>pkgconfig/1.5.4-GCCcore-10.3.0-python</td></tr>
+<tr><td>ospcommon/1.3.0-intel-2019b</td></tr>
+<tr><td>openCARP/6.0-foss-2019b</td></tr>
+<tr><td>netCDF/4.7.1-iimpi-2019b</td></tr>
+<tr><td>netCDF-Fortran/4.5.3-iimpi-2019b</td></tr>
+<tr><td>meshio/2.0.2-foss-2019b-Python-3.7.4.lua</td></tr>
+<tr><td>makeinfo/6.7-GCCcore-8.3.0</td></tr>
+<tr><td>libxml++/2.40.1-GCCcore-8.3.0</td></tr>
+<tr><td>netCDF/4.7.4-iimpi-2019b</td></tr>
+<tr><td>gmsh/4.11.1-foss-2019b-Python-3.7.4.lua</td></tr>
+<tr><td>VTK/8.2.0-intel-2019b-Python-3.7.4</td></tr>
+<tr><td>VASP/5.4.4-intel-2019b-Wannier90-1.2-relaxZ</td></tr>
+<tr><td>VASP/5.4.4-intel-2019b-Wannier90-1.2-relaxXY</td></tr>
+<tr><td>VASP/5.4.4-intel-2019b-Wannier90-1.2-constZZ</td></tr>
+<tr><td>VASP/5.4.4-intel-2019b-Wannier90-1.2-MNVFM-2019A</td></tr>
+<tr><td>VASP/5.4.4-intel-2019b-Wannier90-1.2</td></tr>
+<tr><td>Tk/8.6.9-GCCcore-8.3.0</td></tr>
+<tr><td>SciPy-bundle/2019.10-intel-2019b-Python-2.7.16.lua</td></tr>
+<tr><td>SDL2/2.0.10-GCCcore-8.3.0</td></tr>
+<tr><td>SCons/3.1.1-GCCcore-8.3.0</td></tr>
+<tr><td>SCOTCH/6.0.9-foss-2019b</td></tr>
+<tr><td>SBCL/2.0.9-GCCcore-8.3.0</td></tr>
+<tr><td>Qwt/6.1.4-GCCcore-8.3.0</td></tr>
+<tr><td>QuantumESPRESSO/6.5-intel-2019b</td></tr>
+<tr><td>PyYAML/5.4.1-GCCcore-10.3.0</td></tr>
+<tr><td>PyFoam/0.6.9-intel-2019b.lua</td></tr>
+<tr><td>PyFoam/2020.5-intel-2019b.lua</td></tr>
+<tr><td>Wannier90/1.2-intel-2019b</td></tr>
+<tr><td>XML-LibXML/2.0132-foss-2019b-Perl-5.30.0</td></tr>
+<tr><td>SCOTCH/6.0.9-iimpi-2019b</td></tr>
+<tr><td>git/2.23.0-GCCcore-8.3.0-nodocs</td></tr>
+<tr><td>gengetopt/2.23-GCCcore-8.3.0</td></tr>
+<tr><td>Xerces-C++/3.2.3-GCCcore-8.3.0</td></tr>
+<tr><td>git/2.32.0-GCCcore-10.3.0-nodocs</td></tr>
+<tr><td>freeglut/3.2.1-GCCcore-8.3.0</td></tr>
+<tr><td>flex/2.5.39-GCCcore-8.3.0</td></tr>
+<tr><td>flatbuffers/2.0.0-GCCcore-10.3.0</td></tr>
+<tr><td>flatbuffers-python/2.0-GCCcore-10.3.0</td></tr>
+<tr><td>double-conversion/3.1.5-GCCcore-10.3.0</td></tr>
+<tr><td>flex/2.6.3</td></tr>
+<tr><td>darshan-runtime/3.4.2-iimpi-2019b-HDF5-1.10.5.lua</td></tr>
+<tr><td>darshan-runtime/3.4.2-gompi-2019b-HDF5-1.10.5.lua</td></tr>
+<tr><td>at-spi2-atk/2.34.1-GCCcore-8.3.0</td></tr>
+<tr><td>cuDNN/8.1.1.33-CUDA-11.2.2</td></tr>
+<tr><td>cuDNN/8.0.4.30-CUDA-11.0.2</td></tr>
+<tr><td>binutils/2.34</td></tr>
+<tr><td>darshan-util/3.4.2-GCCcore-8.3.0.lua</td></tr>
+<tr><td>binutils/2.28</td></tr>
+<tr><td>at-spi2-core/2.34.0-GCCcore-8.3.0</td></tr>
 </table>
 </div><button type="button" class="collapsible">Installed</button>
 <div class="content"><table>
 <tr><th>Module name</th></tr>
+<tr><td>zstd/1.4.4-GCCcore-8.3.0</td></tr>
+<tr><td>Mako/1.1.0-GCCcore-8.3.0</td></tr>
+<tr><td>Lua/5.1.5-GCCcore-8.3.0</td></tr>
+<tr><td>ICU/64.2-GCCcore-8.3.0</td></tr>
+<tr><td>HarfBuzz/2.6.4-GCCcore-8.3.0</td></tr>
+<tr><td>Guile/1.8.8-GCCcore-8.3.0</td></tr>
+<tr><td>Meson/0.59.1-GCCcore-8.3.0-Python-3.7.4</td></tr>
+<tr><td>Pango/1.44.7-GCCcore-8.3.0</td></tr>
+<tr><td>Ninja/1.9.0-GCCcore-8.3.0</td></tr>
+<tr><td>CGAL/4.14.1-foss-2019b-Python-3.7.4</td></tr>
+<tr><td>Bison/3.3.2</td></tr>
+<tr><td>zlib/1.2.11</td></tr>
+<tr><td>DB/18.1.32-GCCcore-8.3.0</td></tr>
+<tr><td>GObject-Introspection/1.63.1-GCCcore-8.3.0-Python-3.7.4</td></tr>
+<tr><td>Doxygen/1.8.16-GCCcore-8.3.0</td></tr>
+<tr><td>Eigen/3.3.7</td></tr>
+<tr><td>Perl/5.30.0-GCCcore-8.3.0</td></tr>
+<tr><td>libgd/2.2.5-GCCcore-8.3.0</td></tr>
+<tr><td>libcerf/1.13-GCCcore-8.3.0</td></tr>
+<tr><td>intltool/0.51.0-GCCcore-8.3.0</td></tr>
+<tr><td>help2man/1.47.8-GCCcore-8.3.0</td></tr>
+<tr><td>gzip/1.10-GCCcore-8.3.0</td></tr>
+<tr><td>libunistring/0.9.10-GCCcore-8.3.0</td></tr>
+<tr><td>re2c/1.2.1-GCCcore-8.3.0</td></tr>
+<tr><td>pkgconfig/1.5.1-GCCcore-8.3.0-Python-3.7.4</td></tr>
+<tr><td>ncurses/6.2</td></tr>
+<tr><td>lz4/1.9.2-GCCcore-8.3.0</td></tr>
+<tr><td>gperf/3.1-GCCcore-8.3.0</td></tr>
+<tr><td>SWIG/4.0.1-GCCcore-8.3.0</td></tr>
+<tr><td>gnuplot/5.2.8-GCCcore-8.3.0</td></tr>
+<tr><td>Yasm/1.3.0-GCCcore-8.3.0</td></tr>
+<tr><td>gc/7.6.12-GCCcore-8.3.0</td></tr>
 </table>
 </div><script>
 var coll = document.getElementsByClassName("collapsible");
