@@ -12,12 +12,12 @@ Modules are considered to be <i>active</i> if they have been loaded since March 
 The counts for how many times a module has been loaded not necessarily a good indication of how much it is really needed, since for instance worker jobs can distort this metric considerably.<br>
 Active modules with a light grey background are candidates to be no longer offered to users
 <h2>Overview</h2>
-<b>Last updated: </b> 2023-06-07 18:03:58 <br>
+<b>Last updated: </b> 2023-06-08 08:00:18 <br>
 <table class="bdrless">
-<tr><td class="bdrless"><label for "All modules">All modules</td><td class="bdrless">562/1075</label></td>
-<td class="bdrless"><meter id="All modules" min=0 max=1075 value=562></meter><br></td></tr>
-<tr><td class="bdrless"><label for "Active modules installed with EasyBuild">Active modules installed with EasyBuild</td><td class="bdrless">507/564</label></td>
-<td class="bdrless"><meter id="Active modules installed with EasyBuild" min=0 max=564 value=507></meter><br></td></tr>
+<tr><td class="bdrless"><label for "All modules">All modules</td><td class="bdrless">563/1075</label></td>
+<td class="bdrless"><meter id="All modules" min=0 max=1075 value=563></meter><br></td></tr>
+<tr><td class="bdrless"><label for "Active modules installed with EasyBuild">Active modules installed with EasyBuild</td><td class="bdrless">508/564</label></td>
+<td class="bdrless"><meter id="Active modules installed with EasyBuild" min=0 max=564 value=508></meter><br></td></tr>
 <tr><td class="bdrless"><label for "Active modules manually installed">Active modules manually installed</td><td class="bdrless">2/56</label></td>
 <td class="bdrless"><meter id="Active modules manually installed" min=0 max=56 value=2></meter><br></td></tr>
 <tr><td class="bdrless"><label for "Inactive modules">Inactive modules</td><td class="bdrless">53/455</label></td>
@@ -65,11 +65,10 @@ Active modules with a light grey background are candidates to be no longer offer
 <tr><td>BEDTools/2.27.1-intel-2018a</td><td>2</td><td></td><td>Alexander</td></tr>
 <tr><td>NCO/4.7.6-intel-2018a</td><td>2</td><td></td><td>Martijn</td></tr>
 <tr><td>gnuplot/5.2.2-foss-2018a</td><td>2</td><td></td><td>Alexander</td></tr>
-<tr><td>R/3.5.0-foss-2018a-bare</td><td>2</td><td></td><td>Alexander</td></tr>
 <tr><td>SPAdes/3.15.2-foss-2018a</td><td>2</td><td></td><td>Steven</td></tr>
 <tr><td>binutils/2.25-GCC-4.9.3</td><td>1</td><td></td><td>Martijn</td></tr>
 <tr><td>OpenFOAM/v1906-foss-2018a</td><td>1</td><td></td><td>Alexander</td></tr>
-<tr><td>Bowtie/1.2.2-foss-2018a</td><td>1</td><td></td><td>Geert Jan</td></tr>
+<tr><td>Bowtie/1.2.2-foss-2018a</td><td>1</td><td>threading.h:11:24: fatal error: tbb/mutex.h: No such file or directory</td><td>Geert Jan</td></tr>
 <tr><td>CellRangerATAC/1.1.0-foss-2018a</td><td>1</td><td>Source files were not stored</td><td>Alexander</td></tr>
 <tr><td>VASP/5.4.4-intel-2018a-lsolmics</td><td>1</td><td></td><td>Ehsan</td></tr>
 <tr><td>CGAL/4.11-intel-2018a</td><td>1</td><td></td><td>Alexander Jaust</td></tr>
@@ -502,6 +501,7 @@ Active modules with a light grey background are candidates to be no longer offer
 <tr><td>libevent/2.1.8-GCCcore-6.4.0</td><td>2</td></tr>
 <tr><td>libcerf/1.13-GCCcore-6.4.0</td><td>2</td></tr>
 <tr><td>HarfBuzz/1.7.5-foss-2018a</td><td>2</td></tr>
+<tr><td>R/3.5.0-foss-2018a-bare</td><td>2</td></tr>
 <tr><td>picard/2.18.23-Java-1.8.0_171</td><td>2</td></tr>
 <tr><td>SAMtools/1.9-GCC-6.4.0-2.28</td><td>2</td></tr>
 <tr><td>CMake/3.12.1</td><td>1</td></tr>
