@@ -12,12 +12,12 @@ Modules are considered to be <i>active</i> if they have been loaded since March 
 The counts for how many times a module has been loaded not necessarily a good indication of how much it is really needed, since for instance worker jobs can distort this metric considerably.<br>
 Active modules with a light grey background are candidates to be no longer offered to users
 <h2>Overview</h2>
-<b>Last updated: </b> 2023-06-08 14:41:50 <br>
+<b>Last updated: </b> 2023-06-08 16:55:03 <br>
 <table class="bdrless">
-<tr><td class="bdrless"><label for "All modules">All modules</td><td class="bdrless">565/1075</label></td>
-<td class="bdrless"><meter id="All modules" min=0 max=1075 value=565></meter><br></td></tr>
-<tr><td class="bdrless"><label for "Active modules installed with EasyBuild">Active modules installed with EasyBuild</td><td class="bdrless">510/564</label></td>
-<td class="bdrless"><meter id="Active modules installed with EasyBuild" min=0 max=564 value=510></meter><br></td></tr>
+<tr><td class="bdrless"><label for "All modules">All modules</td><td class="bdrless">569/1075</label></td>
+<td class="bdrless"><meter id="All modules" min=0 max=1075 value=569></meter><br></td></tr>
+<tr><td class="bdrless"><label for "Active modules installed with EasyBuild">Active modules installed with EasyBuild</td><td class="bdrless">514/564</label></td>
+<td class="bdrless"><meter id="Active modules installed with EasyBuild" min=0 max=564 value=514></meter><br></td></tr>
 <tr><td class="bdrless"><label for "Active modules manually installed">Active modules manually installed</td><td class="bdrless">2/56</label></td>
 <td class="bdrless"><meter id="Active modules manually installed" min=0 max=56 value=2></meter><br></td></tr>
 <tr><td class="bdrless"><label for "Inactive modules">Inactive modules</td><td class="bdrless">53/455</label></td>
@@ -38,25 +38,23 @@ Active modules with a light grey background are candidates to be no longer offer
 <tr id="deprecated"><td>GDB/8.1-intel-2018a-Python-3.6.5</td><td>7</td><td>Replaced by GDB/8.1-intel-2018a-Python-3.6.4 [DEPRECATED]</td><td>Maxime</td></tr>
 <tr><td>OpenFOAM/8-intel-2018a</td><td>6</td><td>Depends on ParaView/5.6.0-intel-2018a-mpi-qt5-OSPRay-GPU</td><td>Steven</td></tr>
 <tr><td>h5py/2.8.0-foss-2018a-Python-2.7.14</td><td>5</td><td></td><td>Mag</td></tr>
-<tr><td>Mesa/18.3.4-intel-2018a-Python-2.7.14-X11-20180604-GPU-new</td><td>5</td><td></td><td>Mag</td></tr>
+<tr><td>Mesa/18.3.4-intel-2018a-Python-2.7.14-X11-20180604-GPU-new</td><td>5</td><td>Dependency on X11 is commented out in easyconfig, but this is needed for build</td><td>Mag</td></tr>
 <tr><td>Trilinos/12.12.1-foss-2018a-Python-3.6.4</td><td>4</td><td>error: cannot find -lieee</td><td>Martijn</td></tr>
 <tr><td>R/3.6.0-intel-2018a-bare</td><td>4</td><td>Arithmetic.c(61): error: pointer to incomplete class type is not allowed</td><td>Maxime</td></tr>
-<tr><td>R/3.4.4-intel-2018a-X11-20180131</td><td>4</td><td></td><td>Martijn</td></tr>
-<tr><td>Qt/4.8.7-intel-2018a</td><td>4</td><td></td><td>Wouter Van Assche</td></tr>
+<tr><td>R/3.4.4-intel-2018a-X11-20180131</td><td>4</td><td>arithmetic.c(59): warning #274: declaration is not visible outside of function</td><td>Martijn</td></tr>
+<tr><td>Qt/4.8.7-intel-2018a</td><td>4</td><td>/usr/include/unicode/umachine.h(347): error: identifier "char16_t" is undefined</td><td>Wouter Van Assche</td></tr>
 <tr><td>Qt5/5.10.1-foss-2018a</td><td>4</td><td>error: nanf is not a member of std</td><td>Martijn</td></tr>
-<tr><td>CGAL/4.11.1-foss-2018a-Python-3.6.4</td><td>4</td><td></td><td>Martijn</td></tr>
+<tr><td>CGAL/4.11.1-foss-2018a-Python-3.6.4</td><td>4</td><td>Depends on Qt5/5.10.1-foss-2018a</td><td>Martijn</td></tr>
 <tr><td>DOLFIN/2018.1.0.post1-foss-2018a-Python-3.6.4</td><td>4</td><td>Depends on Trilinos/12.12.1-foss-2018a-Python-3.6.4</td><td>Maxime</td></tr>
 <tr id="deprecated"><td>OpenMPI/2.1.2-GCC-6.4.0-2.28-torque</td><td>4</td><td>Torque specific, no longer needed [DEPRECATED]</td><td>Martijn</td></tr>
 <tr id="deprecated"><td>worker/.1.6.12_beta-intel-2018a</td><td>3</td><td>Torque specific, no longer needed [DEPRECATED]</td><td>Geert Jan</td></tr>
-<tr><td>CP2K/6.1-intel-2018a</td><td>3</td><td></td><td>Maxime</td></tr>
+<tr><td>CP2K/6.1-intel-2018a</td><td>3</td><td>Installation hangs</td><td>Maxime</td></tr>
 <tr><td>CGAL/4.11.1-foss-2018a-Python-2.7.14</td><td>3</td><td>Depends on Qt5/5.10.1-foss-2018a</td><td>Ehsan</td></tr>
-<tr><td>OpenFOAM/6-intel-2018a</td><td>3</td><td></td><td>Wouter Van Assche</td></tr>
+<tr><td>OpenFOAM/6-intel-2018a</td><td>3</td><td>Depends on Qt/4.8.7-intel-2018a</td><td>Wouter Van Assche</td></tr>
 <tr><td>ParaView/5.4.1-intel-2018a-mpi</td><td>3</td><td></td><td>Wouter Van Assche</td></tr>
-<tr><td>ParaView/5.4.1-foss-2018a-mpi</td><td>3</td><td></td><td>Mag</td></tr>
+<tr><td>ParaView/5.4.1-foss-2018a-mpi</td><td>3</td><td>Depends on Qt/4.8.7-intel-2018a</td><td>Mag</td></tr>
 <tr><td>Mesa/17.3.8-foss-2018a-Python-2.7.14</td><td>3</td><td></td><td>Mag</td></tr>
-<tr><td>OpenPGM/5.2.122-GCCcore-6.4.0</td><td>3</td><td></td><td>Geert Jan</td></tr>
 <tr><td>Qt/4.8.7-foss-2018a</td><td>3</td><td></td><td>Mag</td></tr>
-<tr><td>libdap/3.19.1-GCCcore-6.4.0</td><td>2</td><td></td><td>Martijn</td></tr>
 <tr><td>OpenFOAM/v2012-foss-2018a</td><td>2</td><td></td><td>Alexander</td></tr>
 <tr><td>CUDA/9.0.176</td><td>2</td><td></td><td>Martijn</td></tr>
 <tr><td>Clang/5.0.0-GCC-6.4.0-2.28</td><td>2</td><td></td><td>Ehsan</td></tr>
@@ -73,8 +71,6 @@ Active modules with a light grey background are candidates to be no longer offer
 <tr id="deprecated"><td>gperf/3.1-GCCcore-8.3.0</td><td>1</td><td>Does not belong in 2018a [DEPRECATED]</td><td>Wouter Van Assche</td></tr>
 <tr><td>Boost/1.63.0-intel-2018a-Python-2.7.14</td><td>1</td><td></td><td>Geert Jan</td></tr>
 <tr><td>Kent_tools/20181218-linux.x86_64</td><td>1</td><td>Source files were not stored</td><td>Alexander</td></tr>
-<tr><td>ZeroMQ/4.2.5-foss-2018a</td><td>1</td><td>Depends on OpenPGM/5.2.122-GCCcore-6.4.0</td><td>Geert Jan</td></tr>
-<tr><td>IPython/6.4.0-foss-2018a-Python-3.6.4</td><td>1</td><td></td><td>Alexander</td></tr>
 <tr id="deprecated"><td>OpenMPI/1.8.4-GCC-6.4.0-2.28-torque</td><td>1</td><td>Torque specific, no longer needed [DEPRECATED]</td><td>Ehsan</td></tr>
 <tr><td>pyCUDA/2018.1.1-foss-2018a-Python-2.7.14</td><td>1</td><td></td><td>Ehsan</td></tr>
 <tr><td>GDAL/2.4.1-intel-2018a-Python-3.6.4</td><td>1</td><td></td><td>Maxime</td></tr>
@@ -456,6 +452,7 @@ Active modules with a light grey background are candidates to be no longer offer
 <tr><td>libXfixes/5.0.3-GCCcore-6.4.0</td><td>3</td></tr>
 <tr><td>libXt/1.1.5-GCCcore-6.4.0</td><td>3</td></tr>
 <tr><td>zlib/1.2.11</td><td>3</td></tr>
+<tr><td>OpenPGM/5.2.122-GCCcore-6.4.0</td><td>3</td></tr>
 <tr><td>flex/2.6.4</td><td>3</td></tr>
 <tr><td>OpenMPI/2.1.2-iccifort-2018.1.163-GCC-6.4.0-2.28.lua</td><td>3</td></tr>
 <tr><td>M4/1.4.18</td><td>3</td></tr>
@@ -466,6 +463,7 @@ Active modules with a light grey background are candidates to be no longer offer
 <tr><td>pkgconfig/1.3.1-foss-2018a-Python-3.6.4.lua</td><td>2</td></tr>
 <tr><td>LibUUID/1.0.3-GCCcore-6.4.0</td><td>2</td></tr>
 <tr><td>Julia/1.6.1</td><td>2</td></tr>
+<tr><td>libdap/3.19.1-GCCcore-6.4.0</td><td>2</td></tr>
 <tr><td>Spectra/0.9.0-foss-2018a</td><td>2</td></tr>
 <tr><td>tmux/2.7-GCCcore-6.4.0</td><td>2</td></tr>
 <tr><td>PLUMED/2.5.1-foss-2018a</td><td>2</td></tr>
@@ -537,9 +535,11 @@ Active modules with a light grey background are candidates to be no longer offer
 <tr><td>gimkl/2.11.5</td><td>1</td></tr>
 <tr><td>imkl/11.2.3.187-gimpi-2.11.5</td><td>1</td></tr>
 <tr><td>protobuf/3.6.0-GCCcore-6.4.0</td><td>1</td></tr>
+<tr><td>ZeroMQ/4.2.5-foss-2018a</td><td>1</td></tr>
 <tr><td>ant/1.10.1-Java-1.8.0_162</td><td>1</td></tr>
 <tr><td>HDF5/1.10.1-foss-2018a-lustre</td><td>1</td></tr>
 <tr><td>impi/5.0.3.048-GCC-4.9.3</td><td>1</td></tr>
+<tr><td>IPython/6.4.0-foss-2018a-Python-3.6.4</td><td>1</td></tr>
 <tr><td>libsodium/1.0.13-GCCcore-6.4.0</td><td>1</td></tr>
 <tr><td>OpenMPI/3.1.1-GCC-6.4.0-2.28.lua</td><td>1</td></tr>
 <tr><td>pytest/3.8.0-foss-2018a-Python-3.6.4</td><td>1</td></tr>
