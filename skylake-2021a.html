@@ -1,27 +1,30 @@
 <html><head><link rel="stylesheet" href="style.css">
 </head><body>
-<ul>
-<li><a href="skylake-2018a.html">skylake-2018a</a></li>
-<li><a href="skylake-2019b.html">skylake-2019b</a></li>
-<li><a href="skylake-2021a.html">skylake-2021a</a></li>
-<li><a href="user-modules.html">user-modules</a></li>
+<ul class="menu">
+<li class="menu"><a href="skylake-2018a.html">skylake-2018a</a></li>
+<li class="menu"><a href="skylake-2019b.html">skylake-2019b</a></li>
+<li class="menu"><a href="skylake-2021a.html">skylake-2021a</a></li>
+<li class="menu"><a href="cascadelake-2018a.html">cascadelake-2018a</a></li>
+<li class="menu"><a href="cascadelake-2019b.html">cascadelake-2019b</a></li>
+<li class="menu"><a href="cascadelake-2021a.html">cascadelake-2021a</a></li>
+<li class="menu"><a href="user-modules.html">user-modules</a></li>
 </ul>
 <h1>Architecture: skylake</h1><h1>Toolchain version: 2021a</h1>
-Comparing modules installed in /apps/leuven/skylake/2021a/modules/all with modules installed in /apps/leuven/rocky8/skylake-6132/2021a/modules/all<br>
-Modules are considered to be <i>active</i> if they have been loaded since March 2023, and <i>inactive</i> otherwise.
-The counts for how many times a module has been loaded not necessarily a good indication of how much it is really needed, since for instance worker jobs can distort this metric considerably.<br>
-Active modules with a light grey background are candidates to be no longer offered to users
-<h2>Overview</h2>
-<b>Last updated: </b> 2023-06-09 08:00:26 <br>
+<ul><li>Comparing modules installed in <tt>/apps/leuven/skylake/2021a/modules/all</tt> with modules installed in <tt>/apps/leuven/rocky8/skylake-6132/2021a/modules/all</tt></li>
+<li>Modules are considered to be <i>active</i> if they have been loaded since March 2023, and <i>inactive</i> otherwise</li>
+<li>The counts for how many times a module has been loaded is not necessarily a good indication of how much it is really needed, since for instance worker jobs can distort this metric considerably.</li>
+<li>Active modules with a light grey background are deprecated, and are likely to be no longer offered to users</li>
+</ul><h2>Overview</h2>
+<b>Last updated: </b> 2023-06-09 15:19:55 <br>
 <table class="bdrless">
-<tr><td class="bdrless"><label for "All modules">All modules</td><td class="bdrless">309/518</label></td>
-<td class="bdrless"><meter id="All modules" min=0 max=518 value=309></meter><br></td></tr>
-<tr><td class="bdrless"><label for "Active modules installed with EasyBuild">Active modules installed with EasyBuild</td><td class="bdrless">269/270</label></td>
-<td class="bdrless"><meter id="Active modules installed with EasyBuild" min=0 max=270 value=269></meter><br></td></tr>
+<tr><td class="bdrless"><label for "All modules">All modules</td><td class="bdrless">324/534</label></td>
+<td class="bdrless"><meter id="All modules" min=0 max=534 value=324></meter><br></td></tr>
+<tr><td class="bdrless"><label for "Active modules installed with EasyBuild">Active modules installed with EasyBuild</td><td class="bdrless">284/285</label></td>
+<td class="bdrless"><meter id="Active modules installed with EasyBuild" min=0 max=285 value=284></meter><br></td></tr>
 <tr><td class="bdrless"><label for "Active modules manually installed">Active modules manually installed</td><td class="bdrless">2/15</label></td>
 <td class="bdrless"><meter id="Active modules manually installed" min=0 max=15 value=2></meter><br></td></tr>
-<tr><td class="bdrless"><label for "Inactive modules">Inactive modules</td><td class="bdrless">38/233</label></td>
-<td class="bdrless"><meter id="Inactive modules" min=0 max=233 value=38></meter><br></td></tr>
+<tr><td class="bdrless"><label for "Inactive modules">Inactive modules</td><td class="bdrless">38/234</label></td>
+<td class="bdrless"><meter id="Inactive modules" min=0 max=234 value=38></meter><br></td></tr>
 </table>
 <h2>Active modules installed with EasyBuild</h2>
 <button type="button" class="collapsible">Missing</button>
@@ -33,26 +36,26 @@ Active modules with a light grey background are candidates to be no longer offer
 <div class="content"><table>
 <tr><th>Module name</th><th>Times loaded</th></tr>
 <tr><td>zlib/1.2.11-GCCcore-10.3.0</td><td>216065</td></tr>
-<tr><td>UCX/1.10.0-GCCcore-10.3.0</td><td>216059</td></tr>
 <tr><td>binutils/2.36.1-GCCcore-10.3.0</td><td>216059</td></tr>
+<tr><td>UCX/1.10.0-GCCcore-10.3.0</td><td>216059</td></tr>
 <tr><td>XZ/5.2.5-GCCcore-10.3.0</td><td>216057</td></tr>
 <tr><td>numactl/2.0.14-GCCcore-10.3.0</td><td>216046</td></tr>
 <tr><td>GCCcore/10.3.0.lua</td><td>216042</td></tr>
 <tr><td>OpenSSL/1.1</td><td>216038</td></tr>
-<tr><td>foss/2021a</td><td>216028</td></tr>
 <tr><td>libpciaccess/0.16-GCCcore-10.3.0</td><td>216028</td></tr>
+<tr><td>foss/2021a</td><td>216028</td></tr>
 <tr><td>hwloc/2.4.1-GCCcore-10.3.0</td><td>216018</td></tr>
 <tr><td>FFTW/3.3.9-gompi-2021a</td><td>216010</td></tr>
 <tr><td>libreadline/8.1-GCCcore-10.3.0</td><td>216008</td></tr>
 <tr><td>GCC/10.3.0</td><td>216001</td></tr>
 <tr><td>libfabric/1.12.1-GCCcore-10.3.0</td><td>215995</td></tr>
-<tr><td>OpenMPI/4.1.1-GCC-10.3.0.lua</td><td>215995</td></tr>
-<tr><td>PMIx/3.2.3-GCCcore-10.3.0</td><td>215995</td></tr>
 <tr><td>ScaLAPACK/2.1.0-gompi-2021a-fb</td><td>215995</td></tr>
+<tr><td>PMIx/3.2.3-GCCcore-10.3.0</td><td>215995</td></tr>
+<tr><td>OpenMPI/4.1.1-GCC-10.3.0.lua</td><td>215995</td></tr>
 <tr><td>libxml2/2.9.10-GCCcore-10.3.0</td><td>215992</td></tr>
 <tr><td>libevent/2.1.12-GCCcore-10.3.0</td><td>215991</td></tr>
-<tr><td>gompi/2021a</td><td>215990</td></tr>
 <tr><td>FlexiBLAS/3.0.4-GCC-10.3.0</td><td>215990</td></tr>
+<tr><td>gompi/2021a</td><td>215990</td></tr>
 <tr><td>OpenBLAS/0.3.15-GCC-10.3.0</td><td>215981</td></tr>
 <tr><td>SQLite/3.35.4-GCCcore-10.3.0</td><td>215975</td></tr>
 <tr><td>GMP/6.2.1-GCCcore-10.3.0</td><td>215971</td></tr>
@@ -82,182 +85,197 @@ Active modules with a light grey background are candidates to be no longer offer
 <tr><td>ICU/69.1-GCCcore-10.3.0</td><td>199</td></tr>
 <tr><td>pybind11/2.6.2-GCCcore-10.3.0</td><td>185</td></tr>
 <tr><td>util-linux/2.36-GCCcore-10.3.0</td><td>171</td></tr>
-<tr><td>X11/20210518-GCCcore-10.3.0</td><td>171</td></tr>
 <tr><td>fontconfig/2.13.93-GCCcore-10.3.0</td><td>171</td></tr>
-<tr><td>xorg-macros/1.19.3-GCCcore-10.3.0</td><td>171</td></tr>
+<tr><td>X11/20210518-GCCcore-10.3.0</td><td>171</td></tr>
 <tr><td>freetype/2.10.4-GCCcore-10.3.0</td><td>171</td></tr>
-<tr><td>Tk/8.6.11-GCCcore-10.3.0</td><td>168</td></tr>
+<tr><td>xorg-macros/1.19.3-GCCcore-10.3.0</td><td>171</td></tr>
 <tr><td>LibTIFF/4.2.0-GCCcore-10.3.0</td><td>168</td></tr>
+<tr><td>Tk/8.6.11-GCCcore-10.3.0</td><td>168</td></tr>
 <tr><td>SciPy-bundle/2021.05-foss-2021a</td><td>158</td></tr>
 <tr><td>Java/11.0.2</td><td>144</td></tr>
 <tr><td>Szip/2.1.1-GCCcore-10.3.0</td><td>143</td></tr>
 <tr><td>HDF5/1.10.7-gompi-2021a</td><td>143</td></tr>
 <tr><td>gzip/1.10-GCCcore-10.3.0</td><td>142</td></tr>
-<tr><td>libdrm/2.4.106-GCCcore-10.3.0</td><td>142</td></tr>
-<tr><td>Mesa/21.1.1-GCCcore-10.3.0</td><td>142</td></tr>
+<tr><td>libunwind/1.4.0-GCCcore-10.3.0</td><td>142</td></tr>
+<tr><td>libGLU/9.0.1-GCCcore-10.3.0</td><td>142</td></tr>
 <tr><td>zstd/1.4.9-GCCcore-10.3.0</td><td>142</td></tr>
 <tr><td>libglvnd/1.3.3-GCCcore-10.3.0</td><td>142</td></tr>
-<tr><td>libunwind/1.4.0-GCCcore-10.3.0</td><td>142</td></tr>
-<tr><td>lz4/1.9.3-GCCcore-10.3.0</td><td>142</td></tr>
 <tr><td>LLVM/11.1.0-GCCcore-10.3.0</td><td>142</td></tr>
-<tr><td>libGLU/9.0.1-GCCcore-10.3.0</td><td>142</td></tr>
-<tr><td>PCRE/8.44-GCCcore-10.3.0</td><td>141</td></tr>
-<tr><td>netCDF/4.8.0-gompi-2021a</td><td>141</td></tr>
-<tr><td>JasPer/2.0.28-GCCcore-10.3.0</td><td>141</td></tr>
+<tr><td>Mesa/21.1.1-GCCcore-10.3.0</td><td>142</td></tr>
+<tr><td>libdrm/2.4.106-GCCcore-10.3.0</td><td>142</td></tr>
+<tr><td>lz4/1.9.3-GCCcore-10.3.0</td><td>142</td></tr>
 <tr><td>GLib/2.68.2-GCCcore-10.3.0</td><td>141</td></tr>
 <tr><td>gettext/0.21-GCCcore-10.3.0</td><td>141</td></tr>
 <tr><td>PCRE2/10.36-GCCcore-10.3.0</td><td>141</td></tr>
-<tr><td>NLopt/2.7.0-GCCcore-10.3.0</td><td>140</td></tr>
-<tr><td>GLPK/5.0-GCCcore-10.3.0</td><td>140</td></tr>
-<tr><td>libgeotiff/1.6.0-GCCcore-10.3.0</td><td>140</td></tr>
-<tr><td>libgit2/1.1.0-GCCcore-10.3.0</td><td>140</td></tr>
-<tr><td>Ghostscript/9.54.0-GCCcore-10.3.0</td><td>140</td></tr>
-<tr><td>pixman/0.40.0-GCCcore-10.3.0</td><td>140</td></tr>
-<tr><td>libogg/1.3.4-GCCcore-10.3.0</td><td>140</td></tr>
-<tr><td>GEOS/3.9.1-GCC-10.3.0</td><td>140</td></tr>
+<tr><td>PCRE/8.44-GCCcore-10.3.0</td><td>141</td></tr>
+<tr><td>netCDF/4.8.0-gompi-2021a</td><td>141</td></tr>
+<tr><td>JasPer/2.0.28-GCCcore-10.3.0</td><td>141</td></tr>
 <tr><td>GDAL/3.3.0-foss-2021a</td><td>140</td></tr>
-<tr><td>ImageMagick/7.0.11-14-GCCcore-10.3.0</td><td>140</td></tr>
 <tr><td>cairo/1.16.0-GCCcore-10.3.0</td><td>140</td></tr>
-<tr><td>libsndfile/1.0.31-GCCcore-10.3.0</td><td>140</td></tr>
 <tr><td>nodejs/14.17.0-GCCcore-10.3.0</td><td>140</td></tr>
-<tr><td>libtirpc/1.3.2-GCCcore-10.3.0</td><td>140</td></tr>
-<tr><td>HDF/4.2.15-GCCcore-10.3.0</td><td>140</td></tr>
+<tr><td>libgeotiff/1.6.0-GCCcore-10.3.0</td><td>140</td></tr>
+<tr><td>NLopt/2.7.0-GCCcore-10.3.0</td><td>140</td></tr>
 <tr><td>libvorbis/1.3.7-GCCcore-10.3.0</td><td>140</td></tr>
+<tr><td>libgit2/1.1.0-GCCcore-10.3.0</td><td>140</td></tr>
+<tr><td>libsndfile/1.0.31-GCCcore-10.3.0</td><td>140</td></tr>
+<tr><td>UDUNITS/2.2.28-GCCcore-10.3.0</td><td>140</td></tr>
+<tr><td>libtirpc/1.3.2-GCCcore-10.3.0</td><td>140</td></tr>
+<tr><td>GEOS/3.9.1-GCC-10.3.0</td><td>140</td></tr>
+<tr><td>libogg/1.3.4-GCCcore-10.3.0</td><td>140</td></tr>
+<tr><td>PROJ/8.0.1-GCCcore-10.3.0</td><td>140</td></tr>
+<tr><td>ImageMagick/7.0.11-14-GCCcore-10.3.0</td><td>140</td></tr>
+<tr><td>Ghostscript/9.54.0-GCCcore-10.3.0</td><td>140</td></tr>
+<tr><td>GLPK/5.0-GCCcore-10.3.0</td><td>140</td></tr>
+<tr><td>HDF/4.2.15-GCCcore-10.3.0</td><td>140</td></tr>
 <tr><td>FLAC/1.3.3-GCCcore-10.3.0</td><td>140</td></tr>
 <tr><td>LittleCMS/2.12-GCCcore-10.3.0</td><td>140</td></tr>
-<tr><td>UDUNITS/2.2.28-GCCcore-10.3.0</td><td>140</td></tr>
-<tr><td>PROJ/8.0.1-GCCcore-10.3.0</td><td>140</td></tr>
+<tr><td>pixman/0.40.0-GCCcore-10.3.0</td><td>140</td></tr>
 <tr><td>R/4.2.1-foss-2021a</td><td>138</td></tr>
-<tr><td>FFTW/3.3.9-gompi-2021a</td><td>62</td></tr>
-<tr><td>OpenMPI/4.1.1-GCC-10.3.0.lua</td><td>62</td></tr>
-<tr><td>libxml2/2.9.10-GCCcore-10.3.0</td><td>62</td></tr>
-<tr><td>libpciaccess/0.16-GCCcore-10.3.0</td><td>62</td></tr>
-<tr><td>OpenSSL/1.1</td><td>62</td></tr>
 <tr><td>libfabric/1.12.1-GCCcore-10.3.0</td><td>62</td></tr>
-<tr><td>libevent/2.1.12-GCCcore-10.3.0</td><td>62</td></tr>
-<tr><td>PMIx/3.2.3-GCCcore-10.3.0</td><td>62</td></tr>
-<tr><td>ScaLAPACK/2.1.0-gompi-2021a-fb</td><td>62</td></tr>
-<tr><td>numactl/2.0.14-GCCcore-10.3.0</td><td>62</td></tr>
-<tr><td>UCX/1.10.0-GCCcore-10.3.0</td><td>62</td></tr>
 <tr><td>zlib/1.2.11-GCCcore-10.3.0</td><td>62</td></tr>
-<tr><td>hwloc/2.4.1-GCCcore-10.3.0</td><td>62</td></tr>
 <tr><td>gompi/2021a</td><td>62</td></tr>
-<tr><td>GCCcore/10.3.0.lua</td><td>62</td></tr>
-<tr><td>GCC/10.3.0</td><td>62</td></tr>
-<tr><td>binutils/2.36.1-GCCcore-10.3.0</td><td>62</td></tr>
-<tr><td>foss/2021a</td><td>62</td></tr>
 <tr><td>FlexiBLAS/3.0.4-GCC-10.3.0</td><td>62</td></tr>
+<tr><td>hwloc/2.4.1-GCCcore-10.3.0</td><td>62</td></tr>
+<tr><td>UCX/1.10.0-GCCcore-10.3.0</td><td>62</td></tr>
+<tr><td>binutils/2.36.1-GCCcore-10.3.0</td><td>62</td></tr>
+<tr><td>ScaLAPACK/2.1.0-gompi-2021a-fb</td><td>62</td></tr>
+<tr><td>PMIx/3.2.3-GCCcore-10.3.0</td><td>62</td></tr>
+<tr><td>FFTW/3.3.9-gompi-2021a</td><td>62</td></tr>
+<tr><td>OpenSSL/1.1</td><td>62</td></tr>
+<tr><td>OpenMPI/4.1.1-GCC-10.3.0.lua</td><td>62</td></tr>
 <tr><td>XZ/5.2.5-GCCcore-10.3.0</td><td>62</td></tr>
 <tr><td>OpenBLAS/0.3.15-GCC-10.3.0</td><td>62</td></tr>
+<tr><td>GCC/10.3.0</td><td>62</td></tr>
+<tr><td>numactl/2.0.14-GCCcore-10.3.0</td><td>62</td></tr>
+<tr><td>GCCcore/10.3.0.lua</td><td>62</td></tr>
+<tr><td>libxml2/2.9.10-GCCcore-10.3.0</td><td>62</td></tr>
+<tr><td>libpciaccess/0.16-GCCcore-10.3.0</td><td>62</td></tr>
+<tr><td>foss/2021a</td><td>62</td></tr>
+<tr><td>libevent/2.1.12-GCCcore-10.3.0</td><td>62</td></tr>
 <tr><td>MPICH/3.4.2-GCC-10.3.0</td><td>55</td></tr>
 <tr><td>Boost/1.76.0-GCC-10.3.0</td><td>53</td></tr>
 <tr><td>Boost.Python/1.76.0-GCC-10.3.0</td><td>45</td></tr>
-<tr><td>PLUMED/2.7.1-intel-2021a</td><td>40</td></tr>
-<tr><td>libxc/5.1.5-GCC-10.3.0</td><td>40</td></tr>
+<tr><td>GSL/2.7-intel-compilers-2021.2.0</td><td>40</td></tr>
 <tr><td>ELPA/2020.05.001-foss-2021a</td><td>40</td></tr>
 <tr><td>PLUMED/2.7.1-foss-2021a</td><td>40</td></tr>
+<tr><td>PLUMED/2.7.1-intel-2021a</td><td>40</td></tr>
 <tr><td>Libint/2.6.0-intel-compilers-2021.2.0-lmax-6-cp2k</td><td>40</td></tr>
+<tr><td>libxc/5.1.5-GCC-10.3.0</td><td>40</td></tr>
 <tr><td>Libint/2.6.0-GCC-10.3.0-lmax-6-cp2k</td><td>40</td></tr>
-<tr><td>GSL/2.7-intel-compilers-2021.2.0</td><td>40</td></tr>
-<tr><td>matplotlib/3.4.2-intel-2021a</td><td>28</td></tr>
-<tr><td>Pillow/8.2.0-GCCcore-10.3.0</td><td>28</td></tr>
-<tr><td>SciPy-bundle/2021.05-intel-2021a</td><td>28</td></tr>
 <tr><td>Qhull/2020.2-GCCcore-10.3.0</td><td>28</td></tr>
+<tr><td>SciPy-bundle/2021.05-intel-2021a</td><td>28</td></tr>
+<tr><td>Pillow/8.2.0-GCCcore-10.3.0</td><td>28</td></tr>
 <tr><td>Tkinter/3.9.5-GCCcore-10.3.0</td><td>28</td></tr>
-<tr><td>Flask/1.1.4-GCCcore-10.3.0</td><td>26</td></tr>
+<tr><td>matplotlib/3.4.2-intel-2021a</td><td>28</td></tr>
 <tr><td>ASE/3.22.0-intel-2021a</td><td>26</td></tr>
 <tr><td>spglib-python/1.16.1-intel-2021a</td><td>26</td></tr>
+<tr><td>Flask/1.1.4-GCCcore-10.3.0</td><td>26</td></tr>
 <tr><td>pkgconf/1.8.0-GCCcore-10.3.0</td><td>24</td></tr>
 <tr><td>worker/1.6.12-foss-2021a.lua</td><td>23</td></tr>
 <tr><td>libxsmm/1.16.1-intel-2021a</td><td>22</td></tr>
 <tr><td>ORCA/5.0.3-gompi-2021a-static</td><td>17</td></tr>
 <tr><td>worker/1.6.12-foss-2021a-wice.lua</td><td>17</td></tr>
 <tr><td>Brotli/1.0.9-GCCcore-10.3.0.lua</td><td>16</td></tr>
-<tr><td>imkl/2021.2.0-iimpi-2021a</td><td>15</td></tr>
-<tr><td>iimpi/2021a</td><td>15</td></tr>
-<tr><td>CMake/3.18.4</td><td>15</td></tr>
-<tr><td>GCCcore/10.3.0.lua</td><td>15</td></tr>
 <tr><td>impi/2021.2.0-intel-compilers-2021.2.0</td><td>15</td></tr>
-<tr><td>zlib/1.2.11-GCCcore-10.3.0</td><td>15</td></tr>
-<tr><td>intel-compilers/2021.2.0</td><td>15</td></tr>
 <tr><td>intel/2021a</td><td>15</td></tr>
+<tr><td>intel-compilers/2021.2.0</td><td>15</td></tr>
+<tr><td>iimpi/2021a</td><td>15</td></tr>
 <tr><td>numactl/2.0.14-GCCcore-10.3.0</td><td>15</td></tr>
 <tr><td>UCX/1.10.0-GCCcore-10.3.0</td><td>15</td></tr>
+<tr><td>zlib/1.2.11-GCCcore-10.3.0</td><td>15</td></tr>
+<tr><td>GCCcore/10.3.0.lua</td><td>15</td></tr>
+<tr><td>imkl/2021.2.0-iimpi-2021a</td><td>15</td></tr>
 <tr><td>binutils/2.36.1-GCCcore-10.3.0</td><td>15</td></tr>
-<tr><td>VTune/2022.2.0</td><td>14</td></tr>
-<tr><td>Advisor/2022.1.0</td><td>14</td></tr>
+<tr><td>CMake/3.18.4</td><td>15</td></tr>
 <tr><td>Boost.MPI/1.76.0-gompi-2021a.lua</td><td>14</td></tr>
+<tr><td>Advisor/2022.1.0</td><td>14</td></tr>
+<tr><td>VTune/2022.2.0</td><td>14</td></tr>
 <tr><td>FLUENT/2023R1.lua</td><td>12</td></tr>
 <tr><td>EasyBuild/4.7.0.lua</td><td>12</td></tr>
-<tr><td>vsc-mympirun/5.3.0.lua</td><td>11</td></tr>
-<tr><td>FFTW/3.3.9-intel-2021a</td><td>11</td></tr>
-<tr><td>GPAW/21.6.0-intel-2021a</td><td>11</td></tr>
-<tr><td>GPAW-setups/0.9.20000</td><td>11</td></tr>
-<tr><td>libvdwxc/0.4.0-intel-2021a</td><td>11</td></tr>
 <tr><td>libxc/5.1.5-intel-compilers-2021.2.0.lua</td><td>11</td></tr>
-<tr><td>BGC-Bayesian-genomic-clines/1.03-gompi-2021a.lua</td><td>10</td></tr>
+<tr><td>libvdwxc/0.4.0-intel-2021a</td><td>11</td></tr>
+<tr><td>FFTW/3.3.9-intel-2021a</td><td>11</td></tr>
+<tr><td>vsc-mympirun/5.3.0.lua</td><td>11</td></tr>
+<tr><td>GPAW-setups/0.9.20000</td><td>11</td></tr>
+<tr><td>GPAW/21.6.0-intel-2021a</td><td>11</td></tr>
 <tr><td>CUDA/11.7.0.lua</td><td>10</td></tr>
+<tr><td>BGC-Bayesian-genomic-clines/1.03-gompi-2021a.lua</td><td>10</td></tr>
 <tr><td>Boost/1.76.0-intel-compilers-2021.2.0</td><td>9</td></tr>
 <tr><td>METIS/5.1.0-GCCcore-10.3.0</td><td>8</td></tr>
-<tr><td>kim-api/2.2.1-GCCcore-10.3.0.lua</td><td>7</td></tr>
+<tr><td>yaff/1.6.0-foss-2021a-Python-3.9.5.lua</td><td>7</td></tr>
 <tr><td>VTK/9.0.1-foss-2021a</td><td>7</td></tr>
 <tr><td>Voro++/0.4.6-GCCcore-10.3.0.lua</td><td>7</td></tr>
-<tr><td>ScaFaCoS/1.0.1-foss-2021a.lua</td><td>7</td></tr>
 <tr><td>tbb/2020.3-GCCcore-10.3.0</td><td>7</td></tr>
+<tr><td>ScaFaCoS/1.0.1-foss-2021a.lua</td><td>7</td></tr>
+<tr><td>Eigen/3.3.9-GCCcore-10.3.0</td><td>7</td></tr>
+<tr><td>kim-api/2.2.1-GCCcore-10.3.0.lua</td><td>7</td></tr>
 <tr><td>LAMMPS/29Sep2021-foss-2021a-Python-3.9.5-kokkos.lua</td><td>7</td></tr>
 <tr><td>matplotlib/3.4.2-foss-2021a</td><td>7</td></tr>
-<tr><td>yaff/1.6.0-foss-2021a-Python-3.9.5.lua</td><td>7</td></tr>
-<tr><td>Eigen/3.3.9-GCCcore-10.3.0</td><td>7</td></tr>
 <tr><td>molmod/1.4.8-foss-2021a.lua</td><td>7</td></tr>
 <tr><td>ont-guppy/6.4.8-CUDA-11.7.0.lua</td><td>6</td></tr>
 <tr><td>MPFR/4.1.0-GCCcore-10.3.0</td><td>6</td></tr>
 <tr><td>R/4.1.0-foss-2021a</td><td>6</td></tr>
 <tr><td>worker/1.6.12-intel-2021a.lua</td><td>5</td></tr>
-<tr><td>elprep/5.1.1.lua</td><td>4</td></tr>
-<tr><td>M4/1.4.18-GCCcore-10.3.0</td><td>4</td></tr>
-<tr><td>netCDF-Fortran/4.5.3-gompi-2021a</td><td>4</td></tr>
-<tr><td>Python/3.10.8-GCCcore-10.3.0-bare</td><td>4</td></tr>
-<tr><td>ORCA/5.0.4-gompi-2021a-static</td><td>4</td></tr>
-<tr><td>bzip2/1.0.8-GCCcore-10.3.0</td><td>4</td></tr>
 <tr><td>GMP/6.2.1-GCCcore-10.3.0</td><td>4</td></tr>
-<tr><td>Python/3.9.5-GCCcore-10.3.0</td><td>4</td></tr>
-<tr><td>Tcl/8.6.11-GCCcore-10.3.0</td><td>4</td></tr>
+<tr><td>bzip2/1.0.8-GCCcore-10.3.0</td><td>4</td></tr>
 <tr><td>ncurses/6.2-GCCcore-10.3.0</td><td>4</td></tr>
 <tr><td>libreadline/8.1-GCCcore-10.3.0</td><td>4</td></tr>
 <tr><td>libffi/3.3-GCCcore-10.3.0</td><td>4</td></tr>
+<tr><td>elprep/5.1.1.lua</td><td>4</td></tr>
+<tr><td>netCDF-Fortran/4.5.3-gompi-2021a</td><td>4</td></tr>
+<tr><td>ORCA/5.0.4-gompi-2021a-static</td><td>4</td></tr>
+<tr><td>Python/3.10.8-GCCcore-10.3.0-bare</td><td>4</td></tr>
+<tr><td>M4/1.4.18-GCCcore-10.3.0</td><td>4</td></tr>
+<tr><td>Tcl/8.6.11-GCCcore-10.3.0</td><td>4</td></tr>
 <tr><td>SQLite/3.35.4-GCCcore-10.3.0</td><td>4</td></tr>
-<tr><td>libyaml/0.2.5-GCCcore-10.3.0</td><td>3</td></tr>
-<tr><td>OpenJPEG/2.4.0-GCCcore-10.3.0</td><td>3</td></tr>
-<tr><td>typing-extensions/3.10.0.0-GCCcore-10.3.0</td><td>3</td></tr>
-<tr><td>PyYAML/5.4.1-GCCcore-10.3.0</td><td>3</td></tr>
-<tr><td>MEGAHIT/1.2.9-GCCcore-10.3.0.lua</td><td>3</td></tr>
-<tr><td>Bison/3.7.6-GCCcore-10.3.0</td><td>3</td></tr>
-<tr><td>flex/2.6.4-GCCcore-10.3.0</td><td>3</td></tr>
-<tr><td>libdeflate/1.8-GCCcore-10.3.0.lua</td><td>3</td></tr>
-<tr><td>ISA-L/2.30.0-GCCcore-10.3.0.lua</td><td>3</td></tr>
-<tr><td>HDF5/1.12.1-gompi-2021a.lua</td><td>3</td></tr>
+<tr><td>Python/3.9.5-GCCcore-10.3.0</td><td>4</td></tr>
 <tr><td>netCDF-Fortran/4.5.3-iimpi-2021a</td><td>3</td></tr>
 <tr><td>netCDF/4.8.0-iimpi-2021a</td><td>3</td></tr>
+<tr><td>libyaml/0.2.5-GCCcore-10.3.0</td><td>3</td></tr>
+<tr><td>OpenJPEG/2.4.0-GCCcore-10.3.0</td><td>3</td></tr>
+<tr><td>PyYAML/5.4.1-GCCcore-10.3.0</td><td>3</td></tr>
+<tr><td>HDF5/1.12.1-gompi-2021a.lua</td><td>3</td></tr>
 <tr><td>HDF5/1.10.7-iimpi-2021a.lua</td><td>3</td></tr>
+<tr><td>typing-extensions/3.10.0.0-GCCcore-10.3.0</td><td>3</td></tr>
+<tr><td>MEGAHIT/1.2.9-GCCcore-10.3.0.lua</td><td>3</td></tr>
 <tr><td>fastp/0.23.2-GCC-10.3.0.lua</td><td>3</td></tr>
+<tr><td>Bison/3.7.6-GCCcore-10.3.0</td><td>3</td></tr>
+<tr><td>flex/2.6.4-GCCcore-10.3.0</td><td>3</td></tr>
+<tr><td>ISA-L/2.30.0-GCCcore-10.3.0.lua</td><td>3</td></tr>
+<tr><td>libdeflate/1.8-GCCcore-10.3.0.lua</td><td>3</td></tr>
+<tr><td>libxml2/2.9.10-GCCcore-10.3.0</td><td>3</td></tr>
+<tr><td>numactl/2.0.14-GCCcore-10.3.0</td><td>3</td></tr>
+<tr><td>OpenMPI/4.1.1-GCC-10.3.0.lua</td><td>3</td></tr>
+<tr><td>OpenSSL/1.1</td><td>3</td></tr>
+<tr><td>PMIx/3.2.3-GCCcore-10.3.0</td><td>3</td></tr>
+<tr><td>UCX/1.10.0-GCCcore-10.3.0</td><td>3</td></tr>
+<tr><td>XZ/5.2.5-GCCcore-10.3.0</td><td>3</td></tr>
+<tr><td>libpciaccess/0.16-GCCcore-10.3.0</td><td>3</td></tr>
+<tr><td>libfabric/1.12.1-GCCcore-10.3.0</td><td>3</td></tr>
+<tr><td>hwloc/2.4.1-GCCcore-10.3.0</td><td>3</td></tr>
+<tr><td>binutils/2.36.1-GCCcore-10.3.0</td><td>3</td></tr>
+<tr><td>GCC/10.3.0</td><td>3</td></tr>
+<tr><td>GCCcore/10.3.0.lua</td><td>3</td></tr>
+<tr><td>libevent/2.1.12-GCCcore-10.3.0</td><td>3</td></tr>
+<tr><td>zlib/1.2.11-GCCcore-10.3.0</td><td>3</td></tr>
 <tr><td>h5py/3.2.1-intel-2021a.lua</td><td>2</td></tr>
-<tr><td>SPAdes/3.15.3-GCC-10.3.0.lua</td><td>2</td></tr>
 <tr><td>SP-Wind/1.0bench-intel-2021a.lua</td><td>2</td></tr>
-<tr><td>networkx/2.5.1-foss-2021a</td><td>2</td></tr>
-<tr><td>CUDA/11.3.1</td><td>2</td></tr>
+<tr><td>SPAdes/3.15.3-GCC-10.3.0.lua</td><td>2</td></tr>
 <tr><td>libxsmm/1.16.1-GCC-10.3.0</td><td>2</td></tr>
+<tr><td>networkx/2.5.1-foss-2021a</td><td>2</td></tr>
 <tr><td>PLUMED/2.7.2-foss-2021a</td><td>2</td></tr>
-<tr><td>gnuplot/5.4.2-GCCcore-10.3.0</td><td>2</td></tr>
-<tr><td>GDRCopy/2.2-GCCcore-10.3.0</td><td>2</td></tr>
-<tr><td>Pango/1.48.5-GCCcore-10.3.0</td><td>2</td></tr>
-<tr><td>HarfBuzz/2.8.1-GCCcore-10.3.0</td><td>2</td></tr>
+<tr><td>CUDA/11.3.1</td><td>2</td></tr>
 <tr><td>Lua/5.4.3-GCCcore-10.3.0</td><td>2</td></tr>
 <tr><td>libgd/2.3.1-GCCcore-10.3.0</td><td>2</td></tr>
 <tr><td>libcerf/1.17-GCCcore-10.3.0</td><td>2</td></tr>
 <tr><td>impi/2021.6.0-intel-compilers-2021.2.0.lua</td><td>2</td></tr>
+<tr><td>HarfBuzz/2.8.1-GCCcore-10.3.0</td><td>2</td></tr>
+<tr><td>gnuplot/5.4.2-GCCcore-10.3.0</td><td>2</td></tr>
+<tr><td>GDRCopy/2.2-GCCcore-10.3.0</td><td>2</td></tr>
 <tr><td>UCX-CUDA/1.10.0-GCCcore-10.3.0-CUDA-11.3.1</td><td>2</td></tr>
 <tr><td>SCOTCH/6.1.0-gompi-2021a</td><td>2</td></tr>
 <tr><td>scikit-build/0.11.1-GCCcore-10.3.0</td><td>2</td></tr>
+<tr><td>Pango/1.48.5-GCCcore-10.3.0</td><td>2</td></tr>
 <tr><td>MUMPS/5.4.0-foss-2021a-metis</td><td>1</td></tr>
 <tr><td>OpenFOAM/9-foss-2021a</td><td>1</td></tr>
 <tr><td>ParMETIS/4.0.3-gompi-2021a</td><td>1</td></tr>
@@ -323,14 +341,13 @@ Active modules with a light grey background are candidates to be no longer offer
 </div><button type="button" class="collapsible">Installed</button>
 <div class="content"><table>
 <tr><th>Module name</th><th>Times loaded</th><th>Owner</th></tr>
-<tr><td>CP2K/8.2-foss-2021a</td><td>40</td><td>Maxime</td></tr>
 <tr><td>CP2K/8.2-intel-2021a</td><td>40</td><td>Maxime</td></tr>
+<tr><td>CP2K/8.2-foss-2021a</td><td>40</td><td>Maxime</td></tr>
 </table>
 </div><h2>Inactive modules</h2>
 <button type="button" class="collapsible">Missing</button>
 <div class="content"><table>
 <tr><th>Module name</th></tr>
-<tr><td>PLUMED/2.8.1-foss-2021a</td></tr>
 <tr><td>PETSc/3.15.1-intel-2021a.lua</td></tr>
 <tr><td>PETSc/3.15.1-foss-2021a-SuperLU_DIST.lua</td></tr>
 <tr><td>PAPI/6.0.0.1-GCCcore-10.3.0</td></tr>
@@ -352,9 +369,11 @@ Active modules with a light grey background are candidates to be no longer offer
 <tr><td>NAMD/2.14-verbs-smp.lua</td></tr>
 <tr><td>Mothur/1.48.0-gompi-2021a</td></tr>
 <tr><td>Mothur/1.48.0-foss-2021a-Python-3.9.5</td></tr>
-<tr><td>PLY/3.11-foss-2021a-Python-3.9.5.lua</td></tr>
 <tr><td>MUSCLE/3.8.31-GCCcore-10.3.0</td></tr>
+<tr><td>PLUMED/2.8.1-foss-2021a</td></tr>
+<tr><td>PLY/3.11-foss-2021a-Python-3.9.5.lua</td></tr>
 <tr><td>PRSice/2.3.3-foss-2021a</td></tr>
+<tr><td>Paraver/4.9.2-foss-2021a</td></tr>
 <tr><td>UFL/2019.1.0-foss-2021a-Python-3.9.5.lua</td></tr>
 <tr><td>TensorFlow/2.6.0-foss-2021a</td></tr>
 <tr><td>TELEMAC-MASCARET/v8p2r0-foss-2021a</td></tr>
@@ -366,8 +385,8 @@ Active modules with a light grey background are candidates to be no longer offer
 <tr><td>STAR/2.7.9a-GCC-10.3.0</td></tr>
 <tr><td>STAR-CCM/17.06.007-R8_lpbd_brugge</td></tr>
 <tr><td>STAR-CCM/16.06.008-R8_lpbd_brugge</td></tr>
+<tr><td>MUMPS/5.4.0-intel-2021a-metis.lua</td></tr>
 <tr><td>SSW/1.1-GCCcore-10.3.0</td></tr>
-<tr><td>SLEPc/3.15.1-foss-2021a.lua</td></tr>
 <tr><td>SLEPc/3.15.1-foss-2021a-SuperLU_DIST.lua</td></tr>
 <tr><td>SIONlib/1.7.6-GCCcore-10.3.0-tools.lua</td></tr>
 <tr><td>SHAPEIT4/4.2.2-foss-2021a.lua</td></tr>
@@ -377,10 +396,9 @@ Active modules with a light grey background are candidates to be no longer offer
 <tr><td>ReFrame/4.0.5.lua</td></tr>
 <tr><td>QuantumESPRESSO/6.8-intel-2021a.lua</td></tr>
 <tr><td>PyTorch/1.12.1-foss-2021a-CUDA-11.3.1.lua</td></tr>
-<tr><td>Paraver/4.9.2-foss-2021a</td></tr>
-<tr><td>MUMPS/5.4.0-intel-2021a-metis.lua</td></tr>
+<tr><td>SLEPc/3.15.1-foss-2021a.lua</td></tr>
 <tr><td>MPICH/3.4.2-GCC-10.3.0-torque</td></tr>
-<tr><td>MPC/1.2.1-GCCcore-10.3.0.lua</td></tr>
+<tr><td>MOOSE/2022-06-10-foss-2021a-Python-3.10.8.lua</td></tr>
 <tr><td>ELPA/2021.05.001-intel-2021a.lua</td></tr>
 <tr><td>DOLFIN/2019.1.0.post0-foss-2021a-Python-3.9.5-SuperLU_DIST.lua</td></tr>
 <tr><td>DB_File/1.856-GCCcore-10.3.0</td></tr>
@@ -408,7 +426,7 @@ Active modules with a light grey background are candidates to be no longer offer
 <tr><td>Extrae/3.8.3-gompi-2021a</td></tr>
 <tr><td>LZO/2.10-GCCcore-10.3.0</td></tr>
 <tr><td>Kalign/3.3.1-GCCcore-10.3.0</td></tr>
-<tr><td>Julia/1.7.1-linux-x86_64</td></tr>
+<tr><td>Judy/1.0.5-GCCcore-10.3.0</td></tr>
 <tr><td>JsonCpp/1.9.4-GCCcore-10.3.0</td></tr>
 <tr><td>Imath/3.1.5-GCC-10.3.0</td></tr>
 <tr><td>Hypre/2.21.0-intel-2021a.lua</td></tr>
@@ -416,6 +434,7 @@ Active modules with a light grey background are candidates to be no longer offer
 <tr><td>HMMER/3.3.2-gompi-2021a</td></tr>
 <tr><td>HH-suite/3.3.0-foss-2021a</td></tr>
 <tr><td>Guile/2.2.7-GCCcore-10.3.0</td></tr>
+<tr><td>MPC/1.2.1-GCCcore-10.3.0.lua</td></tr>
 <tr><td>Go/1.18.1.lua</td></tr>
 <tr><td>GlobalArrays/5.8-intel-2021a</td></tr>
 <tr><td>Gdk-Pixbuf/2.42.6-GCCcore-10.3.0</td></tr>
@@ -429,7 +448,7 @@ Active modules with a light grey background are candidates to be no longer offer
 <tr><td>FFC/2019.1.0.post0-foss-2021a-Python-3.9.5.lua</td></tr>
 <tr><td>Globus-CLI/3.2.0-GCCcore-10.3.0.lua</td></tr>
 <tr><td>VASP/5.4.4-intel-2021a-Wannier90-1.2</td></tr>
-<tr><td>Judy/1.0.5-GCCcore-10.3.0</td></tr>
+<tr><td>Julia/1.7.1-linux-x86_64</td></tr>
 <tr><td>VTune/2021.6.0.lua</td></tr>
 <tr><td>nsync/1.24.0-GCCcore-10.3.0</td></tr>
 <tr><td>netCDF-C++4/4.3.1-gompi-2021a</td></tr>
@@ -518,12 +537,12 @@ Active modules with a light grey background are candidates to be no longer offer
 <tr><td>inputproto/2.3.2-GCC-10.3.0</td></tr>
 <tr><td>ibis/1.20.9-foss-2021a</td></tr>
 <tr><td>ispc/1.16.0</td></tr>
+<tr><td>giflib/5.2.1-GCCcore-10.3.0</td></tr>
 <tr><td>help2man/1.47.4</td></tr>
 <tr><td>graphite2/1.3.14-GCCcore-10.3.0</td></tr>
 <tr><td>gperftools/2.9.1-GCCcore-10.3.0</td></tr>
 <tr><td>gmpy2/2.1.0b5-GCC-10.3.0.lua</td></tr>
 <tr><td>fsom/20141119-GCCcore-10.3.0</td></tr>
-<tr><td>giflib/5.2.1-GCCcore-10.3.0</td></tr>
 <tr><td>gc/8.0.4-GCCcore-10.3.0</td></tr>
 </table>
 </div><button type="button" class="collapsible">Installed</button>
@@ -533,17 +552,17 @@ Active modules with a light grey background are candidates to be no longer offer
 <tr><td>Ninja/1.10.2-GCCcore-10.3.0</td></tr>
 <tr><td>Meson/0.58.0-GCCcore-10.3.0</td></tr>
 <tr><td>Mako/1.1.4-GCCcore-10.3.0</td></tr>
-<tr><td>Perl/5.32.1-GCCcore-10.3.0-minimal</td></tr>
 <tr><td>SWIG/4.0.2-GCCcore-10.3.0</td></tr>
 <tr><td>Rust/1.52.1-GCCcore-10.3.0</td></tr>
 <tr><td>Python/2.7.18-GCCcore-10.3.0-bare</td></tr>
+<tr><td>Perl/5.32.1-GCCcore-10.3.0-minimal</td></tr>
+<tr><td>UnZip/6.0-GCCcore-10.3.0</td></tr>
 <tr><td>CppUnit/1.15.1-GCCcore-10.3.0</td></tr>
 <tr><td>Bison/3.8.2</td></tr>
 <tr><td>BLIS/0.8.1-GCC-10.3.0.lua</td></tr>
 <tr><td>zlib/1.2.11</td></tr>
 <tr><td>M4/1.4.19</td></tr>
 <tr><td>M4/1.4.18</td></tr>
-<tr><td>UnZip/6.0-GCCcore-10.3.0</td></tr>
 <tr><td>GObject-Introspection/1.68.0-GCCcore-10.3.0</td></tr>
 <tr><td>GCCcore/10.3.0</td></tr>
 <tr><td>nettle/3.7.2-GCCcore-10.3.0</td></tr>

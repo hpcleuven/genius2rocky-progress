@@ -1,23 +1,26 @@
 <html><head><link rel="stylesheet" href="style.css">
 </head><body>
-<ul>
-<li><a href="skylake-2018a.html">skylake-2018a</a></li>
-<li><a href="skylake-2019b.html">skylake-2019b</a></li>
-<li><a href="skylake-2021a.html">skylake-2021a</a></li>
-<li><a href="user-modules.html">user-modules</a></li>
+<ul class="menu">
+<li class="menu"><a href="skylake-2018a.html">skylake-2018a</a></li>
+<li class="menu"><a href="skylake-2019b.html">skylake-2019b</a></li>
+<li class="menu"><a href="skylake-2021a.html">skylake-2021a</a></li>
+<li class="menu"><a href="cascadelake-2018a.html">cascadelake-2018a</a></li>
+<li class="menu"><a href="cascadelake-2019b.html">cascadelake-2019b</a></li>
+<li class="menu"><a href="cascadelake-2021a.html">cascadelake-2021a</a></li>
+<li class="menu"><a href="user-modules.html">user-modules</a></li>
 </ul>
 <h1>Architecture: skylake</h1><h1>Toolchain version: 2018a</h1>
-Comparing modules installed in /apps/leuven/skylake/2018a/modules/all with modules installed in /apps/leuven/rocky8/skylake-6132/2018a/modules/all<br>
-Modules are considered to be <i>active</i> if they have been loaded since March 2023, and <i>inactive</i> otherwise.
-The counts for how many times a module has been loaded not necessarily a good indication of how much it is really needed, since for instance worker jobs can distort this metric considerably.<br>
-Active modules with a light grey background are candidates to be no longer offered to users
-<h2>Overview</h2>
-<b>Last updated: </b> 2023-06-09 08:00:22 <br>
+<ul><li>Comparing modules installed in <tt>/apps/leuven/skylake/2018a/modules/all</tt> with modules installed in <tt>/apps/leuven/rocky8/skylake-6132/2018a/modules/all</tt></li>
+<li>Modules are considered to be <i>active</i> if they have been loaded since March 2023, and <i>inactive</i> otherwise</li>
+<li>The counts for how many times a module has been loaded is not necessarily a good indication of how much it is really needed, since for instance worker jobs can distort this metric considerably.</li>
+<li>Active modules with a light grey background are deprecated, and are likely to be no longer offered to users</li>
+</ul><h2>Overview</h2>
+<b>Last updated: </b> 2023-06-09 15:19:53 <br>
 <table class="bdrless">
-<tr><td class="bdrless"><label for "All modules">All modules</td><td class="bdrless">571/1076</label></td>
-<td class="bdrless"><meter id="All modules" min=0 max=1076 value=571></meter><br></td></tr>
-<tr><td class="bdrless"><label for "Active modules installed with EasyBuild">Active modules installed with EasyBuild</td><td class="bdrless">516/564</label></td>
-<td class="bdrless"><meter id="Active modules installed with EasyBuild" min=0 max=564 value=516></meter><br></td></tr>
+<tr><td class="bdrless"><label for "All modules">All modules</td><td class="bdrless">572/1076</label></td>
+<td class="bdrless"><meter id="All modules" min=0 max=1076 value=572></meter><br></td></tr>
+<tr><td class="bdrless"><label for "Active modules installed with EasyBuild">Active modules installed with EasyBuild</td><td class="bdrless">517/564</label></td>
+<td class="bdrless"><meter id="Active modules installed with EasyBuild" min=0 max=564 value=517></meter><br></td></tr>
 <tr><td class="bdrless"><label for "Active modules manually installed">Active modules manually installed</td><td class="bdrless">2/56</label></td>
 <td class="bdrless"><meter id="Active modules manually installed" min=0 max=56 value=2></meter><br></td></tr>
 <tr><td class="bdrless"><label for "Inactive modules">Inactive modules</td><td class="bdrless">53/456</label></td>
@@ -58,13 +61,12 @@ Active modules with a light grey background are candidates to be no longer offer
 <tr><td>CUDA/9.0.176</td><td>2</td><td></td><td>Martijn</td></tr>
 <tr><td>Clang/5.0.0-GCC-6.4.0-2.28</td><td>2</td><td></td><td>Ehsan</td></tr>
 <tr><td>BLAST+/2.7.1-intel-2018a</td><td>2</td><td></td><td>Alexander</td></tr>
-<tr><td>OpenFOAM/v2012-foss-2018a</td><td>2</td><td></td><td>Alexander</td></tr>
+<tr><td>OpenFOAM/v2012-foss-2018a</td><td>2</td><td>Depends on Qt5/5.10.1-foss-2018a</td><td>Alexander</td></tr>
 <tr><td>SPAdes/3.15.2-foss-2018a</td><td>2</td><td></td><td>Steven</td></tr>
-<tr><td>NCO/4.7.6-intel-2018a</td><td>2</td><td></td><td>Martijn</td></tr>
-<tr><td>gnuplot/5.2.2-foss-2018a</td><td>2</td><td></td><td>Alexander</td></tr>
-<tr><td>binutils/2.25-GCC-4.9.3</td><td>1</td><td></td><td>Martijn</td></tr>
-<tr><td>OpenFOAM/v1906-foss-2018a</td><td>1</td><td></td><td>Alexander</td></tr>
-<tr><td>Bowtie/1.2.2-foss-2018a</td><td>1</td><td>threading.h:11:24: fatal error: tbb/mutex.h: No such file or directory</td><td>Geert Jan</td></tr>
+<tr><td>NCO/4.7.6-intel-2018a</td><td>2</td><td>ncap2.cc(1249): error: identifier "nan" is undefined</td><td>Martijn</td></tr>
+<tr><td>gnuplot/5.2.2-foss-2018a</td><td>2</td><td>Depends on Qt5/5.10.1-foss-2018a</td><td>Alexander</td></tr>
+<tr><td>binutils/2.25-GCC-4.9.3</td><td>1</td><td>Configuration fails; newer versions do work</td><td>Martijn</td></tr>
+<tr><td>OpenFOAM/v1906-foss-2018a</td><td>1</td><td>Depends on Qt5/5.10.1-foss-2018a</td><td>Alexander</td></tr>
 <tr><td>Boost/1.63.0-intel-2018a-Python-2.7.14</td><td>1</td><td></td><td>Geert Jan</td></tr>
 <tr><td>CellRangerATAC/1.1.0-foss-2018a</td><td>1</td><td>Source files were not stored</td><td>Alexander</td></tr>
 <tr><td>VASP/5.4.4-intel-2018a-lsolmics</td><td>1</td><td>Source files were not stored</td><td>Ehsan</td></tr>
@@ -526,6 +528,7 @@ Active modules with a light grey background are candidates to be no longer offer
 <tr><td>AUGUSTUS/3.3.3-foss-2018a-Python-2.7.14</td><td>1</td></tr>
 <tr><td>Boost/1.68.0-foss-2018a-Python-2.7.14</td><td>1</td></tr>
 <tr><td>Boost.Python/1.68.0-foss-2018a-Python-2.7.14</td><td>1</td></tr>
+<tr><td>Bowtie/1.2.2-foss-2018a</td><td>1</td></tr>
 <tr><td>EMBOSS/6.6.0-foss-2018a</td><td>1</td></tr>
 <tr><td>HTSlib/1.9-GCC-6.4.0-2.28</td><td>1</td></tr>
 <tr><td>bzip2/1.0.6-gimkl-2.11.5</td><td>1</td></tr>
