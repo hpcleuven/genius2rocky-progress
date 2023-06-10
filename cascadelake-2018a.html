@@ -15,12 +15,12 @@
 <li>The counts for how many times a module has been loaded is not necessarily a good indication of how much it is really needed, since for instance worker jobs can distort this metric considerably.</li>
 <li>Active modules with a light grey background are deprecated, and are likely to be no longer offered to users</li>
 </ul><h2>Overview</h2>
-<b>Last updated: </b> 2023-06-09 15:19:56 <br>
+<b>Last updated: </b> 2023-06-10 08:00:38 <br>
 <table class="bdrless">
-<tr><td class="bdrless"><label for "All modules">All modules</td><td class="bdrless">41/1007</label></td>
-<td class="bdrless"><meter id="All modules" min=0 max=1007 value=41></meter><br></td></tr>
-<tr><td class="bdrless"><label for "Active modules installed with EasyBuild">Active modules installed with EasyBuild</td><td class="bdrless">26/327</label></td>
-<td class="bdrless"><meter id="Active modules installed with EasyBuild" min=0 max=327 value=26></meter><br></td></tr>
+<tr><td class="bdrless"><label for "All modules">All modules</td><td class="bdrless">51/1007</label></td>
+<td class="bdrless"><meter id="All modules" min=0 max=1007 value=51></meter><br></td></tr>
+<tr><td class="bdrless"><label for "Active modules installed with EasyBuild">Active modules installed with EasyBuild</td><td class="bdrless">36/327</label></td>
+<td class="bdrless"><meter id="Active modules installed with EasyBuild" min=0 max=327 value=36></meter><br></td></tr>
 <tr><td class="bdrless"><label for "Active modules manually installed">Active modules manually installed</td><td class="bdrless">0/32</label></td>
 <td class="bdrless"><meter id="Active modules manually installed" min=0 max=32 value=0></meter><br></td></tr>
 <tr><td class="bdrless"><label for "Inactive modules">Inactive modules</td><td class="bdrless">15/648</label></td>
@@ -34,14 +34,7 @@
 <tr id="deprecated"><td>Python/3.6.5-GCCcore-6.4.0-bare</td><td>15493</td><td>Renamed module to Python/3.6.4-foss-2018a-bare to better reflect the actual content.<br>See <a href=https://scm.icts.kuleuven.be/issues/84757>https://scm.icts.kuleuven.be/issues/84757</a> [DEPRECATED]</td><td>Ehsan</td></tr>
 <tr><td>R/3.6.0-foss-2018a-bare</td><td>528</td><td></td><td>Ehsan</td></tr>
 <tr><td>Java/1.8.0_162</td><td>337</td><td></td><td>Martijn</td></tr>
-<tr><td>bzip2/1.0.6-GCCcore-6.4.0</td><td>221</td><td></td><td>Martijn</td></tr>
-<tr><td>ncurses/6.0-GCCcore-6.4.0</td><td>221</td><td></td><td>Martijn</td></tr>
-<tr><td>libreadline/7.0-GCCcore-6.4.0</td><td>216</td><td></td><td>Martijn</td></tr>
 <tr><td>cURL/7.58.0-GCCcore-6.4.0</td><td>200</td><td></td><td>Martijn</td></tr>
-<tr><td>GMP/6.1.2-GCCcore-6.4.0</td><td>185</td><td></td><td>Martijn</td></tr>
-<tr><td>Tcl/8.6.8-GCCcore-6.4.0</td><td>177</td><td></td><td>Martijn</td></tr>
-<tr><td>SQLite/3.21.0-GCCcore-6.4.0</td><td>177</td><td></td><td>Martijn</td></tr>
-<tr><td>libffi/3.2.1-GCCcore-6.4.0</td><td>177</td><td></td><td>Martijn</td></tr>
 <tr><td>Szip/2.1.1-GCCcore-6.4.0</td><td>151</td><td></td><td>Martijn</td></tr>
 <tr><td>Python/3.6.4-intel-2018a</td><td>149</td><td></td><td>Martijn</td></tr>
 <tr><td>HDF5/1.10.1-intel-2018a</td><td>146</td><td></td><td>Ehsan</td></tr>
@@ -54,9 +47,6 @@
 <tr><td>Guile/1.8.8-GCCcore-6.4.0</td><td>125</td><td></td><td>Martijn</td></tr>
 <tr><td>libunistring/0.9.7-GCCcore-6.4.0</td><td>125</td><td></td><td>Martijn</td></tr>
 <tr><td>libpng/1.6.34-GCCcore-6.4.0</td><td>88</td><td></td><td>Martijn</td></tr>
-<tr><td>foss/2018a</td><td>83</td><td></td><td>Martijn</td></tr>
-<tr><td>FFTW/3.3.7-gompi-2018a</td><td>83</td><td></td><td>Martijn</td></tr>
-<tr><td>ScaLAPACK/2.0.2-gompi-2018a-OpenBLAS-0.2.20</td><td>83</td><td></td><td>Martijn</td></tr>
 <tr><td>libjpeg-turbo/1.5.3-GCCcore-6.4.0</td><td>78</td><td></td><td>Martijn</td></tr>
 <tr><td>NASM/2.13.03-GCCcore-6.4.0</td><td>78</td><td></td><td>Martijn</td></tr>
 <tr><td>R/4.0.2-foss-2018a-bare</td><td>61</td><td></td><td>Geert Jan</td></tr>
@@ -345,6 +335,13 @@
 <tr><td>iccifort/2018.1.163-GCC-6.4.0-2.28.lua</td><td>462</td></tr>
 <tr><td>icc/2018.1.163-GCC-6.4.0-2.28</td><td>462</td></tr>
 <tr><td>zlib/1.2.11-GCCcore-6.4.0</td><td>235</td></tr>
+<tr><td>bzip2/1.0.6-GCCcore-6.4.0</td><td>221</td></tr>
+<tr><td>ncurses/6.0-GCCcore-6.4.0</td><td>221</td></tr>
+<tr><td>libreadline/7.0-GCCcore-6.4.0</td><td>216</td></tr>
+<tr><td>GMP/6.1.2-GCCcore-6.4.0</td><td>185</td></tr>
+<tr><td>Tcl/8.6.8-GCCcore-6.4.0</td><td>177</td></tr>
+<tr><td>SQLite/3.21.0-GCCcore-6.4.0</td><td>177</td></tr>
+<tr><td>libffi/3.2.1-GCCcore-6.4.0</td><td>177</td></tr>
 <tr><td>M4/1.4.18-GCCcore-6.4.0</td><td>131</td></tr>
 <tr><td>flex/2.6.4-GCCcore-6.4.0</td><td>131</td></tr>
 <tr><td>Bison/3.0.4-GCCcore-6.4.0</td><td>131</td></tr>
@@ -353,7 +350,10 @@
 <tr><td>numactl/2.0.11-GCCcore-6.4.0</td><td>97</td></tr>
 <tr><td>GCC/6.4.0-2.28</td><td>97</td></tr>
 <tr><td>gompi/2018a</td><td>89</td></tr>
+<tr><td>foss/2018a</td><td>83</td></tr>
 <tr><td>OpenBLAS/0.2.20-GCC-6.4.0-2.28</td><td>83</td></tr>
+<tr><td>FFTW/3.3.7-gompi-2018a</td><td>83</td></tr>
+<tr><td>ScaLAPACK/2.0.2-gompi-2018a-OpenBLAS-0.2.20</td><td>83</td></tr>
 <tr><td>OpenMPI/2.1.2-GCC-6.4.0-2.28.lua</td><td>80</td></tr>
 <tr><td>XZ/5.2.3-GCCcore-6.4.0</td><td>51</td></tr>
 <tr><td>libpciaccess/0.14-GCCcore-6.4.0</td><td>31</td></tr>
