@@ -15,7 +15,7 @@
 <li>The counts for how many times a module has been loaded is not necessarily a good indication of how much it is really needed, since for instance worker jobs can distort this metric considerably.</li>
 <li>Active modules with a light grey background are deprecated, and are likely to be no longer offered to users</li>
 </ul><h2>Overview</h2>
-<b>Last updated: </b> 2023-06-14 08:00:33 <br>
+<b>Last updated: </b> 2023-06-14 13:39:43 <br>
 <table class="bdrless">
 <tr><td class="bdrless"><label for "All modules">All modules</td><td class="bdrless">34/216</label></td>
 <td class="bdrless"><meter id="All modules" min=0 max=216 value=34></meter><br></td></tr>
@@ -63,12 +63,12 @@
 <tr><td>libpciaccess/0.14-GCCcore-8.3.0</td><td>6</td></tr>
 <tr><td>hwloc/1.11.12-GCCcore-8.3.0</td><td>6</td></tr>
 <tr><td>gompi/2019b</td><td>6</td></tr>
-<tr><td>zlib/1.2.11-GCCcore-8.3.0</td><td>4</td></tr>
-<tr><td>binutils/2.32-GCCcore-8.3.0</td><td>3</td></tr>
-<tr><td>XZ/5.2.4-GCCcore-8.3.0</td><td>3</td></tr>
-<tr><td>libxml2/2.9.9-GCCcore-8.3.0</td><td>3</td></tr>
-<tr><td>GCCcore/8.3.0</td><td>3</td></tr>
-<tr><td>GCC/8.3.0</td><td>3</td></tr>
+<tr id="deprecated"><td>zlib/1.2.11-GCCcore-8.3.0</td><td>4</td></tr>
+<tr id="deprecated"><td>binutils/2.32-GCCcore-8.3.0</td><td>3</td></tr>
+<tr id="deprecated"><td>XZ/5.2.4-GCCcore-8.3.0</td><td>3</td></tr>
+<tr id="deprecated"><td>libxml2/2.9.9-GCCcore-8.3.0</td><td>3</td></tr>
+<tr id="deprecated"><td>GCCcore/8.3.0</td><td>3</td></tr>
+<tr id="deprecated"><td>GCC/8.3.0</td><td>3</td></tr>
 </table>
 </div><h2>Active modules manually installed</h2>
 <button type="button" class="collapsible">Missing</button>
@@ -103,7 +103,7 @@
 <tr><td>HTSlib/1.9-GCCcore-8.3.0</td></tr>
 <tr><td>LibTIFF/4.0.10-GCCcore-8.3.0</td></tr>
 <tr><td>Mesquite/2.3.0-GCCcore-8.3.0</td></tr>
-<tr><td>NASM/2.14.02-GCCcore-8.3.0</td></tr>
+<tr id="deprecated"><td>NASM/2.14.02-GCCcore-8.3.0</td></tr>
 <tr><td>NSPR/4.21-GCCcore-8.3.0</td></tr>
 <tr><td>ParMGridGen/1.0-iimpi-2019b</td></tr>
 <tr><td>ParMGridGen/1.0-gompi-2019b.lua</td></tr>
@@ -170,8 +170,8 @@
 <tr><td>Boost/1.71.0-iimpi-2019b</td></tr>
 <tr><td>PyFoam/2020.5-intel-2019b.lua</td></tr>
 <tr><td>libpthread-stubs/0.4-GCCcore-8.3.0</td></tr>
-<tr><td>libpng/1.6.37-GCCcore-8.3.0</td></tr>
-<tr><td>libjpeg-turbo/2.0.3-GCCcore-8.3.0</td></tr>
+<tr id="deprecated"><td>libpng/1.6.37-GCCcore-8.3.0</td></tr>
+<tr id="deprecated"><td>libjpeg-turbo/2.0.3-GCCcore-8.3.0</td></tr>
 <tr><td>libglvnd/1.2.0-GCCcore-8.3.0</td></tr>
 <tr><td>libgeotiff/1.5.1-GCCcore-8.3.0</td></tr>
 <tr><td>libgd/2.2.5-GCCcore-8.3.0.lua</td></tr>
@@ -214,13 +214,13 @@
 <tr><td>VASP/5.4.4-intel-2019b-Wannier90-1.2</td></tr>
 <tr><td>VASP/5.4.4-intel-2019b</td></tr>
 <tr><td>Tk/8.6.9-GCCcore-8.3.0</td></tr>
-<tr><td>Tcl/8.6.9-GCCcore-8.3.0</td></tr>
+<tr id="deprecated"><td>Tcl/8.6.9-GCCcore-8.3.0</td></tr>
 <tr><td>Szip/2.1.1-GCCcore-8.3.0</td></tr>
 <tr><td>SuiteSparse/5.6.0-foss-2019b-METIS-5.1.0.lua</td></tr>
 <tr><td>SciPy-bundle/2019.10-intel-2019b-Python-2.7.16.lua</td></tr>
 <tr><td>SWIG/4.0.1-GCCcore-8.3.0</td></tr>
 <tr><td>STAR/2.7.3a-GCCcore-8.3.0</td></tr>
-<tr><td>SQLite/3.29.0-GCCcore-8.3.0</td></tr>
+<tr id="deprecated"><td>SQLite/3.29.0-GCCcore-8.3.0</td></tr>
 <tr><td>SLEPc/3.12.2-foss-2019b-Python-3.7.4.lua</td></tr>
 <tr><td>SDL2/2.0.10-GCCcore-8.3.0</td></tr>
 <tr><td>SCons/3.1.1-GCCcore-8.3.0</td></tr>
@@ -248,7 +248,7 @@
 <tr><td>X11/20190717-GCCcore-8.3.0</td></tr>
 <tr><td>gettext/0.20.1-GCCcore-8.3.0</td></tr>
 <tr><td>at-spi2-atk/2.34.1-GCCcore-8.3.0</td></tr>
-<tr><td>bzip2/1.0.8-GCCcore-8.3.0</td></tr>
+<tr id="deprecated"><td>bzip2/1.0.8-GCCcore-8.3.0</td></tr>
 <tr><td>at-spi2-core/2.34.0-GCCcore-8.3.0</td></tr>
 <tr><td>Yasm/1.3.0-GCCcore-8.3.0</td></tr>
 </table>
@@ -262,10 +262,10 @@
 <tr><td>Automake/1.16.1-GCCcore-8.3.0</td></tr>
 <tr><td>Autoconf/2.69-GCCcore-8.3.0</td></tr>
 <tr><td>Perl/5.30.0-GCCcore-8.3.0</td></tr>
-<tr><td>libreadline/8.0-GCCcore-8.3.0</td></tr>
+<tr id="deprecated"><td>libreadline/8.0-GCCcore-8.3.0</td></tr>
 <tr><td>help2man/1.47.8-GCCcore-8.3.0</td></tr>
 <tr><td>libtool/2.4.6-GCCcore-8.3.0</td></tr>
-<tr><td>ncurses/6.1-GCCcore-8.3.0</td></tr>
+<tr id="deprecated"><td>ncurses/6.1-GCCcore-8.3.0</td></tr>
 <tr><td>flex/2.6.4-GCCcore-8.3.0</td></tr>
 <tr><td>expat/2.2.7-GCCcore-8.3.0</td></tr>
 </table>
