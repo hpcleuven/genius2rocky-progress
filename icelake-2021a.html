@@ -1,0 +1,557 @@
+<html><head><link rel="stylesheet" href="style.css">
+</head><body>
+<ul class="menu">
+<li class="menu"><a href="skylake-2018a.html">skylake-2018a</a></li>
+<li class="menu"><a href="skylake-2019b.html">skylake-2019b</a></li>
+<li class="menu"><a href="skylake-2021a.html">skylake-2021a</a></li>
+<li class="menu"><a href="cascadelake-2018a.html">cascadelake-2018a</a></li>
+<li class="menu"><a href="cascadelake-2019b.html">cascadelake-2019b</a></li>
+<li class="menu"><a href="cascadelake-2021a.html">cascadelake-2021a</a></li>
+</ul>
+<ul class="menu">
+<li class="menu"><a href="skylake-2018a.html">skylake-2018a</a></li>
+<li class="menu"><a href="skylake-2019b.html">skylake-2019b</a></li>
+<li class="menu"><a href="skylake-2021a.html">skylake-2021a</a></li>
+</ul>
+<ul class="menu">
+<li class="menu"><a href="icelake-2021a.html">icelake-2021a</a></li>
+<li class="menu"><a href="icelake-2022b.html">icelake-2022b</a></li>
+</ul>
+<ul class="menu">
+<li class="menu"><a href="user-modules.html">user-modules</a></li>
+</ul>
+<h1>Architecture: icelake</h1><h1>Toolchain version: 2021a</h1>
+<ul><li>Comparing modules installed in <tt>/apps/leuven/icelake/2021a/modules/all</tt> with modules installed in <tt>/apps/leuven/rocky8/icelake/2021a/modules/all</tt></li>
+<li>Modules are considered to be <i>active</i> if they have been loaded since March 2023, and <i>inactive</i> otherwise</li>
+<li>The counts for how many times a module has been loaded is not necessarily a good indication of how much it is really needed, since for instance worker jobs can distort this metric considerably.</li>
+<li>Active modules with a light grey background are deprecated, and are likely to be no longer offered to users</li>
+</ul><h2>Overview</h2>
+<b>Last updated: </b> 2023-07-01 09:41:27 <br>
+<table class="bdrless">
+<tr><td class="bdrless"><label for "All modules">All modules</td><td class="bdrless">0/475</label></td>
+<td class="bdrless"><meter id="All modules" min=0 max=475 value=0></meter><br></td></tr>
+<tr><td class="bdrless"><label for "Active modules installed with EasyBuild">Active modules installed with EasyBuild</td><td class="bdrless">0/347</label></td>
+<td class="bdrless"><meter id="Active modules installed with EasyBuild" min=0 max=347 value=0></meter><br></td></tr>
+<tr><td class="bdrless"><label for "Active modules manually installed">Active modules manually installed</td><td class="bdrless">0/23</label></td>
+<td class="bdrless"><meter id="Active modules manually installed" min=0 max=23 value=0></meter><br></td></tr>
+<tr><td class="bdrless"><label for "Inactive modules">Inactive modules</td><td class="bdrless">0/105</label></td>
+<td class="bdrless"><meter id="Inactive modules" min=0 max=105 value=0></meter><br></td></tr>
+</table>
+<h2>Active modules installed with EasyBuild</h2>
+<button type="button" class="collapsible">Missing</button>
+<div class="content"><table>
+<tr><th>Module name</th><th>Times loaded</th><th>Remarks</th><th>Owner</th></tr>
+<tr><td>zlib/1.2.11-GCCcore-10.3.0.lua</td><td>854</td><td></td><td>Maxime</td></tr>
+<tr><td>GCCcore/10.3.0.lua</td><td>853</td><td></td><td>Maxime</td></tr>
+<tr><td>binutils/2.36.1-GCCcore-10.3.0.lua</td><td>848</td><td></td><td>Maxime</td></tr>
+<tr><td>numactl/2.0.14-GCCcore-10.3.0.lua</td><td>791</td><td></td><td>Maxime</td></tr>
+<tr><td>UCX/1.10.0-GCCcore-10.3.0.lua</td><td>791</td><td></td><td>Maxime</td></tr>
+<tr><td>Java/13.0.2.lua</td><td>778</td><td></td><td>Steven</td></tr>
+<tr><td>OpenSSL/1.1.lua</td><td>602</td><td></td><td>Maxime</td></tr>
+<tr><td>XZ/5.2.5-GCCcore-10.3.0.lua</td><td>586</td><td></td><td>Maxime</td></tr>
+<tr><td>libxml2/2.9.10-GCCcore-10.3.0.lua</td><td>520</td><td></td><td>Maxime</td></tr>
+<tr><td>libpciaccess/0.16-GCCcore-10.3.0.lua</td><td>504</td><td></td><td>Maxime</td></tr>
+<tr><td>libevent/2.1.12-GCCcore-10.3.0.lua</td><td>488</td><td></td><td>Maxime</td></tr>
+<tr><td>hwloc/2.4.1-GCCcore-10.3.0.lua</td><td>483</td><td></td><td>Maxime</td></tr>
+<tr><td>libfabric/1.12.1-GCCcore-10.3.0.lua</td><td>483</td><td></td><td>Maxime</td></tr>
+<tr><td>PMIx/3.2.3-GCCcore-10.3.0.lua</td><td>483</td><td></td><td>Maxime</td></tr>
+<tr><td>GCC/10.3.0.lua</td><td>482</td><td></td><td>Maxime</td></tr>
+<tr><td>OpenMPI/4.1.1-GCC-10.3.0.lua</td><td>479</td><td></td><td>Maxime</td></tr>
+<tr><td>foss/2021a.lua</td><td>374</td><td></td><td>Maxime</td></tr>
+<tr><td>gompi/2021a.lua</td><td>371</td><td></td><td>Maxime</td></tr>
+<tr><td>ScaLAPACK/2.1.0-gompi-2021a-fb.lua</td><td>370</td><td></td><td>Maxime</td></tr>
+<tr><td>OpenBLAS/0.3.15-GCC-10.3.0.lua</td><td>370</td><td></td><td>Maxime</td></tr>
+<tr><td>FFTW/3.3.9-gompi-2021a.lua</td><td>370</td><td></td><td>Maxime</td></tr>
+<tr><td>FlexiBLAS/3.0.4-GCC-10.3.0.lua</td><td>370</td><td></td><td>Maxime</td></tr>
+<tr><td>intel-compilers/2021.2.0.lua</td><td>329</td><td></td><td>Maxime</td></tr>
+<tr><td>impi/2021.6.0-intel-compilers-2021.2.0.lua</td><td>326</td><td></td><td>Maxime</td></tr>
+<tr><td>iimpi/2021a.lua</td><td>325</td><td></td><td>Maxime</td></tr>
+<tr><td>intel/2021a.lua</td><td>303</td><td></td><td>Maxime</td></tr>
+<tr><td>imkl/2021.2.0-iimpi-2021a.lua</td><td>291</td><td></td><td>Maxime</td></tr>
+<tr><td>Szip/2.1.1-GCCcore-10.3.0.lua</td><td>234</td><td></td><td>Maxime</td></tr>
+<tr><td>HDF5/1.10.7-iimpi-2021a.lua</td><td>230</td><td></td><td>Steven</td></tr>
+<tr><td>FFTW/3.3.9-intel-2021a.lua</td><td>218</td><td></td><td>Maxime</td></tr>
+<tr><td>ncurses/6.2-GCCcore-10.3.0.lua</td><td>173</td><td></td><td>Maxime</td></tr>
+<tr><td>libreadline/8.1-GCCcore-10.3.0.lua</td><td>167</td><td></td><td>Maxime</td></tr>
+<tr><td>bzip2/1.0.8-GCCcore-10.3.0.lua</td><td>159</td><td></td><td>Maxime</td></tr>
+<tr><td>libffi/3.3-GCCcore-10.3.0.lua</td><td>157</td><td></td><td>Maxime</td></tr>
+<tr><td>SQLite/3.35.4-GCCcore-10.3.0.lua</td><td>156</td><td></td><td>Maxime</td></tr>
+<tr><td>Tcl/8.6.11-GCCcore-10.3.0.lua</td><td>155</td><td></td><td>Maxime</td></tr>
+<tr><td>expat/2.2.9-GCCcore-10.3.0.lua</td><td>119</td><td></td><td>Maxime</td></tr>
+<tr><td>Python/3.9.5-GCCcore-10.3.0.lua</td><td>104</td><td></td><td>Maxime</td></tr>
+<tr><td>GMP/6.2.1-GCCcore-10.3.0.lua</td><td>101</td><td></td><td>Maxime</td></tr>
+<tr><td>util-linux/2.36-GCCcore-10.3.0.lua</td><td>75</td><td></td><td>Maxime</td></tr>
+<tr><td>libpng/1.6.37-GCCcore-10.3.0.lua</td><td>75</td><td></td><td>Maxime</td></tr>
+<tr><td>libjpeg-turbo/2.0.6-GCCcore-10.3.0.lua</td><td>75</td><td></td><td>Maxime</td></tr>
+<tr><td>NASM/2.15.05-GCCcore-10.3.0.lua</td><td>75</td><td></td><td>Maxime</td></tr>
+<tr><td>freetype/2.10.4-GCCcore-10.3.0.lua</td><td>74</td><td></td><td>Maxime</td></tr>
+<tr><td>cURL/7.76.0-GCCcore-10.3.0.lua</td><td>74</td><td></td><td>Maxime</td></tr>
+<tr><td>gzip/1.10-GCCcore-10.3.0.lua</td><td>74</td><td></td><td>Maxime</td></tr>
+<tr><td>zstd/1.4.9-GCCcore-10.3.0.lua</td><td>74</td><td></td><td>Maxime</td></tr>
+<tr><td>fontconfig/2.13.93-GCCcore-10.3.0.lua</td><td>74</td><td></td><td>Maxime</td></tr>
+<tr><td>Brotli/1.0.9-GCCcore-10.3.0.lua</td><td>74</td><td></td><td>Maxime</td></tr>
+<tr><td>xorg-macros/1.19.3-GCCcore-10.3.0.lua</td><td>74</td><td></td><td>Maxime</td></tr>
+<tr><td>lz4/1.9.3-GCCcore-10.3.0.lua</td><td>74</td><td></td><td>Maxime</td></tr>
+<tr><td>X11/20210518-GCCcore-10.3.0.lua</td><td>74</td><td></td><td>Maxime</td></tr>
+<tr><td>pybind11/2.6.2-GCCcore-10.3.0.lua</td><td>73</td><td></td><td>Maxime</td></tr>
+<tr><td>jbigkit/2.1-GCCcore-10.3.0.lua</td><td>71</td><td></td><td>Maxime</td></tr>
+<tr><td>LibTIFF/4.2.0-GCCcore-10.3.0.lua</td><td>71</td><td></td><td>Maxime</td></tr>
+<tr><td>Tk/8.6.11-GCCcore-10.3.0.lua</td><td>69</td><td></td><td>Maxime</td></tr>
+<tr><td>Pillow/8.2.0-GCCcore-10.3.0.lua</td><td>69</td><td></td><td>Maxime</td></tr>
+<tr><td>Tkinter/3.9.5-GCCcore-10.3.0.lua</td><td>67</td><td></td><td>Maxime</td></tr>
+<tr><td>Qhull/2020.2-GCCcore-10.3.0.lua</td><td>67</td><td></td><td>Maxime</td></tr>
+<tr><td>Python/3.10.8-GCCcore-10.3.0-bare.lua</td><td>66</td><td></td><td>Ehsan</td></tr>
+<tr><td>SciPy-bundle/2021.05-foss-2021a.lua</td><td>51</td><td></td><td>Maxime</td></tr>
+<tr><td>ICU/69.1-GCCcore-10.3.0.lua</td><td>49</td><td></td><td>Maxime</td></tr>
+<tr><td>ecCodes/2.22.1-gompi-2021a.lua</td><td>48</td><td></td><td>Maxime</td></tr>
+<tr><td>CDO/1.9.10-gompi-2021a.lua</td><td>48</td><td></td><td>Maxime</td></tr>
+<tr><td>YAXT/0.9.1-gompi-2021a.lua</td><td>48</td><td></td><td>Maxime</td></tr>
+<tr><td>Boost/1.76.0-GCC-10.3.0.lua</td><td>46</td><td></td><td>Maxime</td></tr>
+<tr><td>Python/3.9.5-GCCcore-10.3.0-bare.lua</td><td>46</td><td></td><td>Maxime</td></tr>
+<tr><td>matplotlib/3.4.2-foss-2021a.lua</td><td>45</td><td></td><td>Maxime</td></tr>
+<tr><td>DB/18.1.40-GCCcore-10.3.0.lua</td><td>45</td><td></td><td>Maxime</td></tr>
+<tr><td>Perl/5.32.1-GCCcore-10.3.0.lua</td><td>44</td><td></td><td>Maxime</td></tr>
+<tr><td>namedlist/1.8-GCCcore-10.3.0.lua</td><td>43</td><td></td><td>Mag</td></tr>
+<tr><td>PyEVTK/1.4.1-foss-2021a.lua</td><td>43</td><td></td><td>Mag</td></tr>
+<tr><td>gettext/0.21-GCCcore-10.3.0.lua</td><td>42</td><td></td><td>Maxime</td></tr>
+<tr><td>git/2.32.0-GCCcore-10.3.0-nodocs.lua</td><td>36</td><td></td><td>Maxime</td></tr>
+<tr><td>ncurses/6.2.lua</td><td>35</td><td></td><td>Maxime</td></tr>
+<tr><td>libyaml/0.2.5-GCCcore-10.3.0.lua</td><td>30</td><td></td><td>Steven</td></tr>
+<tr><td>PyYAML/5.4.1-GCCcore-10.3.0.lua</td><td>30</td><td></td><td>Steven</td></tr>
+<tr><td>typing-extensions/3.10.0.0-GCCcore-10.3.0.lua</td><td>30</td><td></td><td>Steven</td></tr>
+<tr><td>astropy/3.2.3-foss-2021a.lua</td><td>29</td><td></td><td>Mag</td></tr>
+<tr><td>ai.fri3d/0.0.16-foss-2021a.lua</td><td>29</td><td></td><td>Mag</td></tr>
+<tr><td>PLUMED/2.7.2-foss-2021a.lua</td><td>29</td><td></td><td>Maxime</td></tr>
+<tr><td>scikit-image/0.18.3-foss-2021a.lua</td><td>28</td><td></td><td>Mag</td></tr>
+<tr><td>bokeh/2.4.1-foss-2021a.lua</td><td>28</td><td></td><td>Mag</td></tr>
+<tr><td>networkx/2.5.1-foss-2021a.lua</td><td>28</td><td></td><td>Maxime</td></tr>
+<tr><td>BeautifulSoup/4.10.0-GCCcore-10.3.0.lua</td><td>28</td><td></td><td>Mag</td></tr>
+<tr><td>SHTns/3.5.1-foss-2021a.lua</td><td>28</td><td></td><td>Mag</td></tr>
+<tr><td>OpenJPEG/2.4.0-GCCcore-10.3.0.lua</td><td>28</td><td></td><td>Mag</td></tr>
+<tr><td>tqdm/4.61.2-GCCcore-10.3.0.lua</td><td>28</td><td></td><td>Mag</td></tr>
+<tr><td>aiohttp/3.8.1-GCCcore-10.3.0.lua</td><td>28</td><td></td><td>Mag</td></tr>
+<tr><td>libxslt/1.1.34-GCCcore-10.3.0.lua</td><td>28</td><td></td><td>Mag</td></tr>
+<tr><td>lxml/4.6.3-GCCcore-10.3.0.lua</td><td>28</td><td></td><td>Mag</td></tr>
+<tr><td>SunPy/1.1.4-foss-2021a.lua</td><td>28</td><td></td><td>Mag</td></tr>
+<tr><td>dask/2021.9.1-foss-2021a.lua</td><td>28</td><td></td><td>Mag</td></tr>
+<tr><td>matplotlib/3.4.2-intel-2021a.lua</td><td>26</td><td></td><td>Maxime</td></tr>
+<tr><td>SciPy-bundle/2021.05-intel-2021a.lua</td><td>24</td><td></td><td>Maxime</td></tr>
+<tr><td>ParaView/5.9.1-foss-2021a-mpi.lua</td><td>24</td><td></td><td>Maxime</td></tr>
+<tr><td>OpenFOAM/9-foss-2021a.lua</td><td>24</td><td></td><td>Maxime</td></tr>
+<tr><td>Mako/1.1.4-GCCcore-10.3.0.lua</td><td>24</td><td></td><td>Maxime</td></tr>
+<tr><td>CMake/3.20.1-GCCcore-10.3.0.lua</td><td>23</td><td></td><td>Maxime</td></tr>
+<tr><td>libarchive/3.5.1-GCCcore-10.3.0.lua</td><td>23</td><td></td><td>Maxime</td></tr>
+<tr><td>GSL/2.7-intel-compilers-2021.2.0.lua</td><td>22</td><td></td><td>Maxime</td></tr>
+<tr><td>Boost/1.76.0-intel-compilers-2021.2.0.lua</td><td>19</td><td></td><td>Maxime</td></tr>
+<tr><td>EasyBuild/4.5.5</td><td>19</td><td></td><td>Maxime</td></tr>
+<tr><td>ELPA/2020.05.001-foss-2021a.lua</td><td>19</td><td></td><td>Maxime</td></tr>
+<tr><td>libxc/5.1.5-GCC-10.3.0.lua</td><td>19</td><td></td><td>Maxime</td></tr>
+<tr><td>libxsmm/1.16.2-GCC-10.3.0.lua</td><td>19</td><td></td><td>Maxime</td></tr>
+<tr><td>libxsmm/1.16.2-intel-compilers-2021.2.0.lua</td><td>17</td><td></td><td>Maxime</td></tr>
+<tr><td>PLUMED/2.7.2-intel-2021a.lua</td><td>17</td><td></td><td>Maxime</td></tr>
+<tr><td>pocl/1.8-GCC-10.3.0.lua</td><td>17</td><td></td><td>Steven</td></tr>
+<tr><td>Gdk-Pixbuf/2.42.6-GCCcore-10.3.0.lua</td><td>17</td><td></td><td>Maxime</td></tr>
+<tr><td>GTK3/3.24.29-GCCcore-10.3.0.lua</td><td>17</td><td></td><td>Maxime</td></tr>
+<tr><td>Z3/4.8.11-GCCcore-10.3.0.lua</td><td>17</td><td></td><td>Steven</td></tr>
+<tr><td>at-spi2-core/2.40.2-GCCcore-10.3.0.lua</td><td>17</td><td></td><td>Maxime</td></tr>
+<tr><td>at-spi2-atk/2.38.0-GCCcore-10.3.0.lua</td><td>17</td><td></td><td>Maxime</td></tr>
+<tr><td>ATK/2.36.0-GCCcore-10.3.0.lua</td><td>17</td><td></td><td>Maxime</td></tr>
+<tr><td>libepoxy/1.5.8-GCCcore-10.3.0.lua</td><td>17</td><td></td><td>Maxime</td></tr>
+<tr><td>Clang/12.0.1-GCCcore-10.3.0.lua</td><td>17</td><td></td><td>Steven</td></tr>
+<tr><td>ELPA/2020.05.001-intel-2021a.lua</td><td>17</td><td></td><td>Maxime</td></tr>
+<tr><td>ABAQUS/2023-hotfix-2306.lua</td><td>15</td><td></td><td>Steven</td></tr>
+<tr><td>HMMER/3.3.2-gompi-2021a.lua</td><td>14</td><td></td><td>Wouter</td></tr>
+<tr><td>h5py/3.2.1-foss-2021a.lua</td><td>12</td><td></td><td>Maxime</td></tr>
+<tr><td>netCDF-Fortran/4.5.3-iimpi-2021a.lua</td><td>12</td><td></td><td>Maxime</td></tr>
+<tr><td>netCDF/4.8.0-iimpi-2021a.lua</td><td>12</td><td></td><td>Maxime</td></tr>
+<tr><td>OpenMPI/4.1.1-intel-compilers-2021.2.0.lua</td><td>11</td><td></td><td>Maxime</td></tr>
+<tr><td>GROMACS/2021.3-foss-2021a-CUDA-11.3.1-PLUMED-2.7.2.lua</td><td>10</td><td></td><td>Maxime</td></tr>
+<tr><td>HTSlib/1.15.1-GCC-10.3.0.lua</td><td>10</td><td></td><td>Maxime</td></tr>
+<tr><td>DB_File/1.856-GCCcore-10.3.0.lua</td><td>9</td><td></td><td>Wouter</td></tr>
+<tr><td>OpenFOAM/9-intel-2021a.lua</td><td>9</td><td></td><td>Steven</td></tr>
+<tr><td>SCOTCH/6.1.0-iimpi-2021a.lua</td><td>9</td><td></td><td>Steven</td></tr>
+<tr><td>XML-LibXML/2.0207-GCCcore-10.3.0.lua</td><td>9</td><td></td><td>Wouter</td></tr>
+<tr><td>giflib/5.2.1-GCCcore-10.3.0.lua</td><td>8</td><td></td><td>Maxime</td></tr>
+<tr><td>BCFtools/1.15.1-GCC-10.3.0.lua</td><td>8</td><td></td><td>Maxime</td></tr>
+<tr><td>BEDTools/2.30.0-GCC-10.3.0.lua</td><td>8</td><td></td><td>Maxime</td></tr>
+<tr><td>BamTools/2.5.2-GCC-10.3.0.lua</td><td>8</td><td></td><td>Maxime</td></tr>
+<tr><td>Java/17.0.2.lua</td><td>8</td><td></td><td>Steven</td></tr>
+<tr><td>libpciaccess/0.16-GCCcore-10.3.0.lua</td><td>7</td><td></td><td>Maxime</td></tr>
+<tr><td>binutils/2.36.1-GCCcore-10.3.0.lua</td><td>7</td><td></td><td>Maxime</td></tr>
+<tr><td>GCC/10.3.0.lua</td><td>7</td><td></td><td>Maxime</td></tr>
+<tr><td>GCCcore/10.3.0.lua</td><td>7</td><td></td><td>Maxime</td></tr>
+<tr><td>hwloc/2.4.1-GCCcore-10.3.0.lua</td><td>7</td><td></td><td>Maxime</td></tr>
+<tr><td>libevent/2.1.12-GCCcore-10.3.0.lua</td><td>7</td><td></td><td>Maxime</td></tr>
+<tr><td>zlib/1.2.11-GCCcore-10.3.0.lua</td><td>7</td><td></td><td>Maxime</td></tr>
+<tr><td>XZ/5.2.5-GCCcore-10.3.0.lua</td><td>7</td><td></td><td>Maxime</td></tr>
+<tr><td>UCX/1.10.0-GCCcore-10.3.0.lua</td><td>7</td><td></td><td>Maxime</td></tr>
+<tr><td>PMIx/3.2.3-GCCcore-10.3.0.lua</td><td>7</td><td></td><td>Maxime</td></tr>
+<tr><td>OpenSSL/1.1.lua</td><td>7</td><td></td><td>Maxime</td></tr>
+<tr><td>OpenMPI/4.1.1-GCC-10.3.0.lua</td><td>7</td><td></td><td>Maxime</td></tr>
+<tr><td>numactl/2.0.14-GCCcore-10.3.0.lua</td><td>7</td><td></td><td>Maxime</td></tr>
+<tr><td>libxml2/2.9.10-GCCcore-10.3.0.lua</td><td>7</td><td></td><td>Maxime</td></tr>
+<tr><td>libfabric/1.12.1-GCCcore-10.3.0.lua</td><td>7</td><td></td><td>Maxime</td></tr>
+<tr><td>IDBA-UD/1.1.3-GCC-10.3.0.lua</td><td>7</td><td></td><td>Wouter</td></tr>
+<tr><td>FastQC/0.11.9-Java-11.lua</td><td>7</td><td></td><td>Wouter</td></tr>
+<tr><td>CUDA/11.3.1.lua</td><td>7</td><td></td><td>Maxime</td></tr>
+<tr><td>Bowtie2/2.4.4-GCC-10.3.0.lua</td><td>7</td><td></td><td>Wouter</td></tr>
+<tr><td>FragGeneScan/1.31-GCCcore-10.3.0.lua</td><td>7</td><td></td><td>Wouter</td></tr>
+<tr><td>Trimmomatic/0.39-Java-11.lua</td><td>6</td><td></td><td>Wouter</td></tr>
+<tr><td>libpciaccess/0.16-GCCcore-10.3.0.lua</td><td>6</td><td></td><td>Maxime</td></tr>
+<tr><td>libxml2/2.9.10-GCCcore-10.3.0.lua</td><td>6</td><td></td><td>Maxime</td></tr>
+<tr><td>numactl/2.0.14-GCCcore-10.3.0.lua</td><td>6</td><td></td><td>Maxime</td></tr>
+<tr><td>OpenBLAS/0.3.15-GCC-10.3.0.lua</td><td>6</td><td></td><td>Maxime</td></tr>
+<tr><td>OpenSSL/1.1.lua</td><td>6</td><td></td><td>Maxime</td></tr>
+<tr><td>PMIx/3.2.3-GCCcore-10.3.0.lua</td><td>6</td><td></td><td>Maxime</td></tr>
+<tr><td>OpenMPI/4.1.1-GCC-10.3.0.lua</td><td>6</td><td></td><td>Maxime</td></tr>
+<tr><td>GCCcore/10.3.0.lua</td><td>6</td><td></td><td>Maxime</td></tr>
+<tr><td>PCRE2/10.36-GCCcore-10.3.0.lua</td><td>6</td><td></td><td>Maxime</td></tr>
+<tr><td>gompi/2021a.lua</td><td>6</td><td></td><td>Maxime</td></tr>
+<tr><td>hwloc/2.4.1-GCCcore-10.3.0.lua</td><td>6</td><td></td><td>Maxime</td></tr>
+<tr><td>libevent/2.1.12-GCCcore-10.3.0.lua</td><td>6</td><td></td><td>Maxime</td></tr>
+<tr><td>libfabric/1.12.1-GCCcore-10.3.0.lua</td><td>6</td><td></td><td>Maxime</td></tr>
+<tr><td>ScaLAPACK/2.1.0-gompi-2021a-fb.lua</td><td>6</td><td></td><td>Maxime</td></tr>
+<tr><td>ANSYS/2021R2_lp_afaa.lua</td><td>6</td><td></td><td>Steven</td></tr>
+<tr><td>UCX/1.10.0-GCCcore-10.3.0.lua</td><td>6</td><td></td><td>Maxime</td></tr>
+<tr><td>XZ/5.2.5-GCCcore-10.3.0.lua</td><td>6</td><td></td><td>Maxime</td></tr>
+<tr><td>zlib/1.2.11-GCCcore-10.3.0.lua</td><td>6</td><td></td><td>Maxime</td></tr>
+<tr><td>GCC/10.3.0.lua</td><td>6</td><td></td><td>Maxime</td></tr>
+<tr><td>foss/2021a.lua</td><td>6</td><td></td><td>Maxime</td></tr>
+<tr><td>GLib/2.68.2-GCCcore-10.3.0.lua</td><td>6</td><td></td><td>Maxime</td></tr>
+<tr><td>binutils/2.36.1-GCCcore-10.3.0.lua</td><td>6</td><td></td><td>Maxime</td></tr>
+<tr><td>MPICH/3.4.2-GCC-10.3.0.lua</td><td>6</td><td></td><td>Maxime</td></tr>
+<tr><td>FFTW/3.3.9-gompi-2021a.lua</td><td>6</td><td></td><td>Maxime</td></tr>
+<tr><td>FlexiBLAS/3.0.4-GCC-10.3.0.lua</td><td>6</td><td></td><td>Maxime</td></tr>
+<tr><td>libGLU/9.0.1-GCCcore-10.3.0.lua</td><td>5</td><td></td><td>Maxime</td></tr>
+<tr><td>libglvnd/1.3.3-GCCcore-10.3.0.lua</td><td>5</td><td></td><td>Maxime</td></tr>
+<tr><td>prodigal/2.6.3-GCCcore-10.3.0.lua</td><td>5</td><td></td><td>Wouter</td></tr>
+<tr><td>Pysam/0.16.0.1-GCC-10.3.0.lua</td><td>5</td><td></td><td>Wouter</td></tr>
+<tr><td>DendroPy/4.5.2-GCCcore-10.3.0.lua</td><td>5</td><td></td><td>Wouter</td></tr>
+<tr><td>libunwind/1.4.0-GCCcore-10.3.0.lua</td><td>5</td><td></td><td>Maxime</td></tr>
+<tr><td>MPFR/4.1.0-GCCcore-10.3.0.lua</td><td>5</td><td></td><td>Maxime</td></tr>
+<tr><td>flex/2.6.4.lua</td><td>5</td><td></td><td>Maxime</td></tr>
+<tr><td>ant/1.10.9-Java-11.lua</td><td>5</td><td></td><td>Maxime</td></tr>
+<tr><td>BioPerl/1.7.8-GCCcore-10.3.0.lua</td><td>5</td><td></td><td>Wouter</td></tr>
+<tr><td>libwebp/1.2.0-GCCcore-10.3.0.lua</td><td>5</td><td></td><td>Maxime</td></tr>
+<tr><td>NVHPC/21.7.lua</td><td>5</td><td></td><td>Steven</td></tr>
+<tr><td>OpenEXR/3.0.1-GCCcore-10.3.0.lua</td><td>5</td><td></td><td>Maxime</td></tr>
+<tr><td>Mesa/21.1.1-GCCcore-10.3.0.lua</td><td>5</td><td></td><td>Maxime</td></tr>
+<tr><td>pplacer/1.1.alpha19.lua</td><td>5</td><td></td><td>Wouter</td></tr>
+<tr><td>LLVM/11.1.0-GCCcore-10.3.0.lua</td><td>5</td><td></td><td>Maxime</td></tr>
+<tr><td>JasPer/2.0.28-GCCcore-10.3.0.lua</td><td>5</td><td></td><td>Maxime</td></tr>
+<tr><td>libdrm/2.4.106-GCCcore-10.3.0.lua</td><td>5</td><td></td><td>Maxime</td></tr>
+<tr><td>archspec/0.1.2-GCCcore-10.3.0.lua</td><td>4</td><td></td><td>Wouter</td></tr>
+<tr><td>MaxBin/2.2.7-gompi-2021a.lua</td><td>4</td><td></td><td>Wouter</td></tr>
+<tr><td>MetaBAT/2.15-gompi-2021a.lua</td><td>4</td><td></td><td>Wouter</td></tr>
+<tr><td>kim-api/2.2.1-GCCcore-10.3.0.lua</td><td>4</td><td></td><td>Wouter</td></tr>
+<tr><td>CGAL/4.11.1-foss-2021a-Python-3.9.5.lua</td><td>4</td><td></td><td>Steven</td></tr>
+<tr><td>M4/1.4.18-GCCcore-10.3.0.lua</td><td>4</td><td></td><td>Maxime</td></tr>
+<tr><td>Voro++/0.4.6-GCCcore-10.3.0.lua</td><td>4</td><td></td><td>Wouter</td></tr>
+<tr><td>HDF5/1.10.7-gompi-2021a.lua</td><td>4</td><td></td><td>Maxime</td></tr>
+<tr><td>Java/11.0.2.lua</td><td>4</td><td></td><td>Steven</td></tr>
+<tr><td>ScaFaCoS/1.0.1-foss-2021a.lua</td><td>4</td><td></td><td>Wouter</td></tr>
+<tr><td>DBus/1.13.18-GCCcore-10.3.0.lua</td><td>3</td><td></td><td>Maxime</td></tr>
+<tr><td>cairo/1.16.0-GCCcore-10.3.0.lua</td><td>3</td><td></td><td>Maxime</td></tr>
+<tr><td>Automake/1.16.3-GCCcore-10.3.0.lua</td><td>3</td><td></td><td>Maxime</td></tr>
+<tr><td>Autoconf/2.71-GCCcore-10.3.0.lua</td><td>3</td><td></td><td>Maxime</td></tr>
+<tr><td>double-conversion/3.1.5-GCCcore-10.3.0.lua</td><td>3</td><td></td><td>Maxime</td></tr>
+<tr><td>SPAdes/3.15.3-GCC-10.3.0.lua</td><td>3</td><td></td><td>Wouter</td></tr>
+<tr><td>Meson/0.58.0-GCCcore-10.3.0.lua</td><td>3</td><td></td><td>Maxime</td></tr>
+<tr><td>PyOpenGL/3.1.5-GCCcore-10.3.0.lua</td><td>3</td><td></td><td>Maxime</td></tr>
+<tr><td>PyQt5/5.15.4-GCCcore-10.3.0.lua</td><td>3</td><td></td><td>Maxime</td></tr>
+<tr><td>Rust/1.52.1-GCCcore-10.3.0.lua</td><td>3</td><td></td><td>Maxime</td></tr>
+<tr><td>hypothesis/6.13.1-GCCcore-10.3.0.lua</td><td>3</td><td></td><td>Maxime</td></tr>
+<tr><td>FriBidi/1.0.10-GCCcore-10.3.0.lua</td><td>3</td><td></td><td>Maxime</td></tr>
+<tr><td>Qt5/5.15.2-GCCcore-10.3.0.lua</td><td>3</td><td></td><td>Maxime</td></tr>
+<tr><td>PyTorch/1.12.1-foss-2021a-CUDA-11.3.1.lua</td><td>3</td><td></td><td>Steven</td></tr>
+<tr><td>M4/1.4.19.lua</td><td>3</td><td></td><td>Maxime</td></tr>
+<tr><td>PCRE/8.44-GCCcore-10.3.0.lua</td><td>3</td><td></td><td>Maxime</td></tr>
+<tr><td>pixman/0.40.0-GCCcore-10.3.0.lua</td><td>3</td><td></td><td>Maxime</td></tr>
+<tr><td>snappy/1.1.8-GCCcore-10.3.0.lua</td><td>3</td><td></td><td>Maxime</td></tr>
+<tr><td>SuiteSparse/5.10.1-foss-2021a-METIS-5.1.0.lua</td><td>3</td><td></td><td>Steven</td></tr>
+<tr><td>METIS/5.1.0-GCCcore-10.3.0.lua</td><td>3</td><td></td><td>Maxime</td></tr>
+<tr><td>NSS/3.65-GCCcore-10.3.0.lua</td><td>3</td><td></td><td>Maxime</td></tr>
+<tr><td>NSPR/4.30-GCCcore-10.3.0.lua</td><td>3</td><td></td><td>Maxime</td></tr>
+<tr><td>libtool/2.4.6-GCCcore-10.3.0.lua</td><td>3</td><td></td><td>Maxime</td></tr>
+<tr><td>CGAL/4.14.3-gompi-2021a.lua</td><td>2</td><td></td><td>Maxime</td></tr>
+<tr><td>GDAL/3.3.0-foss-2021a.lua</td><td>2</td><td></td><td>Maxime</td></tr>
+<tr><td>GDRCopy/2.2-GCCcore-10.3.0.lua</td><td>2</td><td></td><td>Maxime</td></tr>
+<tr><td>GEOS/3.9.1-GCC-10.3.0.lua</td><td>2</td><td></td><td>Maxime</td></tr>
+<tr><td>cuDNN/8.2.1.32-CUDA-11.3.1.lua</td><td>2</td><td></td><td>Wouter</td></tr>
+<tr><td>FFC/2019.1.0.post0-foss-2021a-Python-3.9.5.lua</td><td>2</td><td></td><td>Maxime</td></tr>
+<tr><td>dijitso/2019.1.0-foss-2021a-Python-3.9.5.lua</td><td>2</td><td></td><td>Maxime</td></tr>
+<tr><td>netCDF-Fortran/4.5.3-gompi-2021a.lua</td><td>2</td><td></td><td>Maxime</td></tr>
+<tr><td>expecttest/0.1.3-GCCcore-10.3.0.lua</td><td>2</td><td></td><td>Steven</td></tr>
+<tr><td>FFmpeg/4.3.2-GCCcore-10.3.0.lua</td><td>2</td><td></td><td>Maxime</td></tr>
+<tr><td>Eigen/3.3.9-GCCcore-10.3.0.lua</td><td>2</td><td></td><td>Maxime</td></tr>
+<tr><td>FLAC/1.3.3-GCCcore-10.3.0.lua</td><td>2</td><td></td><td>Steven</td></tr>
+<tr><td>FIAT/2019.1.0-foss-2021a-Python-3.9.5.lua</td><td>2</td><td></td><td>Maxime</td></tr>
+<tr><td>Ghostscript/9.54.0-GCCcore-10.3.0.lua</td><td>2</td><td></td><td>Steven</td></tr>
+<tr><td>ImageMagick/7.0.11-14-GCCcore-10.3.0.lua</td><td>2</td><td></td><td>Steven</td></tr>
+<tr><td>HDF/4.2.15-GCCcore-10.3.0.lua</td><td>2</td><td></td><td>Maxime</td></tr>
+<tr><td>GSL/2.7-GCC-10.3.0.lua</td><td>2</td><td></td><td>Maxime</td></tr>
+<tr><td>gmpy2/2.1.0b5-GCC-10.3.0.lua</td><td>2</td><td></td><td>Maxime</td></tr>
+<tr><td>GLPK/5.0-GCCcore-10.3.0.lua</td><td>2</td><td></td><td>Steven</td></tr>
+<tr><td>Hypre/2.21.0-foss-2021a.lua</td><td>2</td><td></td><td>Steven</td></tr>
+<tr><td>Boost.Python/1.76.0-GCC-10.3.0.lua</td><td>2</td><td></td><td>Steven</td></tr>
+<tr><td>Autotools/20210128-GCCcore-10.3.0.lua</td><td>2</td><td></td><td>Maxime</td></tr>
+<tr><td>magma/2.6.1-foss-2021a-CUDA-11.3.1.lua</td><td>2</td><td></td><td>Steven</td></tr>
+<tr><td>LittleCMS/2.12-GCCcore-10.3.0.lua</td><td>2</td><td></td><td>Steven</td></tr>
+<tr><td>libgit2/1.1.0-GCCcore-10.3.0.lua</td><td>2</td><td></td><td>Steven</td></tr>
+<tr><td>libgeotiff/1.6.0-GCCcore-10.3.0.lua</td><td>2</td><td></td><td>Maxime</td></tr>
+<tr><td>libogg/1.3.4-GCCcore-10.3.0.lua</td><td>2</td><td></td><td>Steven</td></tr>
+<tr><td>libtirpc/1.3.2-GCCcore-10.3.0.lua</td><td>2</td><td></td><td>Maxime</td></tr>
+<tr><td>libsndfile/1.0.31-GCCcore-10.3.0.lua</td><td>2</td><td></td><td>Steven</td></tr>
+<tr><td>libvorbis/1.3.7-GCCcore-10.3.0.lua</td><td>2</td><td></td><td>Steven</td></tr>
+<tr><td>NCCL/2.10.3-GCCcore-10.3.0-CUDA-11.3.1.lua</td><td>2</td><td></td><td>Wouter</td></tr>
+<tr><td>MUMPS/5.4.0-foss-2021a-metis.lua</td><td>2</td><td></td><td>Steven</td></tr>
+<tr><td>netCDF/4.8.0-gompi-2021a.lua</td><td>2</td><td></td><td>Maxime</td></tr>
+<tr><td>MPC/1.2.1-GCCcore-10.3.0.lua</td><td>2</td><td></td><td>Maxime</td></tr>
+<tr><td>LAME/3.100-GCCcore-10.3.0.lua</td><td>2</td><td></td><td>Maxime</td></tr>
+<tr><td>googletest/1.11.0-GCCcore-10.3.0.lua</td><td>2</td><td></td><td>Steven</td></tr>
+<tr><td>CheckM/1.1.3-foss-2021a.lua</td><td>2</td><td></td><td>Wouter</td></tr>
+<tr><td>ParaView/5.9.1-intel-2021a-mpi.lua</td><td>2</td><td></td><td>Steven</td></tr>
+<tr><td>flex/2.6.4-GCCcore-10.3.0.lua</td><td>2</td><td></td><td>Maxime</td></tr>
+<tr><td>CGAL/4.14.3-iimpi-2021a.lua</td><td>2</td><td></td><td>Steven</td></tr>
+<tr><td>Bison/3.7.6-GCCcore-10.3.0.lua</td><td>2</td><td></td><td>Maxime</td></tr>
+<tr><td>Subread/2.0.3-GCC-10.3.0.lua</td><td>2</td><td></td><td>Wouter</td></tr>
+<tr><td>nodejs/14.17.0-GCCcore-10.3.0.lua</td><td>2</td><td></td><td>Steven</td></tr>
+<tr><td>UFL/2019.1.0-foss-2021a-Python-3.9.5.lua</td><td>2</td><td></td><td>Maxime</td></tr>
+<tr><td>UDUNITS/2.2.28-GCCcore-10.3.0.lua</td><td>2</td><td></td><td>Steven</td></tr>
+<tr><td>UCX-CUDA/1.10.0-GCCcore-10.3.0-CUDA-11.3.1.lua</td><td>2</td><td></td><td>Maxime</td></tr>
+<tr><td>sympy/1.8-foss-2021a.lua</td><td>2</td><td></td><td>Maxime</td></tr>
+<tr><td>SCOTCH/6.1.0-gompi-2021a.lua</td><td>2</td><td></td><td>Maxime</td></tr>
+<tr><td>worker/1.6.12-foss-2021a.lua</td><td>2</td><td></td><td>Mag</td></tr>
+<tr><td>x264/20210414-GCCcore-10.3.0.lua</td><td>2</td><td></td><td>Maxime</td></tr>
+<tr><td>x265/3.5-GCCcore-10.3.0.lua</td><td>2</td><td></td><td>Maxime</td></tr>
+<tr><td>R/4.1.0-foss-2021a.lua</td><td>2</td><td></td><td>Steven</td></tr>
+<tr><td>pkgconfig/1.5.4-GCCcore-10.3.0-python.lua</td><td>2</td><td></td><td>Maxime</td></tr>
+<tr><td>pkg-config/0.29.2-GCCcore-10.3.0.lua</td><td>2</td><td></td><td>Maxime</td></tr>
+<tr><td>ParMETIS/4.0.3-gompi-2021a.lua</td><td>2</td><td></td><td>Steven</td></tr>
+<tr><td>PLY/3.11-foss-2021a-Python-3.9.5.lua</td><td>2</td><td></td><td>Steven</td></tr>
+<tr><td>protobuf/3.17.3-GCCcore-10.3.0.lua</td><td>2</td><td></td><td>Steven</td></tr>
+<tr><td>protobuf-python/3.17.3-GCCcore-10.3.0.lua</td><td>2</td><td></td><td>Steven</td></tr>
+<tr><td>FLUENT/2022R2.lua</td><td>2</td><td></td><td>Steven</td></tr>
+<tr><td>Bison/3.8.2.lua</td><td>2</td><td></td><td>Maxime</td></tr>
+<tr><td>PROJ/8.0.1-GCCcore-10.3.0.lua</td><td>2</td><td></td><td>Maxime</td></tr>
+<tr><td>NLopt/2.7.0-GCCcore-10.3.0.lua</td><td>2</td><td></td><td>Steven</td></tr>
+<tr><td>Ninja/1.10.2-GCCcore-10.3.0.lua</td><td>2</td><td></td><td>Maxime</td></tr>
+<tr><td>scikit-build/0.11.1-GCCcore-10.3.0.lua</td><td>1</td><td></td><td>Maxime</td></tr>
+<tr><td>ReFrame/3.11.1.lua</td><td>1</td><td></td><td>Steven</td></tr>
+<tr><td>libiconv/1.16-GCCcore-10.3.0.lua</td><td>1</td><td></td><td>Maxime</td></tr>
+<tr><td>Doxygen/1.9.1-GCCcore-10.3.0.lua</td><td>1</td><td></td><td>Maxime</td></tr>
+<tr><td>HDF5/1.12.1-gompi-2021a.lua</td><td>1</td><td></td><td>Wouter Van Assche</td></tr>
+<tr><td>beagle-lib/3.1.2-GCC-10.3.0.lua</td><td>1</td><td></td><td>Steven</td></tr>
+<tr><td>USEARCH/11.0.667-i86linux32.lua</td><td>1</td><td></td><td>Mag</td></tr>
+<tr><td>VSEARCH/2.22.1-GCC-10.3.0.lua</td><td>1</td><td></td><td>Mag</td></tr>
+<tr><td>PEAR/0.9.11-GCC-10.3.0.lua</td><td>1</td><td></td><td>Mag</td></tr>
+<tr><td>OpenPGM/5.2.122-GCCcore-10.3.0</td><td>1</td><td></td><td>Geert Jan</td></tr>
+<tr><td>libvdwxc/0.4.0-intel-2021a.lua</td><td>1</td><td></td><td>Maxime</td></tr>
+<tr><td>libsodium/1.0.18-GCCcore-10.3.0</td><td>1</td><td></td><td>Geert Jan</td></tr>
+<tr><td>GPAW-setups/0.9.20000.lua</td><td>1</td><td></td><td>Maxime</td></tr>
+<tr><td>GPAW/21.6.0-intel-2021a.lua</td><td>1</td><td></td><td>Maxime</td></tr>
+<tr><td>Flask/1.1.4-GCCcore-10.3.0.lua</td><td>1</td><td></td><td>Maxime</td></tr>
+<tr><td>ASE/3.22.0-intel-2021a.lua</td><td>1</td><td></td><td>Maxime</td></tr>
+<tr><td>SAMtools/1.13-GCC-10.3.0.lua</td><td>1</td><td></td><td>Maxime</td></tr>
+<tr><td>spglib-python/1.16.1-intel-2021a.lua</td><td>1</td><td></td><td>Maxime</td></tr>
+<tr><td>VTK/9.0.1-foss-2021a.lua</td><td>1</td><td></td><td>Steven</td></tr>
+<tr><td>ZeroMQ/4.3.4-GCCcore-10.3.0</td><td>1</td><td></td><td>Geert Jan</td></tr>
+<tr><td>ISL/0.23-GCCcore-10.3.0.lua</td><td>1</td><td></td><td>Maxime</td></tr>
+<tr><td>GDB/10.2-GCCcore-10.3.0.lua</td><td>1</td><td></td><td>Maxime</td></tr>
+<tr><td>PyTorch/1.12.1-foss-2021a.lua</td><td>1</td><td></td><td>Maxime</td></tr>
+<tr><td>PfamScan/1.6-gompi-2021a.lua</td><td>1</td><td></td><td>Wouter</td></tr>
+<tr><td>Perl/5.32.1-GCCcore-10.3.0-minimal.lua</td><td>1</td><td></td><td>Maxime</td></tr>
+<tr><td>libgd/2.3.1-GCCcore-10.3.0.lua</td><td>1</td><td></td><td>Maxime</td></tr>
+<tr><td>impi/2021.2.0-intel-compilers-2021.2.0.lua</td><td>1</td><td></td><td>Maxime</td></tr>
+<tr><td>libcerf/1.17-GCCcore-10.3.0.lua</td><td>1</td><td></td><td>Maxime</td></tr>
+<tr><td>EasyBuild/4.7.0.lua</td><td>1</td><td></td><td>Steven</td></tr>
+<tr><td>Lua/5.4.3-GCCcore-10.3.0.lua</td><td>1</td><td></td><td>Maxime</td></tr>
+<tr><td>LMDB/0.9.28-GCCcore-10.3.0.lua</td><td>1</td><td></td><td>Maxime</td></tr>
+<tr><td>gnuplot/5.4.2-GCCcore-10.3.0.lua</td><td>1</td><td></td><td>Maxime</td></tr>
+<tr><td>libxc/5.1.5-intel-compilers-2021.2.0.lua</td><td>1</td><td></td><td>Maxime</td></tr>
+<tr><td>zlib/1.2.11.lua</td><td>1</td><td></td><td>Maxime</td></tr>
+<tr><td>Libint/2.6.0-intel-compilers-2021.2.0-lmax-6-cp2k.lua</td><td>1</td><td></td><td>Maxime</td></tr>
+<tr><td>Libint/2.6.0-GCC-10.3.0-lmax-6-cp2k.lua</td><td>1</td><td></td><td>Maxime</td></tr>
+<tr><td>HarfBuzz/2.8.1-GCCcore-10.3.0.lua</td><td>1</td><td></td><td>Maxime</td></tr>
+<tr><td>BLAST+/2.11.0-gompi-2021a.lua</td><td>1</td><td></td><td>Maxime</td></tr>
+<tr><td>binutils/2.36.1.lua</td><td>1</td><td></td><td>Maxime</td></tr>
+<tr><td>PETSc/3.15.1-foss-2021a.lua</td><td>1</td><td></td><td>Steven</td></tr>
+<tr><td>slepc4py/3.15.1-foss-2021a-SuperLU_DIST.lua</td><td>1</td><td></td><td>Maxime</td></tr>
+<tr><td>SLEPc/3.15.1-foss-2021a-SuperLU_DIST.lua</td><td>1</td><td></td><td>Maxime</td></tr>
+<tr><td>SLEPc/3.15.1-foss-2021a.lua</td><td>1</td><td></td><td>Steven</td></tr>
+<tr><td>slepc4py/3.15.1-foss-2021a.lua</td><td>1</td><td></td><td>Steven</td></tr>
+<tr><td>SuperLU_DIST/6.4.0-foss-2021a.lua</td><td>1</td><td></td><td>Maxime</td></tr>
+<tr><td>Pango/1.48.5-GCCcore-10.3.0.lua</td><td>1</td><td></td><td>Maxime</td></tr>
+<tr><td>petsc4py/3.15.0-foss-2021a-SuperLU_DIST.lua</td><td>1</td><td></td><td>Maxime</td></tr>
+<tr><td>petsc4py/3.15.0-foss-2021a.lua</td><td>1</td><td></td><td>Steven</td></tr>
+<tr><td>DOLFIN/2019.1.0.post0-foss-2021a-Python-3.9.5.lua</td><td>1</td><td></td><td>Maxime</td></tr>
+<tr><td>DOLFIN/2019.1.0.post0-foss-2021a-Python-3.9.5-SuperLU_DIST.lua</td><td>1</td><td></td><td>Maxime</td></tr>
+<tr><td>PETSc/3.15.1-foss-2021a-SuperLU_DIST.lua</td><td>1</td><td></td><td>Maxime</td></tr>
+<tr><td>Python/2.7.18-GCCcore-10.3.0-bare.lua</td><td>1</td><td></td><td>Maxime</td></tr>
+</table>
+</div><button type="button" class="collapsible">Installed</button>
+<div class="content"><table>
+<tr><th>Module name</th><th>Times loaded</th></tr>
+</table>
+</div><h2>Active modules manually installed</h2>
+<button type="button" class="collapsible">Missing</button>
+<div class="content"><table>
+<tr><th>Module name</th><th>Times loaded</th><th>Owner</th></tr>
+<tr><td>CUDA/11.7.1.lua</td><td>121</td><td>Ehsan</td></tr>
+<tr><td>CP2K/8.2-foss-2021a</td><td>19</td><td>Maxime</td></tr>
+<tr><td>CP2K/8.2-intel-2021a</td><td>17</td><td>Maxime</td></tr>
+<tr><td>DWDLIBGRIB/061107-iimpi-2021a</td><td>16</td><td>Ehsan</td></tr>
+<tr><td>INT2LM/131101_2.00_clm4-intel-2021a.lua</td><td>11</td><td>Ehsan</td></tr>
+<tr><td>atools/1.5.1</td><td>6</td><td>Geert Jan</td></tr>
+<tr><td>PsN/5.3.0-foss-2021a</td><td>6</td><td>Maxime</td></tr>
+<tr><td>CCLM-SP/2.4-iimpi-2021a</td><td>5</td><td>Ehsan</td></tr>
+<tr><td>STAR-CCM/17.06.007-R8_lpbd_brugge</td><td>5</td><td>Wouter Van Assche</td></tr>
+<tr><td>NONMEM/7.5.0-foss-2021a</td><td>5</td><td>Maxime</td></tr>
+<tr><td>monitor/1.1.2</td><td>4</td><td>Wouter</td></tr>
+<tr><td>SP-Wind/1.0bench-intel-2021a</td><td>4</td><td>Steven</td></tr>
+<tr><td>stress-ng/0.14.03-foss-2021a.lua</td><td>4</td><td>Steven</td></tr>
+<tr><td>ANSYS/19.1_lp_afaa</td><td>4</td><td>Wouter</td></tr>
+<tr><td>LAMMPS/23Jun2022-foss-2021a-CUDA-11.3.1.lua</td><td>4</td><td>Wouter</td></tr>
+<tr><td>ArmForge/22.1.2</td><td>4</td><td>Steven</td></tr>
+<tr><td>ANSYS/2022R1_lp_solarteam</td><td>3</td><td>Wouter Van Assche</td></tr>
+<tr><td>FFmpeg/5.1-foss-2021a-CUDA-11.7.1.lua</td><td>2</td><td>Ehsan</td></tr>
+<tr><td>nv-codec-headers/12.0.16.0-GCCcore-10.3.0.lua</td><td>2</td><td>Ehsan</td></tr>
+<tr><td>OpenH264/2.3.1-GCCcore-10.3.0.lua</td><td>2</td><td>Ehsan</td></tr>
+<tr><td>MATLAB/R2022b</td><td>2</td><td>Wouter</td></tr>
+<tr><td>Miniconda3/py310_22.11.1-1.lua</td><td>1</td><td>Ehsan</td></tr>
+<tr><td>Cadence/2020a</td><td>1</td><td>Wouter Van Assche</td></tr>
+</table>
+</div><button type="button" class="collapsible">Installed</button>
+<div class="content"><table>
+<tr><th>Module name</th><th>Times loaded</th><th>Owner</th></tr>
+</table>
+</div><h2>Inactive modules</h2>
+<button type="button" class="collapsible">Missing</button>
+<div class="content"><table>
+<tr><th>Module name</th></tr>
+<tr><td>zlib-ng/2.0.6-GCCcore-10.3.0.lua</td></tr>
+<tr><td>LERC/3.0-GCCcore-10.3.0.lua</td></tr>
+<tr><td>LibLZF/3.6-GCCcore-10.3.0.lua</td></tr>
+<tr><td>MATIO/1.5.21-GCCcore-10.3.0.lua</td></tr>
+<tr><td>Mercurial/5.8-GCCcore-10.3.0.lua</td></tr>
+<tr><td>Mini-XML/3.2-GCCcore-10.3.0.lua</td></tr>
+<tr><td>Miniconda3/4.12.0.lua</td></tr>
+<tr><td>Molden/6.8-GCCcore-10.3.0.lua</td></tr>
+<tr><td>Mothur/1.48.0-gompi-2021a</td></tr>
+<tr><td>NVIDIA_HPC_SDK/23.5</td></tr>
+<tr><td>OPARI2/2.0.6-GCCcore-10.3.0.lua</td></tr>
+<tr><td>LAMMPS/23Jun2022-foss-2021a-kokkos.lua</td></tr>
+<tr><td>ORCA/5.0.4-gompi-2021a-static.lua</td></tr>
+<tr><td>OTF2/3.0.2-GCCcore-10.3.0.lua</td></tr>
+<tr><td>OpenCV/4.5.3-foss-2021a-CUDA-11.3.1-contrib.lua</td></tr>
+<tr><td>OpenCV/4.5.3-foss-2021a-contrib.lua</td></tr>
+<tr><td>OpenFOAM/v2106-foss-2021a.lua</td></tr>
+<tr><td>PAPI/7.0.0-GCCcore-10.3.0.lua</td></tr>
+<tr><td>PSP-Wind/tender-intel-2021a.lua</td></tr>
+<tr><td>PyQtGraph/0.12.3-foss-2021a.lua</td></tr>
+<tr><td>QIIME2/2023.5.lua</td></tr>
+<tr><td>QuantumESPRESSO/6.8-foss-2021a.lua</td></tr>
+<tr><td>QuantumESPRESSO/6.8-intel-2021a.lua</td></tr>
+<tr><td>OTF2/2.3-GCCcore-10.3.0.lua</td></tr>
+<tr><td>Java/11.0.16.lua</td></tr>
+<tr><td>Highway/0.12.2-GCCcore-10.3.0.lua</td></tr>
+<tr><td>GTK+/2.24.33-GCCcore-10.3.0</td></tr>
+<tr><td>zfp/1.0.0-GCCcore-10.3.0.lua</td></tr>
+<tr><td>ASE/3.22.0-foss-2021a.lua</td></tr>
+<tr><td>Advisor/2022.1.0.lua</td></tr>
+<tr><td>BLIS/0.8.1-GCC-10.3.0.lua</td></tr>
+<tr><td>Bazaar/2.7.0-GCCcore-10.3.0-Python-2.7.18.lua</td></tr>
+<tr><td>Beast/2.6.7-GCC-10.3.0.lua</td></tr>
+<tr><td>Blosc/1.21.0-GCCcore-10.3.0.lua</td></tr>
+<tr><td>Blosc2/2.0.4-GCCcore-10.3.0.lua</td></tr>
+<tr><td>Brunsli/0.1-GCCcore-10.3.0.lua</td></tr>
+<tr><td>Cellpose/2.2.2-foss-2021a-CUDA-11.3.1.lua</td></tr>
+<tr><td>Cellpose/2.2.2-foss-2021a.lua</td></tr>
+<tr><td>CharLS/2.3.4-GCCcore-10.3.0.lua</td></tr>
+<tr><td>CubeLib/4.6-GCCcore-10.3.0.lua</td></tr>
+<tr><td>CubeWriter/4.6-GCCcore-10.3.0.lua</td></tr>
+<tr><td>ELPA/2021.05.001-foss-2021a.lua</td></tr>
+<tr><td>ELPA/2021.05.001-intel-2021a.lua</td></tr>
+<tr><td>FFC/2018.1.0-foss-2021a-Python-3.9.5.lua</td></tr>
+<tr><td>FIAT/2018.1.0-foss-2021a-Python-3.9.5.lua</td></tr>
+<tr><td>FLUENT/2021R2.lua</td></tr>
+<tr><td>FLUENT/2023R1.lua</td></tr>
+<tr><td>GLM/0.9.9.8-GCCcore-10.3.0.lua</td></tr>
+<tr><td>GObject-Introspection/1.68.0-GCCcore-10.3.0.lua</td></tr>
+<tr><td>GPAW/21.6.0-foss-2021a.lua</td></tr>
+<tr><td>SIONlib/1.7.6-GCCcore-10.3.0-tools.lua</td></tr>
+<tr><td>STAR-CCM/17.06.007-R8_lpbd_brugge_lua.lua</td></tr>
+<tr><td>CFITSIO/3.49-GCCcore-10.3.0.lua</td></tr>
+<tr><td>SWIG/4.0.2-GCCcore-10.3.0.lua</td></tr>
+<tr><td>libaec/1.0.6-GCCcore-10.3.0.lua</td></tr>
+<tr><td>libavif/0.11.1-foss-2021a.lua</td></tr>
+<tr><td>libde265/1.0.8-GCC-10.3.0.lua</td></tr>
+<tr><td>libdeflate/1.8-GCCcore-10.3.0.lua</td></tr>
+<tr><td>libheif/1.12.0-GCC-10.3.0.lua</td></tr>
+<tr><td>libjxl/0.5-GCCcore-10.3.0.lua</td></tr>
+<tr><td>libunwind/1.5.0-GCCcore-10.3.0.lua</td></tr>
+<tr><td>libvdwxc/0.4.0-foss-2021a.lua</td></tr>
+<tr><td>makeinfo/6.7-GCCcore-10.3.0-minimal.lua</td></tr>
+<tr><td>makeinfo/6.7-GCCcore-10.3.0.lua</td></tr>
+<tr><td>monitor/1.1.2-GCCcore-10.3.0.lua</td></tr>
+<tr><td>mshr/2019.1.0-foss-2021a-Python-3.9.5.lua</td></tr>
+<tr><td>nettle/3.7.2-GCCcore-10.3.0.lua</td></tr>
+<tr><td>numba/0.53.1-foss-2021a-CUDA-11.3.1.lua</td></tr>
+<tr><td>numba/0.53.1-foss-2021a.lua</td></tr>
+<tr><td>paralution/1.1.0-foss-2021a.lua</td></tr>
+<tr><td>patchelf/0.12-GCCcore-10.3.0.lua</td></tr>
+<tr><td>re2c/2.1.1-GCCcore-10.3.0.lua</td></tr>
+<tr><td>spglib-python/1.16.1-foss-2021a.lua</td></tr>
+<tr><td>tbb/2020.3-GCCcore-10.3.0.lua</td></tr>
+<tr><td>xxd/8.2.4220-GCCcore-10.3.0.lua</td></tr>
+<tr><td>yaml-cpp/0.6.3-GCCcore-10.3.0.lua</td></tr>
+<tr><td>SUNDIALS/2.7.0-foss-2021a.lua</td></tr>
+<tr><td>jxrlib/1.1-GCCcore-10.3.0.lua</td></tr>
+<tr><td>itac/2021.6.0.lua</td></tr>
+<tr><td>pkgconf/1.8.0.lua</td></tr>
+<tr><td>intltool/0.51.0-GCCcore-10.3.0.lua</td></tr>
+<tr><td>ScaFaCoS/1.0.1-intel-2021a.lua</td></tr>
+<tr><td>itac/2021.2.0.lua</td></tr>
+<tr><td>Score-P/7.0-iimpi-2021a.lua</td></tr>
+<tr><td>TetGen/1.6.0-GCCcore-10.3.0.lua</td></tr>
+<tr><td>UFL/2018.1.0-foss-2021a-Python-3.9.5.lua</td></tr>
+<tr><td>UnZip/6.0-GCCcore-10.3.0.lua</td></tr>
+<tr><td>VTune/2022.2.0.lua</td></tr>
+<tr><td>Valgrind/3.17.0-gompi-2021a.lua</td></tr>
+<tr><td>Valgrind/3.17.0-iimpi-2021a.lua</td></tr>
+<tr><td>Xvfb/1.20.11-GCCcore-10.3.0.lua</td></tr>
+<tr><td>Yasm/1.3.0-GCCcore-10.3.0.lua</td></tr>
+<tr><td>Trilinos/13.2.0-foss-2021a.lua</td></tr>
+<tr><td>ant/1.10.11-Java-13.lua</td></tr>
+<tr><td>Zopfli/1.0.3-GCCcore-10.3.0.lua</td></tr>
+<tr><td>groff/1.22.4-GCCcore-10.3.0.lua</td></tr>
+<tr><td>gperftools/2.9.1-GCCcore-10.3.0.lua</td></tr>
+<tr><td>gperf/3.1-GCCcore-10.3.0.lua</td></tr>
+<tr><td>gettext/0.21.lua</td></tr>
+<tr><td>help2man/1.48.3-GCCcore-10.3.0.lua</td></tr>
+<tr><td>elfutils/0.185-GCCcore-10.3.0.lua</td></tr>
+<tr><td>cppzmq/4.8.1-GCCcore-10.3.0</td></tr>
+<tr><td>cppy/1.1.0-GCCcore-10.3.0.lua</td></tr>
+<tr><td>atools/1.5.0</td></tr>
+<tr><td>imagecodecs/2022.9.26-foss-2021a.lua</td></tr>
+</table>
+</div><button type="button" class="collapsible">Installed</button>
+<div class="content"><table>
+<tr><th>Module name</th></tr>
+</table>
+</div><script>
+var coll = document.getElementsByClassName("collapsible");
+var i;
+
+for (i = 0; i < coll.length; i++) {
+  coll[i].addEventListener("click", function() {
+    this.classList.toggle("active");
+    var content = this.nextElementSibling;
+    if (content.style.display === "block") {
+      content.style.display = "none";
+    } else {
+      content.style.display = "block";
+    }
+  });
+}
+</script></body></html>
