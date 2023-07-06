@@ -15,12 +15,12 @@
 <li>The counts for how many times a module has been loaded is not necessarily a good indication of how much it is really needed, since for instance worker jobs can distort this metric considerably.</li>
 <li>Active modules with a light grey background are deprecated, and are likely to be no longer offered to users</li>
 </ul><h2>Overview</h2>
-<b>Last updated: </b> 2023-07-05 08:00:56 <br>
+<b>Last updated: </b> 2023-07-06 08:00:49 <br>
 <table class="bdrless">
-<tr><td class="bdrless"><label for "All modules">All modules</td><td class="bdrless">93/195</label></td>
-<td class="bdrless"><meter id="All modules" min=0 max=195 value=93></meter><br></td></tr>
-<tr><td class="bdrless"><label for "Active modules installed with EasyBuild">Active modules installed with EasyBuild</td><td class="bdrless">69/90</label></td>
-<td class="bdrless"><meter id="Active modules installed with EasyBuild" min=0 max=90 value=69></meter><br></td></tr>
+<tr><td class="bdrless"><label for "All modules">All modules</td><td class="bdrless">98/195</label></td>
+<td class="bdrless"><meter id="All modules" min=0 max=195 value=98></meter><br></td></tr>
+<tr><td class="bdrless"><label for "Active modules installed with EasyBuild">Active modules installed with EasyBuild</td><td class="bdrless">74/90</label></td>
+<td class="bdrless"><meter id="Active modules installed with EasyBuild" min=0 max=90 value=74></meter><br></td></tr>
 <tr><td class="bdrless"><label for "Active modules manually installed">Active modules manually installed</td><td class="bdrless">0/0</label></td>
 <td class="bdrless"><meter id="Active modules manually installed" min=0 max=0 value=0></meter><br></td></tr>
 <tr><td class="bdrless"><label for "Inactive modules">Inactive modules</td><td class="bdrless">24/105</label></td>
@@ -30,16 +30,11 @@
 <button type="button" class="collapsible">Missing</button>
 <div class="content"><table>
 <tr><th>Module name</th><th>Times loaded</th><th>Remarks</th><th>Owner</th></tr>
-<tr><td>SciPy-bundle/2021.05-intel-2021a.lua</td><td>20</td><td></td><td>Steven</td></tr>
-<tr><td>libxc/5.1.5-intel-compilers-2021.2.0.lua</td><td>20</td><td></td><td>Steven</td></tr>
-<tr><td>Boost/1.76.0-intel-compilers-2021.2.0.lua</td><td>20</td><td></td><td>Steven</td></tr>
 <tr><td>HDF5/1.10.7-iimpi-2021a.lua</td><td>13</td><td></td><td>Steven</td></tr>
 <tr><td>EasyBuild/4.7.0.lua</td><td>4</td><td></td><td>Steven</td></tr>
 <tr><td>CUDA/11.3.1.lua</td><td>3</td><td></td><td>Steven</td></tr>
-<tr><td>SciPy-bundle/2021.05-foss-2021a</td><td>3</td><td></td><td>Alexander</td></tr>
 <tr><td>FFTW/3.3.9-intel-2021a.lua</td><td>3</td><td></td><td>Steven</td></tr>
 <tr><td>SP-Wind/1.0bench-intel-2021a.lua</td><td>2</td><td></td><td>Steven</td></tr>
-<tr><td>Boost/1.76.0-GCC-10.3.0.lua</td><td>1</td><td></td><td>Steven</td></tr>
 <tr><td>LMDB/0.9.28-GCCcore-10.3.0.lua</td><td>1</td><td></td><td>Steven</td></tr>
 <tr><td>Tk/8.6.11-GCCcore-10.3.0</td><td>1</td><td></td><td>Alexander</td></tr>
 <tr><td>Pillow/8.2.0-GCCcore-10.3.0.lua</td><td>1</td><td></td><td>Steven</td></tr>
@@ -61,6 +56,9 @@
 <tr><td>iimpi/2021a</td><td>71</td></tr>
 <tr><td>intel/2021a</td><td>48</td></tr>
 <tr><td>imkl/2021.2.0-iimpi-2021a</td><td>48</td></tr>
+<tr><td>SciPy-bundle/2021.05-intel-2021a.lua</td><td>20</td></tr>
+<tr><td>libxc/5.1.5-intel-compilers-2021.2.0.lua</td><td>20</td></tr>
+<tr><td>Boost/1.76.0-intel-compilers-2021.2.0.lua</td><td>20</td></tr>
 <tr><td>GCCcore/10.3.0.lua</td><td>14</td></tr>
 <tr><td>zlib/1.2.11-GCCcore-10.3.0</td><td>14</td></tr>
 <tr><td>binutils/2.36.1-GCCcore-10.3.0</td><td>9</td></tr>
@@ -93,6 +91,7 @@
 <tr><td>Tcl/8.6.11-GCCcore-10.3.0</td><td>4</td></tr>
 <tr><td>DB/18.1.40-GCCcore-10.3.0</td><td>3</td></tr>
 <tr><td>expat/2.2.9-GCCcore-10.3.0</td><td>3</td></tr>
+<tr><td>SciPy-bundle/2021.05-foss-2021a</td><td>3</td></tr>
 <tr><td>pybind11/2.6.2-GCCcore-10.3.0</td><td>3</td></tr>
 <tr><td>Perl/5.32.1-GCCcore-10.3.0</td><td>3</td></tr>
 <tr><td>GSL/2.7-GCC-10.3.0</td><td>3</td></tr>
@@ -107,6 +106,7 @@
 <tr><td>flex/2.6.4-GCCcore-10.3.0</td><td>1</td></tr>
 <tr><td>cURL/7.76.0-GCCcore-10.3.0</td><td>1</td></tr>
 <tr><td>CMake/3.20.1-GCCcore-10.3.0</td><td>1</td></tr>
+<tr><td>Boost/1.76.0-GCC-10.3.0.lua</td><td>1</td></tr>
 <tr><td>Bison/3.7.6-GCCcore-10.3.0</td><td>1</td></tr>
 <tr><td>libpng/1.6.37-GCCcore-10.3.0</td><td>1</td></tr>
 <tr><td>M4/1.4.18-GCCcore-10.3.0</td><td>1</td></tr>
