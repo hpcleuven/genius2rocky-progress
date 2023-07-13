@@ -28,8 +28,6 @@ table, th, td {
 table.bdrless, th.bdrless, td.bdrless {
   border: 0px;
 }
-table tr#deprecated  {background-color: #a6a6a6;}
-table tr#waitforgpu  {background-color: #C5D86D;}
 
 ul.menu {
   list-style-type: none;
@@ -54,4 +52,12 @@ li.menu a {
 /* Change the link color to #111 (black) on hover */
 li.menu a:hover {
   background-color: #111;
+}
+
+li.cluster {
+  display: block;
+  float: left;
+  width: 120px; 
+  padding: 14px 16px;
+  background-color: #999;
 }
