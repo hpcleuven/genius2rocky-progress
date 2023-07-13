@@ -30,16 +30,16 @@
 <li>The counts for how many times a module has been loaded is not necessarily a good indication of how much it is really needed, since for instance worker jobs can distort this metric considerably.</li>
 <li>Active modules with a light grey background are deprecated, and are likely to be no longer offered to users</li>
 </ul><h2>Overview</h2>
-<b>Last updated: </b> 2023-07-13 16:46:58 <br>
+<b>Last updated: </b> 2023-07-13 17:05:36 <br>
 <table class="bdrless">
-<tr><td class="bdrless"><label for "All modules">All modules</td><td class="bdrless">337/1007</label></td>
-<td class="bdrless"><meter id="All modules" min=0 max=1007 value=337></meter><br></td></tr>
-<tr><td class="bdrless"><label for "Active modules installed with EasyBuild">Active modules installed with EasyBuild</td><td class="bdrless">282/341</label></td>
-<td class="bdrless"><meter id="Active modules installed with EasyBuild" min=0 max=341 value=282></meter><br></td></tr>
+<tr><td class="bdrless"><label for "All modules">All modules</td><td class="bdrless">348/1007</label></td>
+<td class="bdrless"><meter id="All modules" min=0 max=1007 value=348></meter><br></td></tr>
+<tr><td class="bdrless"><label for "Active modules installed with EasyBuild">Active modules installed with EasyBuild</td><td class="bdrless">291/341</label></td>
+<td class="bdrless"><meter id="Active modules installed with EasyBuild" min=0 max=341 value=291></meter><br></td></tr>
 <tr><td class="bdrless"><label for "Active modules manually installed">Active modules manually installed</td><td class="bdrless">3/32</label></td>
 <td class="bdrless"><meter id="Active modules manually installed" min=0 max=32 value=3></meter><br></td></tr>
-<tr><td class="bdrless"><label for "Inactive modules">Inactive modules</td><td class="bdrless">52/634</label></td>
-<td class="bdrless"><meter id="Inactive modules" min=0 max=634 value=52></meter><br></td></tr>
+<tr><td class="bdrless"><label for "Inactive modules">Inactive modules</td><td class="bdrless">54/634</label></td>
+<td class="bdrless"><meter id="Inactive modules" min=0 max=634 value=54></meter><br></td></tr>
 </table>
 <h2>Active modules installed with EasyBuild</h2>
 <button type="button" class="collapsible">Missing</button>
@@ -68,21 +68,14 @@
 <tr id="waitforgpu"><td>libGLU/9.0.0-intel-2018a-Mesa-18.3.4-X11-20180604-GPU</td><td>4</td><td>Wait for GPU node</td><td>Mag</td></tr>
 <tr id="waitforgpu"><td>GLFW/3.2.1-intel-2018a</td><td>4</td><td>Wait for GPU node</td><td>Mag</td></tr>
 <tr><td>GDAL/3.0.2-intel-2018a-Python-3.6.4-HDF5-HDF</td><td>4</td><td></td><td>Alexander</td></tr>
-<tr><td>IPython/6.4.0-foss-2018a-Python-3.6.4</td><td>4</td><td></td><td>Alexander</td></tr>
 <tr id="waitforgpu"><td>ParaView/5.6.0-intel-2018a-mpi-qt5-OSPRay-GPU</td><td>4</td><td>Wait for GPU node</td><td>Mag</td></tr>
 <tr id="waitforgpu"><td>OSPRay/1.7.2-intel-2018a-qt5-GPU</td><td>4</td><td>Wait for GPU node</td><td>Mag</td></tr>
 <tr><td>OpenFOAM/8-intel-2018a</td><td>4</td><td>Depends on ParaView/5.6.0-intel-2018a-mpi-qt5-OSPRay-GPU</td><td>Steven</td></tr>
 <tr><td>R/3.4.4-intel-2018a-X11-20180131</td><td>4</td><td>arithmetic.c(59): warning #274: declaration is not visible outside of function</td><td>Martijn</td></tr>
 <tr><td>NCO/4.7.6-intel-2018a</td><td>3</td><td>ncap2.cc(1249): error: identifier "nan" is undefined</td><td>Martijn</td></tr>
-<tr><td>OpenSSL/1.1</td><td>3</td><td></td><td>Wouter</td></tr>
 <tr><td>FLUENT/2022R2.lua</td><td>3</td><td></td><td>Steven</td></tr>
 <tr><td>OpenFOAM/v1906-foss-2018a</td><td>3</td><td>Depends on Qt5/5.10.1-foss-2018a</td><td>Alexander</td></tr>
-<tr><td>matplotlib/2.1.2-foss-2018a-Python-3.6.4</td><td>2</td><td></td><td>Martijn</td></tr>
 <tr><td>libsodium/1.0.13-GCCcore-6.4.0</td><td>2</td><td></td><td>Geert Jan</td></tr>
-<tr><td>OpenPGM/5.2.122-GCCcore-6.4.0</td><td>2</td><td></td><td>Geert Jan</td></tr>
-<tr><td>Tk/8.6.8-foss-2018a</td><td>2</td><td></td><td>Martijn</td></tr>
-<tr><td>ZeroMQ/4.2.5-foss-2018a</td><td>2</td><td>Depends on OpenPGM/5.2.122-GCCcore-6.4.0</td><td>Geert Jan</td></tr>
-<tr><td>Tkinter/3.6.4-foss-2018a-Python-3.6.4</td><td>2</td><td></td><td>Martijn</td></tr>
 <tr><td>OpenSSL/1.1.1b-GCCcore-6.4.0</td><td>2</td><td>Tests fail</td><td>Alexander</td></tr>
 <tr><td>OpenFOAM/6-intel-2018a</td><td>2</td><td>Depends on Qt/4.8.7-intel-2018a</td><td>Wouter Van Assche</td></tr>
 <tr><td>ParaView/5.4.1-intel-2018a-mpi</td><td>2</td><td>Depends on Qt/4.8.7-intel-2018a</td><td>Wouter Van Assche</td></tr>
@@ -93,12 +86,10 @@
 <tr><td>ABINIT/8.4.4-intel-2018a</td><td>1</td><td></td><td>Ehsan</td></tr>
 <tr id="deprecated"><td>ncurses/6.1-GCCcore-8.3.0</td><td>1</td><td>Does not belong in 2018a [DEPRECATED]</td><td>Wouter Van Assche</td></tr>
 <tr><td>Mesa/17.3.8-foss-2018a-Python-2.7.14</td><td>1</td><td></td><td>Mag</td></tr>
-<tr><td>libXfixes/5.0.3-GCCcore-6.4.0</td><td>1</td><td></td><td>Mag</td></tr>
 <tr><td>Qt/4.8.7-foss-2018a</td><td>1</td><td></td><td>Mag</td></tr>
 <tr id="deprecated"><td>Tcl/8.6.9-GCCcore-8.3.0</td><td>1</td><td>Does not belong in 2018a [DEPRECATED]</td><td>Wouter Van Assche</td></tr>
 <tr id="deprecated"><td>SQLite/3.29.0-GCCcore-8.3.0</td><td>1</td><td>Does not belong in 2018a [DEPRECATED]</td><td>Wouter Van Assche</td></tr>
 <tr><td>Rust/1.41.0-GCCcore-6.4.0</td><td>1</td><td></td><td>Ehsan</td></tr>
-<tr><td>libXdamage/1.1.4-GCCcore-6.4.0</td><td>1</td><td></td><td>Mag</td></tr>
 <tr><td>GDAL/2.2.3-intel-2018a-Python-2.7.14</td><td>1</td><td></td><td>Martijn</td></tr>
 <tr id="deprecated"><td>bzip2/1.0.8-GCCcore-8.3.0</td><td>1</td><td>Does not belong in 2018a [DEPRECATED]</td><td>Wouter Van Assche</td></tr>
 <tr id="deprecated"><td>libreadline/8.0-GCCcore-8.3.0</td><td>1</td><td>Does not belong in 2018a [DEPRECATED]</td><td>Wouter Van Assche</td></tr>
@@ -330,14 +321,21 @@
 <tr><td>PLY/3.11-foss-2018a-Python-3.6.4</td><td>4</td></tr>
 <tr><td>petsc4py/3.9.1-foss-2018a-Python-3.6.4</td><td>4</td></tr>
 <tr><td>PETSc/3.9.3-foss-2018a</td><td>4</td></tr>
+<tr><td>IPython/6.4.0-foss-2018a-Python-3.6.4</td><td>4</td></tr>
 <tr><td>netCDF/4.6.0-foss-2018a</td><td>4</td></tr>
 <tr><td>NLopt/2.4.2-intel-2018a</td><td>4</td></tr>
 <tr><td>libsndfile/1.0.28-GCCcore-6.4.0</td><td>4</td></tr>
 <tr><td>libxc/4.2.3-intel-2018a</td><td>3</td></tr>
+<tr><td>OpenSSL/1.1</td><td>3</td></tr>
 <tr><td>Stacks/2.5-foss-2018a</td><td>3</td></tr>
 <tr><td>sparsehash/2.0.3-GCCcore-6.4.0</td><td>3</td></tr>
 <tr><td>ReFrame/3.10.1.lua</td><td>3</td></tr>
 <tr><td>Gblocks/0.91b</td><td>3</td></tr>
+<tr><td>matplotlib/2.1.2-foss-2018a-Python-3.6.4</td><td>2</td></tr>
+<tr><td>OpenPGM/5.2.122-GCCcore-6.4.0</td><td>2</td></tr>
+<tr><td>Tk/8.6.8-foss-2018a</td><td>2</td></tr>
+<tr><td>ZeroMQ/4.2.5-foss-2018a</td><td>2</td></tr>
+<tr><td>Tkinter/3.6.4-foss-2018a-Python-3.6.4</td><td>2</td></tr>
 <tr><td>METIS/5.1.0-intel-2018a</td><td>2</td></tr>
 <tr><td>MUMPS/5.1.2-foss-2018a</td><td>2</td></tr>
 <tr><td>ParMETIS/4.0.3-intel-2018a</td><td>2</td></tr>
@@ -372,12 +370,14 @@
 <tr><td>ParaView/5.4.1-foss-2018a-mpi</td><td>1</td></tr>
 <tr><td>MAFFT/7.427-intel-2018a</td><td>1</td></tr>
 <tr><td>libXt/1.1.5-GCCcore-6.4.0</td><td>1</td></tr>
+<tr><td>libXfixes/5.0.3-GCCcore-6.4.0</td><td>1</td></tr>
 <tr><td>xproto/7.0.31-GCCcore-6.4.0</td><td>1</td></tr>
 <tr><td>Trimmomatic/0.39-Java-1.8.0_192</td><td>1</td></tr>
 <tr><td>Tcl/8.6.7-GCCcore-6.4.0</td><td>1</td></tr>
 <tr><td>libXext/1.3.3-GCCcore-6.4.0</td><td>1</td></tr>
 <tr><td>SQLite/3.20.1-GCCcore-6.4.0</td><td>1</td></tr>
 <tr><td>libXdmcp/1.1.2-GCCcore-6.4.0</td><td>1</td></tr>
+<tr><td>libXdamage/1.1.4-GCCcore-6.4.0</td><td>1</td></tr>
 <tr><td>libxcb/1.13-GCCcore-6.4.0</td><td>1</td></tr>
 <tr><td>bcl2fastq2/2.20.0-foss-2018a</td><td>1</td></tr>
 <tr><td>xtrans/1.3.5-GCCcore-6.4.0</td><td>1</td></tr>
@@ -971,8 +971,6 @@
 <tr><td>flex/2.5.39-GCCcore-6.4.0</td></tr>
 <tr><td>flex/2.5.39-GCC-4.9.3</td></tr>
 <tr><td>flex/2.5.39</td></tr>
-<tr><td>damageproto/1.2.1-GCCcore-6.4.0</td></tr>
-<tr><td>fixesproto/5.0-GCCcore-6.4.0</td></tr>
 <tr><td>expat/2.2.7-GCCcore-8.3.0</td></tr>
 <tr><td>expat/2.2.4-GCCcore-6.4.0</td></tr>
 <tr><td>elPrep/4.0.0</td></tr>
@@ -1072,6 +1070,8 @@
 <tr><td>binutils/2.32</td></tr>
 <tr><td>binutils/2.28</td></tr>
 <tr><td>binutils/2.35-GCCcore-6.4.0</td></tr>
+<tr><td>damageproto/1.2.1-GCCcore-6.4.0</td></tr>
+<tr><td>fixesproto/5.0-GCCcore-6.4.0</td></tr>
 <tr><td>Yasm/1.3.0-GCCcore-6.4.0</td></tr>
 <tr><td>XML-Parser/2.44_01-GCCcore-6.4.0-Perl-5.26.1</td></tr>
 </table>
