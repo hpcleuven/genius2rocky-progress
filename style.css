@@ -28,6 +28,8 @@ table, th, td {
 table.bdrless, th.bdrless, td.bdrless {
   border: 0px;
 }
+table tr#deprecated  {background-color: #a6a6a6;}
+table tr#waitforgpu  {background-color: #C5D86D;}
 
 ul.menu {
   list-style-type: none;
