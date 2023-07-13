@@ -30,23 +30,22 @@
 <li>The counts for how many times a module has been loaded is not necessarily a good indication of how much it is really needed, since for instance worker jobs can distort this metric considerably.</li>
 <li>Active modules with a light grey background are deprecated, and are likely to be no longer offered to users</li>
 </ul><h2>Overview</h2>
-<b>Last updated: </b> 2023-07-13 21:45:42 <br>
+<b>Last updated: </b> 2023-07-13 22:18:50 <br>
 <table class="bdrless">
-<tr><td class="bdrless"><label for "All modules">All modules</td><td class="bdrless">408/1076</label></td>
-<td class="bdrless"><meter id="All modules" min=0 max=1076 value=408></meter><br></td></tr>
-<tr><td class="bdrless"><label for "Active modules installed with EasyBuild">Active modules installed with EasyBuild</td><td class="bdrless">377/583</label></td>
-<td class="bdrless"><meter id="Active modules installed with EasyBuild" min=0 max=583 value=377></meter><br></td></tr>
+<tr><td class="bdrless"><label for "All modules">All modules</td><td class="bdrless">432/1076</label></td>
+<td class="bdrless"><meter id="All modules" min=0 max=1076 value=432></meter><br></td></tr>
+<tr><td class="bdrless"><label for "Active modules installed with EasyBuild">Active modules installed with EasyBuild</td><td class="bdrless">400/583</label></td>
+<td class="bdrless"><meter id="Active modules installed with EasyBuild" min=0 max=583 value=400></meter><br></td></tr>
 <tr><td class="bdrless"><label for "Active modules manually installed">Active modules manually installed</td><td class="bdrless">0/62</label></td>
 <td class="bdrless"><meter id="Active modules manually installed" min=0 max=62 value=0></meter><br></td></tr>
-<tr><td class="bdrless"><label for "Inactive modules">Inactive modules</td><td class="bdrless">31/431</label></td>
-<td class="bdrless"><meter id="Inactive modules" min=0 max=431 value=31></meter><br></td></tr>
+<tr><td class="bdrless"><label for "Inactive modules">Inactive modules</td><td class="bdrless">32/431</label></td>
+<td class="bdrless"><meter id="Inactive modules" min=0 max=431 value=32></meter><br></td></tr>
 </table>
 <h2>Active modules installed with EasyBuild</h2>
 <button type="button" class="collapsible">Missing</button>
 <div class="content"><table>
 <tr><th>Module name</th><th>Times loaded</th><th>Remarks</th><th>Owner</th></tr>
 <tr id="deprecated"><td>Python/3.6.5-GCCcore-6.4.0-bare</td><td>245122</td><td>Renamed module to Python/3.6.4-foss-2018a-bare to better reflect the actual content.<br>See <a href=https://scm.icts.kuleuven.be/issues/84757>https://scm.icts.kuleuven.be/issues/84757</a> [DEPRECATED]</td><td>Ehsan</td></tr>
-<tr><td>Python/3.7.0-foss-2018a</td><td>168</td><td></td><td>Alexander</td></tr>
 <tr id="deprecated"><td>GCC/8.3.0</td><td>141</td><td>Does not belong in 2018a [DEPRECATED]</td><td>Wouter Van Assche</td></tr>
 <tr id="deprecated"><td>GCCcore/8.3.0</td><td>134</td><td>Does not belong in 2018a [DEPRECATED]</td><td>Wouter Van Assche</td></tr>
 <tr id="deprecated"><td>binutils/2.32-GCCcore-8.3.0</td><td>132</td><td>Does not belong in 2018a [DEPRECATED]</td><td>Wouter Van Assche</td></tr>
@@ -101,17 +100,14 @@
 <tr><td>Qt/4.8.7-intel-2018a</td><td>4</td><td>../../corelib/io/qtextstream.cpp(3406): catastrophic error: cannot open source file "qtextstream.moc"</td><td>Wouter Van Assche</td></tr>
 <tr><td>gimpi/2.11.5</td><td>4</td><td></td><td>Martijn</td></tr>
 <tr id="deprecated"><td>OpenMPI/2.1.2-GCC-6.4.0-2.28-torque</td><td>4</td><td>Torque specific, no longer needed [DEPRECATED]</td><td>Martijn</td></tr>
-<tr><td>BLAST+/2.7.1-foss-2018a</td><td>4</td><td></td><td>Alexander</td></tr>
 <tr id="deprecated"><td>bzip2/1.0.8-GCCcore-8.3.0</td><td>4</td><td>Does not belong in 2018a [DEPRECATED]</td><td>Wouter Van Assche</td></tr>
 <tr><td>DOLFIN/2018.1.0.post1-foss-2018a-Python-3.6.4</td><td>4</td><td>Depends on Trilinos/12.12.1-foss-2018a-Python-3.6.4</td><td>Maxime</td></tr>
 <tr><td>CGAL/4.11.1-foss-2018a-Python-3.6.4</td><td>4</td><td>Depends on Qt5/5.10.1-foss-2018a</td><td>Martijn</td></tr>
 <tr><td>Rust/1.41.0-GCCcore-6.4.0</td><td>4</td><td></td><td>Ehsan</td></tr>
 <tr><td>R/3.4.4-intel-2018a-X11-20180131</td><td>4</td><td>arithmetic.c(59): warning #274: declaration is not visible outside of function</td><td>Martijn</td></tr>
-<tr><td>libxc/4.3.4-intel-2018a</td><td>3</td><td></td><td>Maxime</td></tr>
 <tr><td>netCDF-Fortran/4.5.2-intel-2018a</td><td>3</td><td></td><td>Maxime</td></tr>
 <tr><td>ADMIXTOOLS/5.1-foss-2018a</td><td>3</td><td></td><td>Alexander</td></tr>
 <tr><td>freebayes/1.3.2-foss-2018a</td><td>3</td><td></td><td>Alexander</td></tr>
-<tr><td>Libint/1.1.6-intel-2018a</td><td>3</td><td></td><td>Martijn</td></tr>
 <tr><td>CP2K/6.1-intel-2018a</td><td>3</td><td>Installation hangs</td><td>Maxime</td></tr>
 <tr><td>CGAL/4.11.1-foss-2018a-Python-2.7.14</td><td>3</td><td>Depends on Qt5/5.10.1-foss-2018a</td><td>Ehsan</td></tr>
 <tr id="waitforgpu"><td>libX11/1.6.5-GCCcore-6.4.0</td><td>3</td><td>Wait for GPU node</td><td>Mag</td></tr>
@@ -126,39 +122,20 @@
 <tr><td>OpenFOAM/6-intel-2018a</td><td>3</td><td>Depends on Qt/4.8.7-intel-2018a</td><td>Wouter Van Assche</td></tr>
 <tr><td>mawk/1.3.4-20141206-GCCcore-6.4.0</td><td>3</td><td></td><td>Alexander</td></tr>
 <tr id="deprecated"><td>worker/.1.6.12_beta-intel-2018a</td><td>3</td><td>Torque specific, no longer needed [DEPRECATED]</td><td>Geert Jan</td></tr>
-<tr><td>pigz/2.4-GCCcore-6.4.0.lua</td><td>3</td><td></td><td>Steven</td></tr>
-<tr><td>SAMtools/1.7-foss-2018a</td><td>3</td><td></td><td>Alexander</td></tr>
-<tr><td>MAFFT/7.427-intel-2018a</td><td>3</td><td></td><td>Ehsan</td></tr>
 <tr><td>BLAST+/2.7.1-intel-2018a</td><td>2</td><td></td><td>Alexander</td></tr>
-<tr><td>BEDTools/2.27.1-intel-2018a</td><td>2</td><td></td><td>Alexander</td></tr>
-<tr><td>ANTLR/2.7.7-intel-2018a-Python-3.6.4</td><td>2</td><td></td><td>Martijn</td></tr>
-<tr><td>ABAQUS/2022-hotfix-2241.lua</td><td>2</td><td></td><td>Steven</td></tr>
 <tr><td>TASSEL/5.2.89-Java-1.8.0_162.lua</td><td>2</td><td></td><td>Steven</td></tr>
-<tr><td>flex/2.6.4-intel-2018a</td><td>2</td><td></td><td>Alexander Jaust</td></tr>
 <tr><td>NCO/4.7.6-intel-2018a</td><td>2</td><td>ncap2.cc(1249): error: identifier "nan" is undefined</td><td>Martijn</td></tr>
-<tr><td>LibUUID/1.0.3-GCCcore-6.4.0</td><td>2</td><td></td><td>Martijn</td></tr>
-<tr><td>libdap/3.19.1-GCCcore-6.4.0</td><td>2</td><td></td><td>Martijn</td></tr>
-<tr><td>Julia/1.6.1</td><td>2</td><td></td><td>Ehsan</td></tr>
 <tr><td>Valgrind/3.14.0-intel-2018a</td><td>2</td><td></td><td>Ehsan</td></tr>
 <tr><td>Autotools/20150215</td><td>2</td><td></td><td>Geert Jan</td></tr>
-<tr><td>Bison/3.7.1</td><td>2</td><td></td><td>Wouter</td></tr>
 <tr><td>Clang/5.0.0-GCC-6.4.0-2.28</td><td>2</td><td></td><td>Ehsan</td></tr>
 <tr><td>CUDA/9.0.176</td><td>2</td><td></td><td>Martijn</td></tr>
 <tr><td>git/2.16.1-foss-2018a</td><td>2</td><td></td><td>Ehsan</td></tr>
 <tr><td>Google-Cloud-SDK/341.0.0</td><td>2</td><td></td><td>Alexander</td></tr>
 <tr><td>darshan-runtime/3.4.2-foss-2018a-HDF5-1.10.1.lua</td><td>2</td><td></td><td>Steven</td></tr>
-<tr><td>HDF5/1.10.1-intel-2018a-lustre</td><td>2</td><td></td><td>Mag</td></tr>
-<tr><td>SAMtools/1.9-GCC-6.4.0-2.28</td><td>2</td><td></td><td>Mag</td></tr>
-<tr><td>R/3.5.0-foss-2018a-bare</td><td>2</td><td></td><td>Alexander</td></tr>
-<tr><td>Subread/1.6.3-foss-2018a</td><td>2</td><td></td><td>Alexander</td></tr>
-<tr><td>SPAdes/3.15.2-foss-2018a</td><td>2</td><td></td><td>Steven</td></tr>
 <tr id="deprecated"><td>NASM/2.14.02-GCCcore-8.3.0</td><td>2</td><td>Does not belong in 2018a [DEPRECATED]</td><td>Wouter Van Assche</td></tr>
-<tr><td>picard/2.18.23-Java-1.8.0_171</td><td>2</td><td></td><td>Alexander</td></tr>
-<tr><td>Julia/1.3.1</td><td>2</td><td></td><td>Ehsan</td></tr>
 <tr id="deprecated"><td>libjpeg-turbo/2.0.3-GCCcore-8.3.0</td><td>2</td><td>Does not belong in 2018a [DEPRECATED]</td><td>Wouter Van Assche</td></tr>
 <tr id="deprecated"><td>libpng/1.6.37-GCCcore-8.3.0</td><td>2</td><td>Does not belong in 2018a [DEPRECATED]</td><td>Wouter Van Assche</td></tr>
 <tr><td>CP2K/6.1-foss-2018a</td><td>2</td><td></td><td>Maxime</td></tr>
-<tr><td>Libint/1.1.6-foss-2018a</td><td>2</td><td></td><td>Ehsan</td></tr>
 <tr><td>libxc/4.3.4-foss-2018a</td><td>2</td><td></td><td>Ehsan</td></tr>
 <tr><td>libxsmm/1.15-foss-2018a</td><td>2</td><td></td><td>Maxime</td></tr>
 <tr><td>PLUMED/2.5.1-foss-2018a</td><td>2</td><td></td><td>Ehsan</td></tr>
@@ -312,6 +289,7 @@
 <tr><td>NASM/2.13.03-GCCcore-6.4.0</td><td>192</td></tr>
 <tr><td>libjpeg-turbo/1.5.3-GCCcore-6.4.0</td><td>192</td></tr>
 <tr><td>netCDF/4.6.0-intel-2018a</td><td>178</td></tr>
+<tr><td>Python/3.7.0-foss-2018a</td><td>168</td></tr>
 <tr><td>Perl/5.26.1-GCCcore-6.4.0</td><td>167</td></tr>
 <tr><td>GSL/2.4-GCCcore-6.4.0</td><td>139</td></tr>
 <tr><td>libxml2/2.9.7-GCCcore-6.4.0</td><td>138</td></tr>
@@ -541,6 +519,7 @@
 <tr><td>Mesa/17.3.6-foss-2018a</td><td>4</td></tr>
 <tr><td>NLopt/2.4.2-intel-2018a</td><td>4</td></tr>
 <tr><td>JAGS/4.3.0-intel-2018a</td><td>4</td></tr>
+<tr><td>BLAST+/2.7.1-foss-2018a</td><td>4</td></tr>
 <tr><td>VTK/8.1.0-foss-2018a-Python-3.6.4</td><td>4</td></tr>
 <tr><td>BamTools/2.5.1-foss-2018a</td><td>4</td></tr>
 <tr><td>Eigen/3.3.4</td><td>4</td></tr>
@@ -557,6 +536,7 @@
 <tr><td>pkg-config/0.29.2-GCCcore-6.4.0</td><td>3</td></tr>
 <tr><td>PLUMED/2.5.1-intel-2018a</td><td>3</td></tr>
 <tr><td>libxsmm/1.15-intel-2018a</td><td>3</td></tr>
+<tr><td>libxc/4.3.4-intel-2018a</td><td>3</td></tr>
 <tr><td>CGAL/4.11.1-intel-2018a-Python-2.7.14</td><td>3</td></tr>
 <tr><td>zlib/1.2.11</td><td>3</td></tr>
 <tr><td>Boost/1.68.0-intel-2018a-Python-2.7.14</td><td>3</td></tr>
@@ -566,6 +546,7 @@
 <tr><td>flex/2.6.4</td><td>3</td></tr>
 <tr><td>gnuplot/5.2.2-intel-2018a</td><td>3</td></tr>
 <tr><td>SCOTCH/6.0.6-intel-2018a</td><td>3</td></tr>
+<tr><td>Libint/1.1.6-intel-2018a</td><td>3</td></tr>
 <tr><td>ncurses/6.1</td><td>3</td></tr>
 <tr><td>glproto/1.4.17-GCCcore-6.4.0</td><td>3</td></tr>
 <tr><td>HDF/4.2.14-intel-2018a-w-fortran-no-netcdf</td><td>3</td></tr>
@@ -579,10 +560,29 @@
 <tr><td>Lua/5.2.4-GCCcore-6.4.0</td><td>3</td></tr>
 <tr><td>libcerf/1.5-GCCcore-6.4.0</td><td>3</td></tr>
 <tr><td>libgd/2.2.5-intel-2018a</td><td>3</td></tr>
+<tr><td>pigz/2.4-GCCcore-6.4.0.lua</td><td>3</td></tr>
+<tr><td>SAMtools/1.7-foss-2018a</td><td>3</td></tr>
+<tr><td>MAFFT/7.427-intel-2018a</td><td>3</td></tr>
+<tr><td>BEDTools/2.27.1-intel-2018a</td><td>2</td></tr>
+<tr><td>ANTLR/2.7.7-intel-2018a-Python-3.6.4</td><td>2</td></tr>
+<tr><td>ABAQUS/2022-hotfix-2241.lua</td><td>2</td></tr>
+<tr><td>flex/2.6.4-intel-2018a</td><td>2</td></tr>
 <tr><td>libffi/3.2.1-GCCcore-6.4.0</td><td>2</td></tr>
 <tr><td>Python/2.7.14-foss-2018a</td><td>2</td></tr>
+<tr><td>LibUUID/1.0.3-GCCcore-6.4.0</td><td>2</td></tr>
+<tr><td>libdap/3.19.1-GCCcore-6.4.0</td><td>2</td></tr>
+<tr><td>Julia/1.6.1</td><td>2</td></tr>
+<tr><td>Bison/3.7.1</td><td>2</td></tr>
+<tr><td>HDF5/1.10.1-intel-2018a-lustre</td><td>2</td></tr>
+<tr><td>SAMtools/1.9-GCC-6.4.0-2.28</td><td>2</td></tr>
+<tr><td>R/3.5.0-foss-2018a-bare</td><td>2</td></tr>
+<tr><td>Subread/1.6.3-foss-2018a</td><td>2</td></tr>
+<tr><td>SPAdes/3.15.2-foss-2018a</td><td>2</td></tr>
+<tr><td>picard/2.18.23-Java-1.8.0_171</td><td>2</td></tr>
+<tr><td>Julia/1.3.1</td><td>2</td></tr>
 <tr><td>h5py/2.7.1-foss-2018a-Python-3.6.4.lua</td><td>2</td></tr>
 <tr><td>intltool/0.51.0-GCCcore-6.4.0-Perl-5.26.1</td><td>2</td></tr>
+<tr><td>Libint/1.1.6-foss-2018a</td><td>2</td></tr>
 <tr><td>pkgconfig/1.3.1-foss-2018a-Python-3.6.4.lua</td><td>2</td></tr>
 <tr><td>XML-Parser/2.44_01-GCCcore-6.4.0-Perl-5.26.1</td><td>2</td></tr>
 <tr><td>METIS/5.1.0-intel-2018a</td><td>2</td></tr>
@@ -821,7 +821,6 @@
 <tr><td>C3D/1.0.0</td></tr>
 <tr><td>CFITSIO/3.42-GCCcore-6.4.0</td></tr>
 <tr><td>CHAP/0.9.1-foss-2018a</td></tr>
-<tr><td>CMake/3.10.0-GCCcore-6.4.0</td></tr>
 <tr><td>CMake/3.12.0-GCCcore-6.4.0</td></tr>
 <tr><td>CMake/3.12.3-GCCcore-6.4.0</td></tr>
 <tr><td>CMake/3.13.3</td></tr>
@@ -1115,6 +1114,7 @@
 <tr><td>Mako/1.0.7-foss-2018a-Python-2.7.14</td></tr>
 <tr><td>Mako/1.0.7-intel-2018a-Python-2.7.14</td></tr>
 <tr><td>OpenMPI/1.8.4-GCC-6.4.0-2.28.lua</td></tr>
+<tr><td>CMake/3.10.0-GCCcore-6.4.0</td></tr>
 <tr><td>CMake/3.11.4-GCCcore-6.4.0</td></tr>
 <tr><td>CMake/3.9.1-GCCcore-6.4.0</td></tr>
 <tr><td>CMake/3.9.5-GCCcore-6.4.0</td></tr>
