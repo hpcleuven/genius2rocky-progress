@@ -30,16 +30,16 @@
 <li>The counts for how many times a module has been loaded is not necessarily a good indication of how much it is really needed, since for instance worker jobs can distort this metric considerably.</li>
 <li>Active modules with a light grey background are deprecated, and are likely to be no longer offered to users</li>
 </ul><h2>Overview</h2>
-<b>Last updated: </b> 2023-07-14 16:12:19 <br>
+<b>Last updated: </b> 2023-07-14 17:26:11 <br>
 <table class="bdrless">
-<tr><td class="bdrless"><label for "All modules">All modules</td><td class="bdrless">579/1076</label></td>
-<td class="bdrless"><meter id="All modules" min=0 max=1076 value=579></meter><br></td></tr>
-<tr><td class="bdrless"><label for "Active modules installed with EasyBuild">Active modules installed with EasyBuild</td><td class="bdrless">531/583</label></td>
-<td class="bdrless"><meter id="Active modules installed with EasyBuild" min=0 max=583 value=531></meter><br></td></tr>
+<tr><td class="bdrless"><label for "All modules">All modules</td><td class="bdrless">585/1076</label></td>
+<td class="bdrless"><meter id="All modules" min=0 max=1076 value=585></meter><br></td></tr>
+<tr><td class="bdrless"><label for "Active modules installed with EasyBuild">Active modules installed with EasyBuild</td><td class="bdrless">536/583</label></td>
+<td class="bdrless"><meter id="Active modules installed with EasyBuild" min=0 max=583 value=536></meter><br></td></tr>
 <tr><td class="bdrless"><label for "Active modules manually installed">Active modules manually installed</td><td class="bdrless">1/62</label></td>
 <td class="bdrless"><meter id="Active modules manually installed" min=0 max=62 value=1></meter><br></td></tr>
-<tr><td class="bdrless"><label for "Inactive modules">Inactive modules</td><td class="bdrless">47/431</label></td>
-<td class="bdrless"><meter id="Inactive modules" min=0 max=431 value=47></meter><br></td></tr>
+<tr><td class="bdrless"><label for "Inactive modules">Inactive modules</td><td class="bdrless">48/431</label></td>
+<td class="bdrless"><meter id="Inactive modules" min=0 max=431 value=48></meter><br></td></tr>
 </table>
 <h2>Active modules installed with EasyBuild</h2>
 <button type="button" class="collapsible">Missing</button>
@@ -49,7 +49,6 @@
 <tr id="deprecated"><td>GCC/8.3.0</td><td>141</td><td>Does not belong in 2018a [DEPRECATED]</td><td>Wouter Van Assche</td></tr>
 <tr id="deprecated"><td>XZ/5.2.4-GCCcore-8.3.0</td><td>76</td><td>Does not belong in 2018a [DEPRECATED]</td><td>Wouter Van Assche</td></tr>
 <tr id="deprecated"><td>libxml2/2.9.9-GCCcore-8.3.0</td><td>76</td><td>Does not belong in 2018a [DEPRECATED]</td><td>Wouter Van Assche</td></tr>
-<tr id="waitforgpu"><td>ParaView/5.6.0-intel-2018a-mpi-qt5-OSPRay-GPU</td><td>50</td><td>Wait for GPU node</td><td>Mag</td></tr>
 <tr><td>gzip/1.8-GCCcore-6.4.0</td><td>29</td><td>Needs backport of patch gzip-1.9_glibc_2.28.patch</td><td>Ehsan</td></tr>
 <tr id="deprecated"><td>Python/3.6.5-intel-2018a</td><td>27</td><td>Comes from custom EasyBlock, packages are messed up<br>Use Python/3.6.4-intel-2018a instead [DEPRECATED]</td><td>Ehsan</td></tr>
 <tr><td>R/3.5.0-iomkl-2018a-X11-20180131</td><td>19</td><td>Depends on GDAL/2.2.3-iomkl-2018a</td><td>Martijn</td></tr>
@@ -62,12 +61,10 @@
 <tr><td>h5py/2.8.0-foss-2018a-Python-2.7.14</td><td>5</td><td></td><td>Mag</td></tr>
 <tr><td>GDAL/2.2.3-intel-2018a-Python-2.7.14</td><td>5</td><td></td><td>Martijn</td></tr>
 <tr id="deprecated"><td>libreadline/8.0-GCCcore-8.3.0</td><td>4</td><td>Does not belong in 2018a [DEPRECATED]</td><td>Wouter Van Assche</td></tr>
-<tr><td>Trilinos/12.12.1-foss-2018a-Python-3.6.4</td><td>4</td><td>error: cannot find -lieee</td><td>Martijn</td></tr>
 <tr id="deprecated"><td>Tcl/8.6.9-GCCcore-8.3.0</td><td>4</td><td>Does not belong in 2018a [DEPRECATED]</td><td>Wouter Van Assche</td></tr>
 <tr id="deprecated"><td>SQLite/3.29.0-GCCcore-8.3.0</td><td>4</td><td>Does not belong in 2018a [DEPRECATED]</td><td>Wouter Van Assche</td></tr>
 <tr><td>Qt/4.8.7-intel-2018a</td><td>4</td><td>../../corelib/io/qtextstream.cpp(3406): catastrophic error: cannot open source file "qtextstream.moc"</td><td>Wouter Van Assche</td></tr>
 <tr id="deprecated"><td>OpenMPI/2.1.2-GCC-6.4.0-2.28-torque</td><td>4</td><td>Torque specific, no longer needed [DEPRECATED]</td><td>Martijn</td></tr>
-<tr><td>DOLFIN/2018.1.0.post1-foss-2018a-Python-3.6.4</td><td>4</td><td>Depends on Trilinos/12.12.1-foss-2018a-Python-3.6.4</td><td>Maxime</td></tr>
 <tr><td>Rust/1.41.0-GCCcore-6.4.0</td><td>4</td><td></td><td>Ehsan</td></tr>
 <tr><td>R/3.4.4-intel-2018a-X11-20180131</td><td>4</td><td>arithmetic.c(59): warning #274: declaration is not visible outside of function</td><td>Martijn</td></tr>
 <tr><td>CP2K/6.1-intel-2018a</td><td>3</td><td>Installation hangs</td><td>Maxime</td></tr>
@@ -85,12 +82,10 @@
 <tr id="deprecated"><td>libpng/1.6.37-GCCcore-8.3.0</td><td>2</td><td>Does not belong in 2018a [DEPRECATED]</td><td>Wouter Van Assche</td></tr>
 <tr><td>CP2K/6.1-foss-2018a</td><td>2</td><td></td><td>Maxime</td></tr>
 <tr><td>OpenFOAM/v2012-foss-2018a</td><td>2</td><td>Depends on Qt5/5.10.1-foss-2018a</td><td>Alexander</td></tr>
-<tr><td>pyCUDA/2018.1.1-foss-2018a-Python-2.7.14</td><td>1</td><td></td><td>Ehsan</td></tr>
 <tr id="deprecated"><td>OpenMPI/1.8.4-GCC-6.4.0-2.28-torque</td><td>1</td><td>Torque specific, no longer needed [DEPRECATED]</td><td>Ehsan</td></tr>
 <tr><td>pyCUDA/2018.1.1-intel-2018a-Python-2.7.14</td><td>1</td><td></td><td>Ehsan</td></tr>
 <tr><td>Kent_tools/20181218-linux.x86_64</td><td>1</td><td>Source files were not stored</td><td>Alexander</td></tr>
 <tr><td>binutils/2.25-GCC-4.9.3</td><td>1</td><td>Configuration fails; newer versions do work</td><td>Martijn</td></tr>
-<tr><td>ORCA/4.2.1</td><td>1</td><td></td><td>Alexander</td></tr>
 <tr><td>SCOTCH/6.0.5a-intel-2018a</td><td>1</td><td></td><td>Alexander Jaust</td></tr>
 <tr><td>CellRangerATAC/1.1.0-foss-2018a</td><td>1</td><td>Source files were not stored</td><td>Alexander</td></tr>
 <tr><td>VASP/5.4.4-intel-2018a-lsolmics</td><td>1</td><td>Source files were not stored</td><td>Ehsan</td></tr>
@@ -206,6 +201,7 @@
 <tr id="waitforgpu"><td>Mesa/18.3.4-intel-2018a-Python-2.7.14-X11-20180604-GPU</td><td>51</td></tr>
 <tr><td>tbb/2018_U5-GCCcore-6.4.0</td><td>51</td></tr>
 <tr id="waitforgpu"><td>CUDA/9.1.85</td><td>51</td></tr>
+<tr id="waitforgpu"><td>ParaView/5.6.0-intel-2018a-mpi-qt5-OSPRay-GPU</td><td>50</td></tr>
 <tr><td>Bismark/0.20.1-foss-2018a</td><td>50</td></tr>
 <tr><td>JasPer/2.0.14-GCCcore-6.4.0</td><td>50</td></tr>
 <tr id="waitforgpu"><td>libGLU/9.0.0-intel-2018a-Mesa-18.3.4-X11-20180604-GPU</td><td>49</td></tr>
@@ -405,6 +401,7 @@
 <tr><td>UFL/2018.1.0-foss-2018a-Python-3.6.4</td><td>4</td></tr>
 <tr><td>MATIO/1.5.12-GCCcore-6.4.0</td><td>4</td></tr>
 <tr><td>Trimmomatic/0.39-Java-1.8.0_192</td><td>4</td></tr>
+<tr><td>Trilinos/12.12.1-foss-2018a-Python-3.6.4</td><td>4</td></tr>
 <tr id="deprecated"><td>ncurses/6.1-GCCcore-8.3.0</td><td>4</td></tr>
 <tr><td>SUNDIALS/2.7.0-foss-2018a</td><td>4</td></tr>
 <tr><td>SLEPc/3.9.2-foss-2018a</td><td>4</td></tr>
@@ -428,6 +425,7 @@
 <tr><td>FFC/2018.1.0-foss-2018a-Python-3.6.4</td><td>4</td></tr>
 <tr><td>FIAT/2018.1.0-foss-2018a-Python-3.6.4</td><td>4</td></tr>
 <tr id="deprecated"><td>bzip2/1.0.8-GCCcore-8.3.0</td><td>4</td></tr>
+<tr><td>DOLFIN/2018.1.0.post1-foss-2018a-Python-3.6.4</td><td>4</td></tr>
 <tr><td>CGAL/4.11.1-foss-2018a-Python-3.6.4</td><td>4</td></tr>
 <tr><td>Hypre/2.14.0-foss-2018a</td><td>4</td></tr>
 <tr><td>METIS/5.1.0-GCCcore-6.4.0</td><td>4</td></tr>
@@ -526,6 +524,7 @@
 <tr><td>Perl/5.26.1-foss-2018a</td><td>2</td></tr>
 <tr><td>FASTX-Toolkit/0.0.14-foss-2018a</td><td>2</td></tr>
 <tr><td>TransDecoder/5.5.0-intel-2018a-Perl-5.26.1</td><td>1</td></tr>
+<tr><td>pyCUDA/2018.1.1-foss-2018a-Python-2.7.14</td><td>1</td></tr>
 <tr><td>pytest/3.8.0-foss-2018a-Python-3.6.4</td><td>1</td></tr>
 <tr><td>OpenMPI/3.1.1-GCC-6.4.0-2.28.lua</td><td>1</td></tr>
 <tr><td>SRA-Toolkit/2.9.2-centos_linux64</td><td>1</td></tr>
@@ -580,6 +579,7 @@
 <tr><td>CMake/3.12.1</td><td>1</td></tr>
 <tr><td>xcb-proto/1.13-GCCcore-6.4.0</td><td>1</td></tr>
 <tr><td>Tkinter/3.6.4-foss-2018a-Python-3.6.4</td><td>1</td></tr>
+<tr><td>ORCA/4.2.1</td><td>1</td></tr>
 <tr><td>libsigc++/2.99.5-GCCcore-6.4.0</td><td>1</td></tr>
 <tr><td>FriBidi/1.0.1-intel-2018a</td><td>1</td></tr>
 <tr><td>Eigen/3.3.7-GCCcore-6.4.0</td><td>1</td></tr>
@@ -969,7 +969,6 @@
 <tr><td>zlib/1.2.10</td></tr>
 <tr><td>zlib/1.2.8-gimkl-2.11.5</td></tr>
 <tr><td>PETSc/3.11.1-foss-2018a</td></tr>
-<tr><td>pybind11/2.2.4-foss-2018a-Python-3.6.4</td></tr>
 <tr><td>libxml++/3.0.1-GCCcore-6.4.0</td></tr>
 <tr><td>protobuf/2.5.0</td></tr>
 <tr><td>pkg-config/0.29.2-GCCcore-8.3.0</td></tr>
@@ -1129,6 +1128,7 @@
 <tr><td>xprop/1.2.2-GCCcore-6.4.0-X11-20180131</td></tr>
 <tr><td>zlib/1.2.8</td></tr>
 <tr><td>zlib/1.2.8-GCC-4.9.3</td></tr>
+<tr><td>pybind11/2.2.4-foss-2018a-Python-3.6.4</td></tr>
 <tr><td>libxsmm/1.8.3-intel-2018a</td></tr>
 <tr><td>ncurses/6.0</td></tr>
 <tr><td>SWIG/3.0.12-foss-2018a-Python-3.6.4</td></tr>
