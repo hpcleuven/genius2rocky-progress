@@ -30,23 +30,22 @@
 <li>The counts for how many times a module has been loaded is not necessarily a good indication of how much it is really needed, since for instance worker jobs can distort this metric considerably.</li>
 <li>Active modules with a light grey background are deprecated, and are likely to be no longer offered to users</li>
 </ul><h2>Overview</h2>
-<b>Last updated: </b> 2023-07-14 17:47:39 <br>
+<b>Last updated: </b> 2023-07-14 18:49:45 <br>
 <table class="bdrless">
-<tr><td class="bdrless"><label for "All modules">All modules</td><td class="bdrless">375/1007</label></td>
-<td class="bdrless"><meter id="All modules" min=0 max=1007 value=375></meter><br></td></tr>
-<tr><td class="bdrless"><label for "Active modules installed with EasyBuild">Active modules installed with EasyBuild</td><td class="bdrless">299/341</label></td>
-<td class="bdrless"><meter id="Active modules installed with EasyBuild" min=0 max=341 value=299></meter><br></td></tr>
+<tr><td class="bdrless"><label for "All modules">All modules</td><td class="bdrless">420/1007</label></td>
+<td class="bdrless"><meter id="All modules" min=0 max=1007 value=420></meter><br></td></tr>
+<tr><td class="bdrless"><label for "Active modules installed with EasyBuild">Active modules installed with EasyBuild</td><td class="bdrless">304/341</label></td>
+<td class="bdrless"><meter id="Active modules installed with EasyBuild" min=0 max=341 value=304></meter><br></td></tr>
 <tr><td class="bdrless"><label for "Active modules manually installed">Active modules manually installed</td><td class="bdrless">3/32</label></td>
 <td class="bdrless"><meter id="Active modules manually installed" min=0 max=32 value=3></meter><br></td></tr>
-<tr><td class="bdrless"><label for "Inactive modules">Inactive modules</td><td class="bdrless">73/634</label></td>
-<td class="bdrless"><meter id="Inactive modules" min=0 max=634 value=73></meter><br></td></tr>
+<tr><td class="bdrless"><label for "Inactive modules">Inactive modules</td><td class="bdrless">113/634</label></td>
+<td class="bdrless"><meter id="Inactive modules" min=0 max=634 value=113></meter><br></td></tr>
 </table>
 <h2>Active modules installed with EasyBuild</h2>
 <button type="button" class="collapsible">Missing</button>
 <div class="content"><table>
 <tr><th>Module name</th><th>Times loaded</th><th>Remarks</th><th>Owner</th></tr>
 <tr id="deprecated"><td>Python/3.6.5-GCCcore-6.4.0-bare</td><td>15493</td><td>Renamed module to Python/3.6.4-foss-2018a-bare to better reflect the actual content.<br>See <a href=https://scm.icts.kuleuven.be/issues/84757>https://scm.icts.kuleuven.be/issues/84757</a> [DEPRECATED]</td><td>Ehsan</td></tr>
-<tr id="deprecated"><td>GCCcore/8.3.0</td><td>39</td><td>Does not belong in 2018a [DEPRECATED]</td><td>Wouter Van Assche</td></tr>
 <tr id="deprecated"><td>zlib/1.2.11-GCCcore-8.3.0</td><td>39</td><td>Does not belong in 2018a [DEPRECATED]</td><td>Wouter Van Assche</td></tr>
 <tr id="deprecated"><td>binutils/2.32-GCCcore-8.3.0</td><td>39</td><td>Does not belong in 2018a [DEPRECATED]</td><td>Wouter Van Assche</td></tr>
 <tr id="deprecated"><td>GCC/8.3.0</td><td>25</td><td>Does not belong in 2018a [DEPRECATED]</td><td>Wouter Van Assche</td></tr>
@@ -57,14 +56,10 @@
 <tr id="deprecated"><td>XZ/5.2.4-GCCcore-8.3.0</td><td>7</td><td>Does not belong in 2018a [DEPRECATED]</td><td>Wouter Van Assche</td></tr>
 <tr id="deprecated"><td>libxml2/2.9.9-GCCcore-8.3.0</td><td>6</td><td>Does not belong in 2018a [DEPRECATED]</td><td>Wouter Van Assche</td></tr>
 <tr><td>gzip/1.8-GCCcore-6.4.0</td><td>5</td><td>Needs backport of patch gzip-1.9_glibc_2.28.patch</td><td>Ehsan</td></tr>
-<tr><td>Embree/3.3.0-intel-2018a</td><td>4</td><td></td><td>Mag</td></tr>
-<tr><td>DOLFIN/2018.1.0.post1-foss-2018a-Python-3.6.4</td><td>4</td><td>Depends on Trilinos/12.12.1-foss-2018a-Python-3.6.4</td><td>Maxime</td></tr>
 <tr id="waitforgpu"><td>CUDA/9.1.85</td><td>4</td><td>Wait for GPU node</td><td>Ehsan</td></tr>
-<tr id="waitforgpu"><td>Mesa/18.3.4-intel-2018a-Python-2.7.14-X11-20180604-GPU</td><td>4</td><td>Wait for GPU node</td><td>Mag</td></tr>
 <tr id="waitforgpu"><td>VTK/8.1.2-intel-2018a-Python-2.7.14-qt5-hdf5-GPU</td><td>4</td><td>Wait for GPU node</td><td>Mag</td></tr>
 <tr id="waitforgpu"><td>Qt5/5.11.3-intel-2018a-GPU</td><td>4</td><td>Wait for GPU node</td><td>Mag</td></tr>
 <tr id="waitforgpu"><td>libGLU/9.0.0-intel-2018a-Mesa-18.3.4-X11-20180604-GPU</td><td>4</td><td>Wait for GPU node</td><td>Mag</td></tr>
-<tr id="waitforgpu"><td>GLFW/3.2.1-intel-2018a</td><td>4</td><td>Wait for GPU node</td><td>Mag</td></tr>
 <tr><td>GDAL/3.0.2-intel-2018a-Python-3.6.4-HDF5-HDF</td><td>4</td><td>Configuration fails when trying to include symbols from static HDF4 library</td><td>Alexander</td></tr>
 <tr id="waitforgpu"><td>ParaView/5.6.0-intel-2018a-mpi-qt5-OSPRay-GPU</td><td>4</td><td>Wait for GPU node</td><td>Mag</td></tr>
 <tr id="waitforgpu"><td>OSPRay/1.7.2-intel-2018a-qt5-GPU</td><td>4</td><td>Wait for GPU node</td><td>Mag</td></tr>
@@ -142,6 +137,7 @@
 <tr><td>R/4.0.2-foss-2018a-bare</td><td>61</td></tr>
 <tr><td>PCRE2/10.21-foss-2018a</td><td>61</td></tr>
 <tr><td>XZ/5.2.3-GCCcore-6.4.0</td><td>51</td></tr>
+<tr id="deprecated"><td>GCCcore/8.3.0</td><td>39</td></tr>
 <tr><td>OpenMPI/3.1.1-GCC-6.4.0-2.28.lua</td><td>32</td></tr>
 <tr><td>expat/2.2.5-GCCcore-6.4.0</td><td>32</td></tr>
 <tr><td>OpenMPI/3.1.1-GCC-6.4.0-2.28.lua</td><td>31</td></tr>
@@ -282,12 +278,15 @@
 <tr><td>R/3.6.0-intel-2018a-bare</td><td>5</td></tr>
 <tr><td>tbb/2018_U2-GCCcore-6.4.0</td><td>5</td></tr>
 <tr><td>HTSlib/1.9-foss-2018a</td><td>5</td></tr>
+<tr><td>Embree/3.3.0-intel-2018a</td><td>4</td></tr>
 <tr><td>Eigen/3.3.4</td><td>4</td></tr>
 <tr><td>CMake/3.10.2-GCCcore-6.4.0</td><td>4</td></tr>
+<tr><td>DOLFIN/2018.1.0.post1-foss-2018a-Python-3.6.4</td><td>4</td></tr>
 <tr><td>CGAL/4.11.1-foss-2018a-Python-3.6.4</td><td>4</td></tr>
 <tr><td>Boost.Python/1.66.0-foss-2018a-Python-3.6.4</td><td>4</td></tr>
 <tr><td>CGAL/4.14-intel-2018a-Python-3.6.4</td><td>4</td></tr>
 <tr><td>Julia/1.7.0-linux-x86_64.lua</td><td>4</td></tr>
+<tr id="waitforgpu"><td>Mesa/18.3.4-intel-2018a-Python-2.7.14-X11-20180604-GPU</td><td>4</td></tr>
 <tr><td>VTK/8.1.0-foss-2018a-Python-3.6.4</td><td>4</td></tr>
 <tr><td>vsc-mympirun/3.4.2-intel-2018a-Python-2.7.14-vsc-base-2.5.1</td><td>4</td></tr>
 <tr><td>vsc-base/2.5.1-intel-2018a-Python-2.7.14</td><td>4</td></tr>
@@ -305,6 +304,7 @@
 <tr><td>HDF/4.2.14-intel-2018a-no-netcdf</td><td>4</td></tr>
 <tr><td>GLM/0.9.9.0-GCCcore-6.4.0</td><td>4</td></tr>
 <tr><td>GLib/2.54.2-GCCcore-6.4.0</td><td>4</td></tr>
+<tr id="waitforgpu"><td>GLFW/3.2.1-intel-2018a</td><td>4</td></tr>
 <tr><td>gettext/0.19.8.1-GCCcore-6.4.0</td><td>4</td></tr>
 <tr><td>FIAT/2018.1.0-foss-2018a-Python-3.6.4</td><td>4</td></tr>
 <tr><td>FFC/2018.1.0-foss-2018a-Python-3.6.4</td><td>4</td></tr>
@@ -439,7 +439,6 @@
 <tr><td>zstd/1.3.5-GCCcore-6.4.0</td></tr>
 <tr><td>LAMMPS/16Mar18-foss-2018a</td></tr>
 <tr><td>LAMMPS/12Dec18-intel-2018a-gpu</td></tr>
-<tr><td>LAME/3.100-GCCcore-6.4.0</td></tr>
 <tr><td>Kent_tools/20181218-linux.x86_64</td></tr>
 <tr><td>Julia/1.5.4-linux-x86_64</td></tr>
 <tr><td>Julia/1.4.0</td></tr>
@@ -455,7 +454,6 @@
 <tr><td>LAMMPS/5Jun2019-intel-2018a</td></tr>
 <tr><td>LAMMPS/7Aug2019-intel-2018a-CUDA-10.1.105</td></tr>
 <tr><td>LZO/2.10-GCCcore-6.4.0</td></tr>
-<tr><td>MPFR/4.0.1-intel-2018a</td></tr>
 <tr><td>MPFR/3.1.5-GCCcore-6.4.0</td></tr>
 <tr><td>MMseqs2/5-9375b-intel-2018a</td></tr>
 <tr><td>METIS/5.1.0-intel-2018a-32bitIDX</td></tr>
@@ -464,9 +462,7 @@
 <tr><td>MEGAHIT/1.2.9-foss-2018a.lua</td></tr>
 <tr><td>Inspector/2019.4.0.597413</td></tr>
 <tr><td>MDSplus/7.46.1-intel-2018a</td></tr>
-<tr><td>M4/1.4.18-GCCcore-8.3.0</td></tr>
 <tr><td>M4/1.4.17-gimkl-2.11.5</td></tr>
-<tr><td>M4/1.4.17-GCC-4.9.3</td></tr>
 <tr><td>LongRanger/2.2.2-foss-2018a</td></tr>
 <tr><td>LittleCMS/2.9-foss-2018a</td></tr>
 <tr><td>MDSplus/7.46.1-foss-2018a</td></tr>
@@ -479,8 +475,6 @@
 <tr><td>Gurobi/9.5.2</td></tr>
 <tr><td>Gurobi/9.0.2</td></tr>
 <tr><td>GraphicsMagick/1.3.28-foss-2018a</td></tr>
-<tr><td>Google-Cloud-SDK/341.0.0</td></tr>
-<tr><td>HDF/4.2.14-intel-2018a-w-fortran-no-netcdf</td></tr>
 <tr><td>GlobalArrays/5.7.2-intel-2018a</td></tr>
 <tr><td>GlobalArrays/5.7-intel-2018a</td></tr>
 <tr><td>GffCompare/0.11.5-GCCcore-6.4.0</td></tr>
@@ -499,7 +493,6 @@
 <tr><td>Hypre/2.14.0-intel-2018a</td></tr>
 <tr><td>Horovod/0.16.0-foss-2018a</td></tr>
 <tr><td>Hadoop/3.3.0</td></tr>
-<tr><td>HDF5/1.10.1-foss-2018a-lustre</td></tr>
 <tr><td>Hadoop/3.2.1</td></tr>
 <tr><td>Hadoop/2.6.0-cdh5.14.2-native</td></tr>
 <tr><td>HTSlib/1.8-foss-2018a</td></tr>
@@ -570,7 +563,6 @@
 <tr><td>NLopt/2.4.2-foss-2018a</td></tr>
 <tr><td>NCL/6.5.0-intel-2018a-with-wrapit77</td></tr>
 <tr><td>NCCL/2.3.5-CUDA-9.2</td></tr>
-<tr><td>NASM/2.13.01-GCCcore-6.4.0</td></tr>
 <tr><td>NASM/2.12.02-intel-2018a</td></tr>
 <tr><td>NAMD/2.13-intel-2018a-CUDA</td></tr>
 <tr><td>NAMD-prebuilt/2.13b1-intel-2018a-verbs-smp-CUDA</td></tr>
@@ -592,32 +584,22 @@
 <tr><td>Boost/1.63.0-intel-2018a-Python-2.7.14</td></tr>
 <tr><td>Boost/1.63.0-foss-2018a-Python-2.7.14</td></tr>
 <tr><td>Boost.Python/1.70.0-intel-2018a-Python-2.7.14</td></tr>
-<tr><td>Boost.Python/1.66.0-intel-2018a-Python-3.6.4</td></tr>
-<tr><td>Bison/3.7.1</td></tr>
-<tr><td>Bison/3.3.2-GCCcore-8.3.0</td></tr>
 <tr><td>Bison/3.0.5</td></tr>
 <tr><td>Bison/3.0.4-gimkl-2.11.5</td></tr>
 <tr><td>Boost/1.68.0-foss-2018a-Python-3.6.4</td></tr>
 <tr><td>Boost/1.68.0-intel-2018a-Python-3.6.4</td></tr>
-<tr><td>Boost/1.70.0-intel-2018a</td></tr>
 <tr><td>CMake/3.12.3-GCCcore-6.4.0</td></tr>
-<tr><td>CMake/3.12.1</td></tr>
 <tr><td>CMake/3.12.0-GCCcore-6.4.0</td></tr>
 <tr><td>CMake/3.11.1-GCCcore-6.4.0</td></tr>
-<tr><td>Bison/3.0.4-GCC-4.9.3</td></tr>
-<tr><td>CMake/3.10.0-GCCcore-6.4.0</td></tr>
 <tr><td>CGAL/4.14-intel-2018a</td></tr>
-<tr><td>CGAL/4.11-intel-2018a</td></tr>
 <tr><td>CFITSIO/3.42-GCCcore-6.4.0</td></tr>
 <tr><td>CDO/1.9.7.1-intel-2018a</td></tr>
-<tr><td>CDO/1.9.5-intel-2018a</td></tr>
 <tr><td>C3D/1.0.0</td></tr>
 <tr><td>BreakDancer/1.4.5-GCCcore-6.4.0</td></tr>
 <tr><td>CHAP/0.9.1-foss-2018a</td></tr>
 <tr><td>ArmForge/19.0.2</td></tr>
 <tr><td>Abaqus/6.14.1</td></tr>
 <tr><td>Abaqus/2017</td></tr>
-<tr><td>AUGUSTUS/3.3.3-foss-2018a-Python-2.7.14</td></tr>
 <tr><td>ATK/2.28.1-foss-2018a</td></tr>
 <tr><td>ANTs/2.3.1-foss-2018a-Python-2.7.14</td></tr>
 <tr><td>ANSYS/2021R2_lp_solarteam</td></tr>
@@ -638,28 +620,21 @@
 <tr><td>BUSCO/3.0.2-foss-2018a-Python-2.7.14</td></tr>
 <tr><td>BUFRLIB/11.3.0.2-intel-2018a</td></tr>
 <tr><td>BLAST+/2.7.1-foss-2018a-Python-2.7.14</td></tr>
-<tr><td>BLAST+/2.7.1-foss-2018a</td></tr>
 <tr><td>BEAGLE/4.1</td></tr>
 <tr><td>BLAST+/2.7.1-intel-2018a</td></tr>
 <tr><td>CMake/3.15.3-GCCcore-8.3.0</td></tr>
 <tr><td>CMake/3.3.2-gimkl-2.11.5</td></tr>
-<tr><td>GATK/4.0.5.1-foss-2018a-Python-3.6.4</td></tr>
 <tr><td>GAMS/25.1_ucm</td></tr>
 <tr><td>GAMS/24.8_ucm</td></tr>
-<tr><td>FriBidi/1.0.1-intel-2018a</td></tr>
 <tr><td>FriBidi/1.0.1-foss-2018a</td></tr>
 <tr><td>FastME/2.1.6.1-intel-2018a</td></tr>
 <tr><td>FSL/6.0.1-foss-2018a</td></tr>
 <tr><td>GATK/4.1.2.0-foss-2018a-Java-1.8</td></tr>
 <tr><td>FSL/5.0.11-foss-2018a</td></tr>
 <tr><td>FLTK/1.3.4-foss-2018a</td></tr>
-<tr><td>FFmpeg/4.1-GCCcore-6.4.0</td></tr>
 <tr><td>FFmpeg/3.4.2-foss-2018a</td></tr>
-<tr><td>FFTW/3.3.7-iomkl-2018a</td></tr>
 <tr><td>FFLAS-FFPACK/2.4.2-foss-2018a</td></tr>
 <tr><td>FFC/2019.1.0-foss-2018a-Python-3.6.4</td></tr>
-<tr><td>FASTX-Toolkit/0.0.14-foss-2018a</td></tr>
-<tr><td>FLTK/1.3.4-intel-2018a</td></tr>
 <tr><td>Extrae/3.8.2-intel-2018a</td></tr>
 <tr><td>GBSX/1.3</td></tr>
 <tr><td>GCCcore/6.3.0</td></tr>
@@ -668,13 +643,11 @@
 <tr><td>GMT/6.0.0-intel-2018a</td></tr>
 <tr><td>GMP/6.1.2-intel-2018a</td></tr>
 <tr><td>GLibmm/2.57.1-GCCcore-6.4.0</td></tr>
-<tr><td>GCC/4.9.3</td></tr>
 <tr><td>GLibmm/2.49.7-GCCcore-8.3.0</td></tr>
 <tr><td>GEOS/3.6.2-iomkl-2018a-Python-3.6.4</td></tr>
 <tr><td>GEOS/3.6.2-foss-2018a-Python-3.6.4</td></tr>
 <tr id="deprecated"><td>GDB/8.1-intel-2018a-Python-3.6.5</td></tr>
 <tr><td>GDB/8.1-foss-2018a</td></tr>
-<tr><td>GDAL/2.4.1-intel-2018a-Python-3.6.4</td></tr>
 <tr><td>GDAL/2.4.1-foss-2018a-Python-3.6.4</td></tr>
 <tr><td>GDAL/2.2.3-iomkl-2018a-Python-3.6.4</td></tr>
 <tr><td>GLIMPSE/1.0.0-foss-2018a</td></tr>
@@ -700,21 +673,17 @@
 <tr><td>Exonerate/2.2.0-foss-2018a</td></tr>
 <tr><td>ChromoPainter/0.0.4</td></tr>
 <tr><td>Cluster-Buster/20180705-foss-2018a</td></tr>
-<tr><td>Eigen/3.3.7-GCCcore-6.4.0</td></tr>
 <tr><td>EasyBuild/4.6.0.lua</td></tr>
-<tr><td>EasyBuild/4.5.5.lua</td></tr>
 <tr><td>EasyBuild/4.5.4.lua</td></tr>
 <tr><td>EasyBuild/4.5.0.lua</td></tr>
 <tr><td>ESMF/7.1.0r-foss-2018a</td></tr>
 <tr><td>Clang/5.0.0-GCC-6.4.0-2.28</td></tr>
-<tr><td>EMBOSS/6.6.0-foss-2018a</td></tr>
 <tr><td>Dimemas/5.4.2-foss-2018a</td></tr>
 <tr><td>Delft3D/4.04.00-intel-2018a</td></tr>
 <tr><td>Darknet/v3-foss-2018a-OpenCV-3.4.1-CUDA-10.0.130</td></tr>
 <tr><td>DIAMOND/0.9.22-intel-2018a</td></tr>
 <tr><td>Cufflinks/2.2.1-intel-2018a</td></tr>
 <tr><td>CppUTest/3.8-GCCcore-6.4.0</td></tr>
-<tr><td>ELPA/2018.11.001-intel-2018a</td></tr>
 <tr><td>PLUMED/2.5.0-foss-2018a</td></tr>
 <tr><td>GL2PS/1.4.0-foss-2018a</td></tr>
 <tr><td>PROJ/5.0.0-iomkl-2018a</td></tr>
@@ -745,8 +714,6 @@
 <tr><td>libreadline/6.3-gimkl-2.11.5</td></tr>
 <tr><td>libpng/1.2.59-GCCcore-6.4.0</td></tr>
 <tr><td>libjpeg-turbo/2.0.2-GCCcore-6.4.0</td></tr>
-<tr><td>libharu/2.3.0-foss-2018a</td></tr>
-<tr><td>libgtextutils/0.7-foss-2018a</td></tr>
 <tr><td>libgeotiff/1.5.1-intel-2018a</td></tr>
 <tr><td>libsigc++/2.10.2-GCCcore-8.3.0</td></tr>
 <tr><td>hwloc/2.0.3-GCCcore-6.4.0-CUDA-10.1.105</td></tr>
@@ -797,10 +764,8 @@
 <tr><td>shard-recon/3f6d1357-foss-2018a</td></tr>
 <tr><td>rpmrebuild/2.11</td></tr>
 <tr><td>redis/5.0.4</td></tr>
-<tr><td>pytest/3.8.0-foss-2018a-Python-3.6.4</td></tr>
 <tr><td>pygmsh/6.0.9-foss-2018a-Python-3.6.4.lua</td></tr>
 <tr><td>pybind11/2.4.3-foss-2018a-Python-3.6.4</td></tr>
-<tr><td>pybind11/2.2.4-foss-2018a-Python-3.6.4</td></tr>
 <tr><td>pyCUDA/2018.1.1-intel-2018a-Python-2.7.14</td></tr>
 <tr><td>seqtk/1.3-foss-2018a</td></tr>
 <tr><td>pyCUDA/2018.1.1-foss-2018a-Python-2.7.14</td></tr>
@@ -813,11 +778,8 @@
 <tr><td>zlib/1.2.10</td></tr>
 <tr><td>xprop/1.2.4-GCCcore-6.4.0</td></tr>
 <tr><td>wheel/0.31.0-foss-2018a-Python-2.7.14</td></tr>
-<tr><td>xprop/1.2.2-GCCcore-6.4.0-X11-20180131</td></tr>
 <tr><td>xbitmaps/1.1.1</td></tr>
-<tr><td>x265/2.6-GCCcore-6.4.0</td></tr>
 <tr><td>x264/20180128-GCCcore-6.4.0</td></tr>
-<tr><td>x264/20170721-GCCcore-6.4.0</td></tr>
 <tr><td>wxWidgets/3.0.3-foss-2018a</td></tr>
 <tr><td>flex/2.6.4-intel-2018a</td></tr>
 <tr><td>protobuf/3.6.0-GCCcore-6.4.0</td></tr>
@@ -957,7 +919,6 @@
 <tr><td>expat/2.2.7-GCCcore-8.3.0</td></tr>
 <tr><td>expat/2.2.4-GCCcore-6.4.0</td></tr>
 <tr><td>elPrep/4.0.0</td></tr>
-<tr><td>ecCodes/2.8.2-intel-2018a</td></tr>
 <tr><td>ecCodes/2.13.1-intel-2018a</td></tr>
 <tr><td>ecCodes/2.13.1-foss-2018a-with-Jasper-1.900.1</td></tr>
 <tr><td>dijitso/2019.1.0-foss-2018a-Python-3.6.4</td></tr>
@@ -988,7 +949,6 @@
 <tr><td>ant/1.10.1-Java-1.8.0_162</td></tr>
 <tr><td>annovar/2018Apr16-GCCcore-6.4.0-Perl-5.28.1</td></tr>
 <tr><td>angsd/0.929-foss-2018a</td></tr>
-<tr><td>YAXT/0.6.0-intel-2018a</td></tr>
 <tr><td>TensorRT/5.0.2.6-Python-3.6.4-intel-2018a-CUDA-10.0.130</td></tr>
 <tr><td>XML-Parser/2.44_01-GCCcore-6.4.0-Perl-5.26.0</td></tr>
 <tr><td>X11/20171023-GCCcore-6.4.0</td></tr>
@@ -1001,57 +961,95 @@
 </div><button type="button" class="collapsible">Installed</button>
 <div class="content"><table>
 <tr><th>Module name</th></tr>
+<tr><td>LAME/3.100-GCCcore-6.4.0</td></tr>
 <tr><td>LMDB/0.9.21-GCCcore-6.4.0</td></tr>
+<tr><td>MPFR/4.0.1-intel-2018a</td></tr>
+<tr><td>M4/1.4.18-GCCcore-8.3.0</td></tr>
 <tr><td>M4/1.4.18</td></tr>
+<tr><td>M4/1.4.17-GCC-4.9.3</td></tr>
 <tr><td>M4/1.4.17</td></tr>
+<tr><td>Google-Cloud-SDK/341.0.0</td></tr>
+<tr><td>HDF/4.2.14-intel-2018a-w-fortran-no-netcdf</td></tr>
 <tr><td>ICU/61.1-GCCcore-6.4.0</td></tr>
+<tr><td>HDF5/1.10.1-foss-2018a-lustre</td></tr>
 <tr><td>HTSlib/1.9-GCC-6.4.0-2.28</td></tr>
 <tr><td>OpenMPI/2.1.2-iccifort-2018.1.163-GCC-6.4.0-2.28.lua</td></tr>
 <tr><td>Mako/1.0.7-intel-2018a-Python-2.7.14</td></tr>
 <tr><td>Mako/1.0.7-foss-2018a-Python-2.7.14</td></tr>
 <tr><td>Mesa/17.3.6-iomkl-2018a</td></tr>
+<tr><td>NASM/2.13.01-GCCcore-6.4.0</td></tr>
 <tr><td>PLUMED/2.4.0-intel-2018a</td></tr>
 <tr><td>Boost/1.66.0-intel-2018a</td></tr>
 <tr><td>Boost.Python/1.68.0-foss-2018a-Python-2.7.14</td></tr>
+<tr><td>Boost.Python/1.66.0-intel-2018a-Python-3.6.4</td></tr>
 <tr><td>Bison/3.7.1-GCCcore-6.4.0</td></tr>
+<tr><td>Bison/3.7.1</td></tr>
+<tr><td>Bison/3.3.2-GCCcore-8.3.0</td></tr>
 <tr><td>Bison/3.0.5-GCCcore-6.4.0</td></tr>
 <tr><td>Boost/1.68.0-foss-2018a-Python-2.7.14</td></tr>
+<tr><td>Boost/1.70.0-intel-2018a</td></tr>
 <tr><td>CMake/3.13.2-GCCcore-6.4.0</td></tr>
 <tr><td>CMake/3.12.1-GCCcore-6.4.0</td></tr>
+<tr><td>CMake/3.12.1</td></tr>
 <tr><td>CMake/3.11.4-GCCcore-6.4.0</td></tr>
+<tr><td>Bison/3.0.4-GCC-4.9.3</td></tr>
+<tr><td>CMake/3.10.0-GCCcore-6.4.0</td></tr>
+<tr><td>CGAL/4.11-intel-2018a</td></tr>
+<tr><td>CDO/1.9.5-intel-2018a</td></tr>
 <tr><td>Bison/3.0.4</td></tr>
 <tr><td>Bismark/0.20.1-foss-2018a</td></tr>
 <tr><td>Beast/2.4.7-foss-2018a</td></tr>
+<tr><td>AUGUSTUS/3.3.3-foss-2018a-Python-2.7.14</td></tr>
 <tr><td>Armadillo/9.700.2-foss-2018a</td></tr>
 <tr><td>CMake/3.13.3</td></tr>
 <tr><td>Autoconf/2.69</td></tr>
 <tr><td>BamTools/2.5.1-foss-2018a</td></tr>
 <tr><td>BWA/0.7.17-foss-2018a</td></tr>
 <tr><td>Automake/1.15.1-GCCcore-6.4.0</td></tr>
+<tr><td>BLAST+/2.7.1-foss-2018a</td></tr>
 <tr><td>BEDTools/2.27.1-GCCcore-6.4.0</td></tr>
 <tr><td>BEAGLE/5.0</td></tr>
 <tr><td>BBMap/38.49-foss-2018a</td></tr>
 <tr><td>Autotools/20170619-GCCcore-6.4.0</td></tr>
 <tr><td>CMake/3.9.1-GCCcore-6.4.0</td></tr>
+<tr><td>GATK/4.0.5.1-foss-2018a-Python-3.6.4</td></tr>
+<tr><td>FriBidi/1.0.1-intel-2018a</td></tr>
+<tr><td>FFmpeg/4.1-GCCcore-6.4.0</td></tr>
+<tr><td>FFTW/3.3.7-iomkl-2018a</td></tr>
+<tr><td>FASTX-Toolkit/0.0.14-foss-2018a</td></tr>
+<tr><td>FLTK/1.3.4-intel-2018a</td></tr>
 <tr><td>GObject-Introspection/1.54.1-intel-2018a-Python-2.7.14</td></tr>
 <tr><td>GObject-Introspection/1.54.1-foss-2018a-Python-2.7.14</td></tr>
+<tr><td>GCC/4.9.3</td></tr>
+<tr><td>GDAL/2.4.1-intel-2018a-Python-3.6.4</td></tr>
 <tr><td>CMake/3.9.5-GCCcore-6.4.0</td></tr>
+<tr><td>Eigen/3.3.7-GCCcore-6.4.0</td></tr>
 <tr><td>Eigen/3.3.5-GCCcore-6.4.0</td></tr>
+<tr><td>EasyBuild/4.5.5.lua</td></tr>
+<tr><td>EMBOSS/6.6.0-foss-2018a</td></tr>
 <tr><td>Doxygen/1.8.13-GCCcore-6.4.0</td></tr>
+<tr><td>ELPA/2018.11.001-intel-2018a</td></tr>
 <tr><td>kbproto/1.0.7-GCCcore-6.4.0</td></tr>
 <tr><td>ispc/1.9.2</td></tr>
 <tr><td>intltool/0.51.0-GCCcore-6.4.0-Perl-5.26.1</td></tr>
 <tr><td>inputproto/2.3.2-GCCcore-6.4.0</td></tr>
 <tr><td>libpthread-stubs/0.4-GCCcore-6.4.0</td></tr>
+<tr><td>libharu/2.3.0-foss-2018a</td></tr>
+<tr><td>libgtextutils/0.7-foss-2018a</td></tr>
 <tr><td>gettext/0.20.1</td></tr>
 <tr><td>gettext/0.19.8.1</td></tr>
 <tr><td>help2man/1.47.4-GCCcore-6.4.0</td></tr>
 <tr><td>gperf/3.1-GCCcore-6.4.0</td></tr>
 <tr><td>libxsmm/1.8.3-intel-2018a</td></tr>
 <tr><td>vsc-install/0.10.6-intel-2018a-Python-2.7.14</td></tr>
+<tr><td>pytest/3.8.0-foss-2018a-Python-3.6.4</td></tr>
+<tr><td>pybind11/2.2.4-foss-2018a-Python-3.6.4</td></tr>
 <tr><td>zlib/1.2.11</td></tr>
+<tr><td>xprop/1.2.2-GCCcore-6.4.0-X11-20180131</td></tr>
 <tr><td>xextproto/7.3.0-GCCcore-6.4.0</td></tr>
 <tr><td>xcb-proto/1.13-GCCcore-6.4.0</td></tr>
+<tr><td>x265/2.6-GCCcore-6.4.0</td></tr>
+<tr><td>x264/20170721-GCCcore-6.4.0</td></tr>
 <tr><td>xorg-macros/1.19.1-GCCcore-6.4.0</td></tr>
 <tr><td>lpsolve/5.5.2.5-foss-2018a</td></tr>
 <tr><td>ncurses/6.0</td></tr>
@@ -1070,9 +1068,11 @@
 <tr><td>binutils/2.35-GCCcore-6.4.0</td></tr>
 <tr><td>damageproto/1.2.1-GCCcore-6.4.0</td></tr>
 <tr><td>fixesproto/5.0-GCCcore-6.4.0</td></tr>
+<tr><td>ecCodes/2.8.2-intel-2018a</td></tr>
 <tr><td>beagle-lib/2.1.2-foss-2018a</td></tr>
 <tr><td>arpack-ng/3.7.0-foss-2018a</td></tr>
 <tr><td>Yasm/1.3.0-GCCcore-6.4.0</td></tr>
+<tr><td>YAXT/0.6.0-intel-2018a</td></tr>
 <tr><td>XML-Parser/2.44_01-GCCcore-6.4.0-Perl-5.26.1</td></tr>
 </table>
 </div><script>
