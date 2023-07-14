@@ -30,12 +30,12 @@
 <li>The counts for how many times a module has been loaded is not necessarily a good indication of how much it is really needed, since for instance worker jobs can distort this metric considerably.</li>
 <li>Active modules with a light grey background are deprecated, and are likely to be no longer offered to users</li>
 </ul><h2>Overview</h2>
-<b>Last updated: </b> 2023-07-14 14:34:52 <br>
+<b>Last updated: </b> 2023-07-14 16:12:19 <br>
 <table class="bdrless">
-<tr><td class="bdrless"><label for "All modules">All modules</td><td class="bdrless">572/1076</label></td>
-<td class="bdrless"><meter id="All modules" min=0 max=1076 value=572></meter><br></td></tr>
-<tr><td class="bdrless"><label for "Active modules installed with EasyBuild">Active modules installed with EasyBuild</td><td class="bdrless">524/583</label></td>
-<td class="bdrless"><meter id="Active modules installed with EasyBuild" min=0 max=583 value=524></meter><br></td></tr>
+<tr><td class="bdrless"><label for "All modules">All modules</td><td class="bdrless">579/1076</label></td>
+<td class="bdrless"><meter id="All modules" min=0 max=1076 value=579></meter><br></td></tr>
+<tr><td class="bdrless"><label for "Active modules installed with EasyBuild">Active modules installed with EasyBuild</td><td class="bdrless">531/583</label></td>
+<td class="bdrless"><meter id="Active modules installed with EasyBuild" min=0 max=583 value=531></meter><br></td></tr>
 <tr><td class="bdrless"><label for "Active modules manually installed">Active modules manually installed</td><td class="bdrless">1/62</label></td>
 <td class="bdrless"><meter id="Active modules manually installed" min=0 max=62 value=1></meter><br></td></tr>
 <tr><td class="bdrless"><label for "Inactive modules">Inactive modules</td><td class="bdrless">47/431</label></td>
@@ -50,9 +50,6 @@
 <tr id="deprecated"><td>XZ/5.2.4-GCCcore-8.3.0</td><td>76</td><td>Does not belong in 2018a [DEPRECATED]</td><td>Wouter Van Assche</td></tr>
 <tr id="deprecated"><td>libxml2/2.9.9-GCCcore-8.3.0</td><td>76</td><td>Does not belong in 2018a [DEPRECATED]</td><td>Wouter Van Assche</td></tr>
 <tr id="waitforgpu"><td>ParaView/5.6.0-intel-2018a-mpi-qt5-OSPRay-GPU</td><td>50</td><td>Wait for GPU node</td><td>Mag</td></tr>
-<tr id="waitforgpu"><td>Qt5/5.11.3-intel-2018a-GPU</td><td>48</td><td>Wait for GPU node</td><td>Mag</td></tr>
-<tr id="waitforgpu"><td>VTK/8.1.2-intel-2018a-Python-2.7.14-qt5-hdf5-GPU</td><td>48</td><td>Wait for GPU node</td><td>Mag</td></tr>
-<tr id="waitforgpu"><td>OSPRay/1.7.2-intel-2018a-qt5-GPU</td><td>47</td><td>Wait for GPU node</td><td>Mag</td></tr>
 <tr><td>gzip/1.8-GCCcore-6.4.0</td><td>29</td><td>Needs backport of patch gzip-1.9_glibc_2.28.patch</td><td>Ehsan</td></tr>
 <tr id="deprecated"><td>Python/3.6.5-intel-2018a</td><td>27</td><td>Comes from custom EasyBlock, packages are messed up<br>Use Python/3.6.4-intel-2018a instead [DEPRECATED]</td><td>Ehsan</td></tr>
 <tr><td>R/3.5.0-iomkl-2018a-X11-20180131</td><td>19</td><td>Depends on GDAL/2.2.3-iomkl-2018a</td><td>Martijn</td></tr>
@@ -94,16 +91,12 @@
 <tr><td>Kent_tools/20181218-linux.x86_64</td><td>1</td><td>Source files were not stored</td><td>Alexander</td></tr>
 <tr><td>binutils/2.25-GCC-4.9.3</td><td>1</td><td>Configuration fails; newer versions do work</td><td>Martijn</td></tr>
 <tr><td>ORCA/4.2.1</td><td>1</td><td></td><td>Alexander</td></tr>
-<tr><td>CGAL/4.14-intel-2018a</td><td>1</td><td></td><td>Ehsan</td></tr>
 <tr><td>SCOTCH/6.0.5a-intel-2018a</td><td>1</td><td></td><td>Alexander Jaust</td></tr>
-<tr><td>ABINIT/8.4.4-intel-2018a</td><td>1</td><td></td><td>Ehsan</td></tr>
 <tr><td>CellRangerATAC/1.1.0-foss-2018a</td><td>1</td><td>Source files were not stored</td><td>Alexander</td></tr>
 <tr><td>VASP/5.4.4-intel-2018a-lsolmics</td><td>1</td><td>Source files were not stored</td><td>Ehsan</td></tr>
-<tr><td>CGAL/4.11-intel-2018a</td><td>1</td><td></td><td>Alexander Jaust</td></tr>
-<tr><td>Boost/1.63.0-intel-2018a-Python-2.7.14</td><td>1</td><td></td><td>Geert Jan</td></tr>
 <tr id="deprecated"><td>gperf/3.1-GCCcore-8.3.0</td><td>1</td><td>Does not belong in 2018a [DEPRECATED]</td><td>Wouter Van Assche</td></tr>
 <tr><td>CellRanger/3.1.0-foss-2018a</td><td>1</td><td>Source files were not stored</td><td>Alexander</td></tr>
-<tr><td>GDAL/3.0.2-intel-2018a-Python-3.6.4-HDF5-HDF</td><td>1</td><td></td><td>Alexander</td></tr>
+<tr><td>GDAL/3.0.2-intel-2018a-Python-3.6.4-HDF5-HDF</td><td>1</td><td>Configuration fails when trying to include symbols from static HDF4 library</td><td>Alexander</td></tr>
 </table>
 </div><button type="button" class="collapsible">Installed</button>
 <div class="content"><table>
@@ -220,6 +213,9 @@
 <tr><td>libxml2/2.9.4-GCCcore-6.4.0</td><td>48</td></tr>
 <tr><td>gettext/0.19.8.1-GCCcore-6.4.0</td><td>48</td></tr>
 <tr><td>util-linux/2.31-GCCcore-6.4.0</td><td>48</td></tr>
+<tr id="waitforgpu"><td>Qt5/5.11.3-intel-2018a-GPU</td><td>48</td></tr>
+<tr id="waitforgpu"><td>VTK/8.1.2-intel-2018a-Python-2.7.14-qt5-hdf5-GPU</td><td>48</td></tr>
+<tr id="waitforgpu"><td>OSPRay/1.7.2-intel-2018a-qt5-GPU</td><td>47</td></tr>
 <tr><td>Embree/3.3.0-intel-2018a</td><td>47</td></tr>
 <tr id="waitforgpu"><td>GLFW/3.2.1-intel-2018a</td><td>47</td></tr>
 <tr><td>UDUNITS/2.2.26-intel-2018a</td><td>47</td></tr>
@@ -587,13 +583,17 @@
 <tr><td>libsigc++/2.99.5-GCCcore-6.4.0</td><td>1</td></tr>
 <tr><td>FriBidi/1.0.1-intel-2018a</td><td>1</td></tr>
 <tr><td>Eigen/3.3.7-GCCcore-6.4.0</td><td>1</td></tr>
+<tr><td>CGAL/4.14-intel-2018a</td><td>1</td></tr>
 <tr><td>binutils/2.35</td><td>1</td></tr>
 <tr><td>Wannier90/2.1.0-intel-2018a</td><td>1</td></tr>
 <tr><td>libjpeg-turbo/2.0.2-GCCcore-6.4.0</td><td>1</td></tr>
 <tr><td>ELPA/2018.11.001-intel-2018a</td><td>1</td></tr>
+<tr><td>ABINIT/8.4.4-intel-2018a</td><td>1</td></tr>
 <tr><td>imkl/11.2.3.187-gimpi-2.11.5</td><td>1</td></tr>
 <tr><td>gimkl/2.11.5</td><td>1</td></tr>
 <tr><td>bzip2/1.0.6-gimkl-2.11.5</td><td>1</td></tr>
+<tr><td>CGAL/4.11-intel-2018a</td><td>1</td></tr>
+<tr><td>Boost/1.63.0-intel-2018a-Python-2.7.14</td><td>1</td></tr>
 <tr><td>Autoconf/2.69</td><td>1</td></tr>
 <tr><td>protobuf/3.6.0-GCCcore-6.4.0</td><td>1</td></tr>
 <tr><td>nettle/3.4-foss-2018a</td><td>1</td></tr>
