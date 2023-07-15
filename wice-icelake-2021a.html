@@ -30,24 +30,22 @@
 <li>The counts for how many times a module has been loaded is not necessarily a good indication of how much it is really needed, since for instance worker jobs can distort this metric considerably.</li>
 <li>Active modules with a light grey background are deprecated, and are likely to be no longer offered to users</li>
 </ul><h2>Overview</h2>
-<b>Last updated: </b> 2023-07-14 19:15:10 <br>
+<b>Last updated: </b> 2023-07-15 08:01:44 <br>
 <table class="bdrless">
-<tr><td class="bdrless"><label for "All modules">All modules</td><td class="bdrless">383/480</label></td>
-<td class="bdrless"><meter id="All modules" min=0 max=480 value=383></meter><br></td></tr>
-<tr><td class="bdrless"><label for "Active modules installed with EasyBuild">Active modules installed with EasyBuild</td><td class="bdrless">365/388</label></td>
-<td class="bdrless"><meter id="Active modules installed with EasyBuild" min=0 max=388 value=365></meter><br></td></tr>
+<tr><td class="bdrless"><label for "All modules">All modules</td><td class="bdrless">393/480</label></td>
+<td class="bdrless"><meter id="All modules" min=0 max=480 value=393></meter><br></td></tr>
+<tr><td class="bdrless"><label for "Active modules installed with EasyBuild">Active modules installed with EasyBuild</td><td class="bdrless">372/388</label></td>
+<td class="bdrless"><meter id="Active modules installed with EasyBuild" min=0 max=388 value=372></meter><br></td></tr>
 <tr><td class="bdrless"><label for "Active modules manually installed">Active modules manually installed</td><td class="bdrless">0/24</label></td>
 <td class="bdrless"><meter id="Active modules manually installed" min=0 max=24 value=0></meter><br></td></tr>
-<tr><td class="bdrless"><label for "Inactive modules">Inactive modules</td><td class="bdrless">18/68</label></td>
-<td class="bdrless"><meter id="Inactive modules" min=0 max=68 value=18></meter><br></td></tr>
+<tr><td class="bdrless"><label for "Inactive modules">Inactive modules</td><td class="bdrless">21/68</label></td>
+<td class="bdrless"><meter id="Inactive modules" min=0 max=68 value=21></meter><br></td></tr>
 </table>
 <h2>Active modules installed with EasyBuild</h2>
 <button type="button" class="collapsible">Missing</button>
 <div class="content"><table>
 <tr><th>Module name</th><th>Times loaded</th><th>Remarks</th><th>Owner</th></tr>
-<tr><td>libjxl/0.5-GCCcore-10.3.0.lua</td><td>25</td><td></td><td>Maxime</td></tr>
 <tr><td>OpenFOAM/9-foss-2021a.lua</td><td>24</td><td></td><td>Maxime</td></tr>
-<tr><td>imagecodecs/2022.9.26-foss-2021a.lua</td><td>21</td><td></td><td>Maxime</td></tr>
 <tr><td>OpenCV/4.5.3-foss-2021a-contrib.lua</td><td>18</td><td></td><td>Maxime</td></tr>
 <tr><td>ABAQUS/2023-hotfix-2306.lua</td><td>15</td><td></td><td>Steven</td></tr>
 <tr><td>Cellpose/2.2.2-foss-2021a.lua</td><td>11</td><td></td><td>Maxime</td></tr>
@@ -58,16 +56,11 @@
 <tr><td>ANSYS/2021R2_lp_afaa.lua</td><td>6</td><td></td><td>Steven</td></tr>
 <tr><td>NVHPC/21.7.lua</td><td>5</td><td></td><td>Steven</td></tr>
 <tr><td>OpenCV/4.5.3-foss-2021a-CUDA-11.3.1-contrib.lua</td><td>4</td><td></td><td>Maxime</td></tr>
-<tr><td>QIIME2/2023.5.lua</td><td>4</td><td></td><td>Maxime</td></tr>
 <tr><td>numba/0.53.1-foss-2021a-CUDA-11.3.1.lua</td><td>4</td><td></td><td>Maxime</td></tr>
-<tr><td>yaml-cpp/0.6.3-GCCcore-10.3.0.lua</td><td>4</td><td></td><td>Steven</td></tr>
 <tr><td>PyTorch/1.12.1-foss-2021a-CUDA-11.3.1.lua</td><td>3</td><td></td><td>Steven</td></tr>
 <tr><td>DOLFIN/2019.1.0.post0-foss-2021a-Python-3.9.5-SuperLU_DIST.lua</td><td>1</td><td></td><td>Maxime</td></tr>
 <tr><td>DOLFIN/2019.1.0.post0-foss-2021a-Python-3.9.5.lua</td><td>1</td><td></td><td>Maxime</td></tr>
-<tr><td>petsc4py/3.15.0-foss-2021a-SuperLU_DIST.lua</td><td>1</td><td></td><td>Maxime</td></tr>
-<tr><td>PETSc/3.15.1-foss-2021a-SuperLU_DIST.lua</td><td>1</td><td></td><td>Maxime</td></tr>
 <tr><td>slepc4py/3.15.1-foss-2021a-SuperLU_DIST.lua</td><td>1</td><td></td><td>Maxime</td></tr>
-<tr><td>SLEPc/3.15.1-foss-2021a-SuperLU_DIST.lua</td><td>1</td><td></td><td>Maxime</td></tr>
 </table>
 </div><button type="button" class="collapsible">Installed</button>
 <div class="content"><table>
@@ -176,6 +169,7 @@
 <tr><td>Blosc2/2.0.4-GCCcore-10.3.0.lua</td><td>25</td></tr>
 <tr><td>libheif/1.12.0-GCC-10.3.0.lua</td><td>25</td></tr>
 <tr><td>libdeflate/1.8-GCCcore-10.3.0.lua</td><td>25</td></tr>
+<tr><td>libjxl/0.5-GCCcore-10.3.0.lua</td><td>25</td></tr>
 <tr><td>Blosc/1.21.0-GCCcore-10.3.0.lua</td><td>25</td></tr>
 <tr><td>CFITSIO/3.49-GCCcore-10.3.0.lua</td><td>25</td></tr>
 <tr><td>CharLS/2.3.4-GCCcore-10.3.0.lua</td><td>25</td></tr>
@@ -192,6 +186,7 @@
 <tr><td>CMake/3.20.1-GCCcore-10.3.0.lua</td><td>23</td></tr>
 <tr><td>libarchive/3.5.1-GCCcore-10.3.0.lua</td><td>23</td></tr>
 <tr><td>GSL/2.7-intel-compilers-2021.2.0.lua</td><td>22</td></tr>
+<tr><td>imagecodecs/2022.9.26-foss-2021a.lua</td><td>21</td></tr>
 <tr><td>PyQtGraph/0.12.3-foss-2021a.lua</td><td>21</td></tr>
 <tr><td>libxsmm/1.16.2-GCC-10.3.0.lua</td><td>19</td></tr>
 <tr><td>libxc/5.1.5-GCC-10.3.0.lua</td><td>19</td></tr>
@@ -287,8 +282,10 @@
 <tr><td>libGLU/9.0.1-GCCcore-10.3.0.lua</td><td>5</td></tr>
 <tr><td>libunwind/1.4.0-GCCcore-10.3.0.lua</td><td>5</td></tr>
 <tr><td>libglvnd/1.3.3-GCCcore-10.3.0.lua</td><td>5</td></tr>
+<tr><td>QIIME2/2023.5.lua</td><td>4</td></tr>
 <tr><td>CGAL/4.11.1-foss-2021a-Python-3.9.5.lua</td><td>4</td></tr>
 <tr><td>M4/1.4.18-GCCcore-10.3.0.lua</td><td>4</td></tr>
+<tr><td>yaml-cpp/0.6.3-GCCcore-10.3.0.lua</td><td>4</td></tr>
 <tr><td>MaxBin/2.2.7-gompi-2021a.lua</td><td>4</td></tr>
 <tr><td>MetaBAT/2.15-gompi-2021a.lua</td><td>4</td></tr>
 <tr><td>Java/11.0.2.lua</td><td>4</td></tr>
@@ -425,11 +422,14 @@
 <tr><td>Python/2.7.18-GCCcore-10.3.0-bare.lua</td><td>1</td></tr>
 <tr><td>Pango/1.48.5-GCCcore-10.3.0.lua</td><td>1</td></tr>
 <tr><td>PETSc/3.15.1-foss-2021a.lua</td><td>1</td></tr>
+<tr><td>petsc4py/3.15.0-foss-2021a-SuperLU_DIST.lua</td><td>1</td></tr>
 <tr><td>petsc4py/3.15.0-foss-2021a.lua</td><td>1</td></tr>
+<tr><td>PETSc/3.15.1-foss-2021a-SuperLU_DIST.lua</td><td>1</td></tr>
 <tr><td>gnuplot/5.4.2-GCCcore-10.3.0.lua</td><td>1</td></tr>
 <tr><td>HarfBuzz/2.8.1-GCCcore-10.3.0.lua</td><td>1</td></tr>
 <tr><td>SuperLU_DIST/6.4.0-foss-2021a.lua</td><td>1</td></tr>
 <tr><td>slepc4py/3.15.1-foss-2021a.lua</td><td>1</td></tr>
+<tr><td>SLEPc/3.15.1-foss-2021a-SuperLU_DIST.lua</td><td>1</td></tr>
 <tr><td>SLEPc/3.15.1-foss-2021a.lua</td><td>1</td></tr>
 <tr><td>libgd/2.3.1-GCCcore-10.3.0.lua</td><td>1</td></tr>
 <tr><td>libcerf/1.17-GCCcore-10.3.0.lua</td><td>1</td></tr>
@@ -487,7 +487,6 @@
 <tr><td>Molden/6.8-GCCcore-10.3.0.lua</td></tr>
 <tr><td>Mini-XML/3.2-GCCcore-10.3.0.lua</td></tr>
 <tr><td>Mercurial/5.8-GCCcore-10.3.0.lua</td></tr>
-<tr><td>MATIO/1.5.21-GCCcore-10.3.0.lua</td></tr>
 <tr><td>Java/11.0.16.lua</td></tr>
 <tr><td>GTK+/2.24.33-GCCcore-10.3.0</td></tr>
 <tr><td>GPAW/21.6.0-foss-2021a.lua</td></tr>
@@ -503,7 +502,6 @@
 <tr><td>FFC/2018.1.0-foss-2021a-Python-3.9.5.lua</td></tr>
 <tr><td>FLUENT/2021R2.lua</td></tr>
 <tr><td>FLUENT/2023R1.lua</td></tr>
-<tr><td>GLM/0.9.9.8-GCCcore-10.3.0.lua</td></tr>
 <tr><td>CubeWriter/4.6-GCCcore-10.3.0.lua</td></tr>
 <tr><td>SIONlib/1.7.6-GCCcore-10.3.0-tools.lua</td></tr>
 <tr><td>FIAT/2018.1.0-foss-2021a-Python-3.9.5.lua</td></tr>
@@ -519,7 +517,6 @@
 <tr><td>ScaFaCoS/1.0.1-intel-2021a.lua</td></tr>
 <tr><td>Score-P/7.0-iimpi-2021a.lua</td></tr>
 <tr><td>TetGen/1.6.0-GCCcore-10.3.0.lua</td></tr>
-<tr><td>Trilinos/13.2.0-foss-2021a.lua</td></tr>
 <tr><td>Valgrind/3.17.0-gompi-2021a.lua</td></tr>
 <tr><td>UFL/2018.1.0-foss-2021a-Python-3.9.5.lua</td></tr>
 <tr><td>atools/1.5.0</td></tr>
@@ -530,8 +527,10 @@
 <div class="content"><table>
 <tr><th>Module name</th></tr>
 <tr><td>xxd/8.2.4220-GCCcore-10.3.0.lua</td></tr>
+<tr><td>MATIO/1.5.21-GCCcore-10.3.0.lua</td></tr>
 <tr><td>GObject-Introspection/1.68.0-GCCcore-10.3.0.lua</td></tr>
 <tr><td>BLIS/0.8.1-GCC-10.3.0.lua</td></tr>
+<tr><td>GLM/0.9.9.8-GCCcore-10.3.0.lua</td></tr>
 <tr><td>re2c/2.1.1-GCCcore-10.3.0.lua</td></tr>
 <tr><td>pkgconf/1.8.0.lua</td></tr>
 <tr><td>patchelf/0.12-GCCcore-10.3.0.lua</td></tr>
@@ -542,6 +541,7 @@
 <tr><td>help2man/1.48.3-GCCcore-10.3.0.lua</td></tr>
 <tr><td>gettext/0.21.lua</td></tr>
 <tr><td>gperf/3.1-GCCcore-10.3.0.lua</td></tr>
+<tr><td>Trilinos/13.2.0-foss-2021a.lua</td></tr>
 <tr><td>UnZip/6.0-GCCcore-10.3.0.lua</td></tr>
 <tr><td>Xvfb/1.20.11-GCCcore-10.3.0.lua</td></tr>
 <tr><td>Yasm/1.3.0-GCCcore-10.3.0.lua</td></tr>
